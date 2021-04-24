@@ -36,4 +36,4 @@ my_ns:Bridge a schema:Class ;
     my_ns:open xsd:boolean ;
     my_ns:material xsd:text ;
     my_ns:design xsd:text ;
-    my_ns:maintainer xsd:text ;
+    my_ns:maintainer xsd:text .
