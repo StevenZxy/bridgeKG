@@ -1,0 +1,2879 @@
+PREFIX bridge: <http://dsci558.org/usbridge#>
+PREFIX builder: <http://dsci558.org/builder#>
+PREFIX county: <http://dsci558.org/county#>
+PREFIX state: <http://dsci558.org/state#> 
+PREFIX design: <http://dsci558.org/design#>
+PREFIX maintainer: <http://dsci558.org/maintainer#>
+PREFIX material: <http://dsci558.org/material#>
+PREFIX river: <http://dsci558.org/river#>
+PREFIX route: <http://dsci558.org/route#>
+PREFIX sch: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+bridge:1 a sch:Bridge ;
+    bridge:built_in 1961 ;
+    bridge:crosses_river river:Rock_Creek,
+        river:Smith_Lake ;
+    bridge:deck_condition "Fair" ;
+    bridge:deck_width 24.0 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 180.1 ;
+    bridge:locates_in county:Winston_County ;
+    bridge:name "Swayback Bridge" ;
+    bridge:on_route route:Co_Rt_77,
+        route:Helicon_Road ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 63.3 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 865.2 ;
+    bridge:traffic 5 ;
+    bridge:url "https://bridgehunter.com/al/winston/swayback/" ;
+    sch:latitude 34.08795 ;
+    sch:longitude -87.16961 .
+
+bridge:10 a sch:Bridge ;
+    bridge:built_by builder:Pensacola_Shipbuilding_Co._of_Pensacola ;
+    bridge:built_in 1927 ;
+    bridge:crosses_river river:Us90_Sr10_Choctaw_River ;
+    bridge:deck_width 25.9 ;
+    bridge:design_type design:suspension,
+        design:truss ;
+    bridge:is_open "FALSE" ;
+    bridge:length_of_largest_span 108.9 ;
+    bridge:locates_in county:Holmes_County,
+        county:Washington_County ;
+    bridge:name "Caryville Bridge" ;
+    bridge:on_route route:Lost_Warren_deck,
+        route:Sr_10,
+        route:Us_90 ;
+    bridge:rehabilitated true ;
+    bridge:status "Replaced by new bridge" ;
+    bridge:total_length 2501.1 ;
+    bridge:url "https://bridgehunter.com/fl/washington/caryville/" ;
+    sch:image "https://bridgehunter.com/photos/14/63/146377-M.jpg" ;
+    sch:latitude 30.78333 ;
+    sch:longitude -85.81667 .
+
+bridge:100 a sch:Bridge ;
+    bridge:built_in 1964 ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Cape_May_County,
+        county:Sussex_County ;
+    bridge:name "Cape May-Lewes Ferry" ;
+    bridge:on_route route:Delaware_Bay,
+        route:US_9 ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/nj/cape-may/cape-may--lewes-ferry/" ;
+    sch:image "https://bridgehunter.com/photos/25/62/256225-M.jpg" ;
+    sch:latitude 38.9674 ;
+    sch:longitude -74.96262 .
+
+bridge:11 a sch:Bridge ;
+    bridge:built_in 1926 ;
+    bridge:crosses_river river:Swift_Creek ;
+    bridge:deck_width 13.5 ;
+    bridge:design_type design:truss ;
+    bridge:is_open "FALSE" ;
+    bridge:length_of_largest_span 69.9 ;
+    bridge:locates_in county:Crisp_County,
+        county:Worth_County ;
+    bridge:name "Swift Creek Bridge" ;
+    bridge:on_route route:CR_297,
+        route:Fanns_Bridge_Road ;
+    bridge:rehabilitated true ;
+    bridge:status "Replaced by a new bridge" ;
+    bridge:total_length 129.9 ;
+    bridge:url "https://bridgehunter.com/ga/worth/32150670/" ;
+    sch:image "https://bridgehunter.com/photos/18/15/181523-M.jpg" ;
+    sch:latitude 31.83873 ;
+    sch:longitude -83.8838 .
+
+bridge:12 a sch:Bridge ;
+    bridge:built_by builder:Georgia_State_Highway_Department ;
+    bridge:built_in 1922 ;
+    bridge:deck_width 18.0 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "FALSE" ;
+    bridge:length_of_largest_span 69.9 ;
+    bridge:locates_in county:Worth_County ;
+    bridge:name "Old SR 50 Bridge" ;
+    bridge:on_route route:Old_SR_50 ;
+    bridge:rehabilitated false ;
+    bridge:status "Intact but closed to all traffic" ;
+    bridge:total_length 129.9 ;
+    bridge:url "https://bridgehunter.com/ga/worth/bh72634/" ;
+    sch:image "https://bridgehunter.com/photos/35/69/356979-M.jpg" ;
+    sch:latitude 31.51225 ;
+    sch:longitude -83.77356 .
+
+bridge:13 a sch:Bridge ;
+    bridge:built_in 1925 ;
+    bridge:crosses_river river:Piney_Woods_Creek ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 2.0 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 69.9 ;
+    bridge:locates_in county:Worth_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Little Piney Woods Creek Bridge" ;
+    bridge:on_route route:Cr_318 ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 30.0 ;
+    bridge:superstructure_condition "Good" ;
+    bridge:total_length 25.9 ;
+    bridge:traffic 49 ;
+    bridge:url "https://bridgehunter.com/ga/worth/bh77215/" ;
+    sch:latitude 31.54823 ;
+    sch:longitude -83.90662 .
+
+bridge:14 a sch:Bridge ;
+    bridge:built_in 1956 ;
+    bridge:crosses_river river:Horse_Creek ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 27.9 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 29.9 ;
+    bridge:locates_in county:Worth_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Horse Creek Bridge -New 33" ;
+    bridge:on_route route:Sr_33 ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Good" ;
+    bridge:sufficiency 83.2 ;
+    bridge:superstructure_condition "Good" ;
+    bridge:total_length 89.9 ;
+    bridge:traffic 143 ;
+    bridge:url "https://bridgehunter.com/ga/worth/bh77212/" ;
+    sch:latitude 31.43386 ;
+    sch:longitude -83.83486 .
+
+bridge:15 a sch:Bridge ;
+    bridge:built_by builder:State_Highway_Department ;
+    bridge:built_in 1921 ;
+    bridge:crosses_river river:Horse_Creek ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 21.0 ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 2.0 ;
+    bridge:locates_in county:Worth_County ;
+    bridge:name "Horse Creek Bridge" ;
+    bridge:on_route route:Old_GA_33 ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 71.7 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 12.0 ;
+    bridge:traffic 49 ;
+    bridge:url "https://bridgehunter.com/ga/worth/horse-creek/" ;
+    sch:image "https://bridgehunter.com/photos/22/64/226466-M.jpg" ;
+    sch:latitude 31.43473 ;
+    sch:longitude -83.8362 .
+
+bridge:16 a sch:Bridge ;
+    bridge:built_in 1952 ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 27.9 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 46.9 ;
+    bridge:locates_in county:Worth_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Csx Railroad (Removed) Bridge" ;
+    bridge:on_route route:Cor_Z,
+        route:Csx_Railroad,
+        route:Us_82 ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 69.1 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 141.1 ;
+    bridge:traffic 904 ;
+    bridge:url "https://bridgehunter.com/ga/worth/bh77217/" ;
+    sch:latitude 31.51268 ;
+    sch:longitude -83.76771 .
+
+bridge:17 a sch:Bridge ;
+    bridge:built_in 1928 ;
+    bridge:crosses_river river:Ty_Ty_Creek_Tributary ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 17.7 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 19.7 ;
+    bridge:locates_in county:Worth_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "College Street Bridge" ;
+    bridge:on_route route:College_Street ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 69.2 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 39.7 ;
+    bridge:traffic 49 ;
+    bridge:url "https://bridgehunter.com/ga/worth/college-street/" ;
+    sch:image "https://bridgehunter.com/photos/22/64/226469-M.jpg" ;
+    sch:latitude 31.50909 ;
+    sch:longitude -83.73051 .
+
+bridge:18 a sch:Bridge ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "West Wailuaiki Stream Bridge" ;
+    bridge:on_route route:Hana_Highway,
+        route:West_Waiuaiki_StreM ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh70308/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344269-M.jpg" ;
+    sch:latitude 20.82164 ;
+    sch:longitude -156.13806 .
+
+bridge:19 a sch:Bridge ;
+    bridge:built_in 1915 ;
+    bridge:crosses_river river:Waiohonu_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Waiohonu Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/waiohonu-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344277-M.jpg" ;
+    sch:latitude 20.70606 ;
+    sch:longitude -155.99574 .
+
+bridge:2 a sch:Bridge ;
+    bridge:crosses_river river:Tolovana_River ;
+    bridge:design_type design:truss ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Yukon-Koyukuk_Census_Area ;
+    bridge:name "Tolovana River Bridge" ;
+    bridge:on_route route:Elliott_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Replaced by a new bridge in 1969" ;
+    bridge:url "https://bridgehunter.com/ak/yukon-koyukuk/tolovana-river/" ;
+    sch:image "https://bridgehunter.com/photos/45/72/457252-M.jpg" ;
+    sch:latitude 65.47117 ;
+    sch:longitude -148.26896 .
+
+bridge:20 a sch:Bridge ;
+    bridge:built_in 1915 ;
+    bridge:crosses_river river:Waiohonu_Strm__29 ;
+    bridge:deck_condition "Very Good" ;
+    bridge:deck_width 15.4 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "FALSE" ;
+    bridge:length_of_largest_span 2.0 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Waiohonu Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Good" ;
+    bridge:rehabilitated false ;
+    bridge:status "Replaced by a new bridge" ;
+    bridge:substructure_condition "Very Good" ;
+    bridge:sufficiency 72.1 ;
+    bridge:superstructure_condition "Very Good" ;
+    bridge:total_length 97.1 ;
+    bridge:traffic 775 ;
+    bridge:url "https://bridgehunter.com/hi/maui/waiohonu/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166079-M.jpg" ;
+    sch:latitude 20.70833 ;
+    sch:longitude -155.99833 .
+
+bridge:21 a sch:Bridge ;
+    bridge:built_in 1926 ;
+    bridge:crosses_river river:Waikani_Stream ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 17.1 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 83.0 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Waikani Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 38.1 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 107.9 ;
+    bridge:traffic 1515 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600501942/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166095-M.jpg" ;
+    sch:latitude 20.835 ;
+    sch:longitude -156.14167 .
+
+bridge:22 a sch:Bridge ;
+    bridge:built_in 1953 ;
+    bridge:crosses_river river:Iao_Strm ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 27.9 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 67.9 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Waiehu Beach Road-Iao Stream Bridge" ;
+    bridge:on_route route:Waiehu_Beach_Road ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 77.8 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 182.1 ;
+    bridge:traffic 96 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh82215/" ;
+    sch:latitude 20.90676 ;
+    sch:longitude -156.48854 .
+
+bridge:23 a sch:Bridge ;
+    bridge:built_in 1910 ;
+    bridge:crosses_river river:Waiele_Stream ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 12.5 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 2.0 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:stone ;
+    bridge:name "Waiele Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 11.8 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 24.9 ;
+    bridge:traffic 45 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600904358/" ;
+    sch:image "https://bridgehunter.com/photos/48/69/486972-M.jpg" ;
+    sch:latitude 20.67528 ;
+    sch:longitude -156.03583 .
+
+bridge:24 a sch:Bridge ;
+    bridge:built_in 1914 ;
+    bridge:crosses_river river:Ulaino_Strm ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 16.4 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 18.0 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Ulaino Strm Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 22.9 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 39.0 ;
+    bridge:traffic 18 ;
+    bridge:url "https://bridgehunter.com/hi/maui/ulaino-strm/" ;
+    sch:latitude 20.79779 ;
+    sch:longitude -156.06066 .
+
+bridge:25 a sch:Bridge ;
+    bridge:crosses_river river:Puohokamoa_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Puohokamoa Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/puohokamoa-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344263-M.jpg" ;
+    sch:latitude 20.86651 ;
+    sch:longitude -156.17783 .
+
+bridge:26 a sch:Bridge ;
+    bridge:built_in 1911 ;
+    bridge:crosses_river river:Punalau_Strm_Kolea ;
+    bridge:deck_condition "Poor" ;
+    bridge:deck_width 12.8 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 29.9 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Punalau Strm(Kolea) Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Poor" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 55.0 ;
+    bridge:superstructure_condition "Poor" ;
+    bridge:total_length 34.1 ;
+    bridge:traffic 172 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh77042/" ;
+    sch:latitude 20.8623 ;
+    sch:longitude -156.16991 .
+
+bridge:27 a sch:Bridge ;
+    bridge:crosses_river river:Pipiwai_Strem ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Pipiwai Trail Footbridge" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to pedestrians only" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh80392/" ;
+    sch:latitude 20.67019 ;
+    sch:longitude -156.05363 .
+
+bridge:28 a sch:Bridge ;
+    bridge:built_in 1916 ;
+    bridge:deck_width 14.4 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 57.7 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Pi'ilani Highway Bridge" ;
+    bridge:on_route <http://dsci558.org/route#Ohe'o_Gulch>,
+        <http://dsci558.org/route#Pi'ilani_Highway> ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:total_length 63.0 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9NPS311100011/" ;
+    sch:latitude 20.66472 ;
+    sch:longitude -156.04306 .
+
+bridge:29 a sch:Bridge ;
+    bridge:built_in 1915 ;
+    bridge:crosses_river river:Papahawahawa_Strm__28 ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 14.4 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 27.9 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Papahawahawa Strm #28 Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Good" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Very Good" ;
+    bridge:sufficiency 64.7 ;
+    bridge:superstructure_condition "Good" ;
+    bridge:total_length 41.0 ;
+    bridge:traffic 775 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh45345/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166056-M.jpg" ;
+    sch:latitude 20.687 ;
+    sch:longitude -156.01129 .
+
+bridge:3 a sch:Bridge ;
+    bridge:built_in 1923 ;
+    bridge:crosses_river river:Colorado_River ;
+    bridge:design_type design:truss ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Imperial_County,
+        county:Yuma_County ;
+    bridge:name "UP - Yuma Bridge" ;
+    bridge:on_route route:Union_Pacific_Railroad ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to railroad" ;
+    bridge:total_length 4.0 ;
+    bridge:url "https://bridgehunter.com/az/yuma/bh38032/" ;
+    sch:image "https://bridgehunter.com/photos/12/72/127221-M.jpg" ;
+    sch:latitude 32.72868 ;
+    sch:longitude -114.61529 .
+
+bridge:30 a sch:Bridge ;
+    bridge:built_in 1911 ;
+    bridge:crosses_river river:Paihi_Strm_Struct ;
+    bridge:deck_condition "Very Good" ;
+    bridge:deck_width 13.8 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 36.1 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Paihi Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Good" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Very Good" ;
+    bridge:sufficiency 60.1 ;
+    bridge:superstructure_condition "Good" ;
+    bridge:total_length 42.0 ;
+    bridge:traffic 775 ;
+    bridge:url "https://bridgehunter.com/hi/maui/paihi/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166060-M.jpg" ;
+    sch:latitude 20.68667 ;
+    sch:longitude -156.02833 .
+
+bridge:31 a sch:Bridge ;
+    bridge:crosses_river river:Oopuola_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Oopuola Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/oopuola-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344255-M.jpg" ;
+    sch:latitude 20.87796 ;
+    sch:longitude -156.20011 .
+
+bridge:32 a sch:Bridge ;
+    bridge:built_in 1936 ;
+    bridge:deck_condition "Fair" ;
+    bridge:deck_width 2.0 ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 50.9 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Naniloa Drive Overpass" ;
+    bridge:on_route route:HI_52,
+        route:Kaahumanu_Avenue,
+        route:Naniloa_Drive ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 67.0 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 63.0 ;
+    bridge:traffic 247 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh67945/" ;
+    sch:latitude 20.88891 ;
+    sch:longitude -156.49598 .
+
+bridge:33 a sch:Bridge ;
+    bridge:crosses_river river:Nailiilihaele_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Nailiilihaele Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/nailiilihaele-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344253-M.jpg" ;
+    sch:latitude 20.88683 ;
+    sch:longitude -156.21009 .
+
+bridge:34 a sch:Bridge ;
+    bridge:built_in 1908 ;
+    bridge:crosses_river river:Mokulehua_Strm ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 13.8 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 14.1 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Mokulehua Stream Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 14.1 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 47.9 ;
+    bridge:traffic 18 ;
+    bridge:url "https://bridgehunter.com/hi/maui/mokulehua-stream/" ;
+    sch:latitude 20.79631 ;
+    sch:longitude -156.05681 .
+
+bridge:35 a sch:Bridge ;
+    bridge:crosses_river river:Makapipi_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Makapipi Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/makapipi-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344273-M.jpg" ;
+    sch:latitude 20.80725 ;
+    sch:longitude -156.09617 .
+
+bridge:36 a sch:Bridge ;
+    bridge:built_in 1945 ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 27.9 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 57.1 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Makawao Avenue Bridge" ;
+    bridge:on_route route:Haiku_Pauwela,
+        route:Makawao_Avenue ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Good" ;
+    bridge:sufficiency 42.0 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 58.7 ;
+    bridge:traffic 354 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003650700299/" ;
+    sch:latitude 20.86361 ;
+    sch:longitude -156.30611 .
+
+bridge:37 a sch:Bridge ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Lao Valley Park Footbridge" ;
+    bridge:rehabilitated false ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh80405/" ;
+    sch:latitude 20.88063 ;
+    sch:longitude -156.54643 .
+
+bridge:38 a sch:Bridge ;
+    bridge:built_in 1926 ;
+    bridge:crosses_river river:Kuhiwa_Stream ;
+    bridge:deck_width 16.4 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 36.1 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Kuhiwa Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 42.4 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 6.0 ;
+    bridge:traffic 172 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600502523/" ;
+    sch:latitude 20.80583 ;
+    sch:longitude -156.09417 .
+
+bridge:39 a sch:Bridge ;
+    bridge:built_in 1911 ;
+    bridge:crosses_river river:Koukouai_Stream ;
+    bridge:deck_condition "Poor" ;
+    bridge:deck_width 15.1 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 32.2 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Koukouai Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:overall_condition "Poor" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 2.0 ;
+    bridge:superstructure_condition "Serious" ;
+    bridge:total_length 54.5 ;
+    bridge:traffic 45 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600904058/" ;
+    sch:image "https://bridgehunter.com/photos/16/61/166100-M.jpg" ;
+    sch:latitude 20.655 ;
+    sch:longitude -156.06333 .
+
+bridge:4 a sch:Bridge ;
+    bridge:built_in 1979 ;
+    bridge:crosses_river river:Wildcat_Creek ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 27.9 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 4.0 ;
+    bridge:locates_in county:Yell_County ;
+    bridge:made_from material:steel ;
+    bridge:name "Wildcat Creek Bridge" ;
+    bridge:on_route route:Sh_307 ;
+    bridge:overall_condition "Good" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Good" ;
+    bridge:sufficiency 88.8 ;
+    bridge:superstructure_condition "Good" ;
+    bridge:total_length 122.1 ;
+    bridge:traffic 5 ;
+    bridge:url "https://bridgehunter.com/ar/yell/bh60528/" ;
+    sch:image "https://bridgehunter.com/photos/28/09/280926-M.jpg" ;
+    sch:latitude 34.89641 ;
+    sch:longitude -93.51008 .
+
+bridge:40 a sch:Bridge ;
+    bridge:crosses_river river:Kolea_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Kolea Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/kolea-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344259-M.jpg" ;
+    sch:latitude 20.87547 ;
+    sch:longitude -156.18912 .
+
+bridge:41 a sch:Bridge ;
+    bridge:built_in 1911 ;
+    bridge:crosses_river river:Kaupakalua_Stream ;
+    bridge:deck_condition "Fair" ;
+    bridge:deck_width 16.4 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 16.1 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:timber ;
+    bridge:name "Kaupakalua Stream Bridge" ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 37.6 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 39.0 ;
+    bridge:traffic 51 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9335001100001/" ;
+    sch:latitude 20.91 ;
+    sch:longitude -156.29583 .
+
+bridge:42 a sch:Bridge ;
+    bridge:built_in 1941 ;
+    bridge:crosses_river river:Kaupakalua_Stream ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 25.9 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 57.1 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:timber ;
+    bridge:name "Kaupakalua Stream Bridge" ;
+    bridge:on_route route:Haiku_Pauwela,
+        route:Hana_Highway ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 77.8 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 23.0 ;
+    bridge:traffic 6265 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9000360301364/" ;
+    sch:latitude 20.91833 ;
+    sch:longitude -156.29694 .
+
+bridge:43 a sch:Bridge ;
+    bridge:built_in 1915 ;
+    bridge:crosses_river river:Kapia_Strm_Kahawaiokapia ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 14.4 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 17.1 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Kapi' A Stream Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Poor" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 3.0 ;
+    bridge:superstructure_condition "Poor" ;
+    bridge:total_length 59.1 ;
+    bridge:traffic 775 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh45347/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166066-M.jpg" ;
+    sch:latitude 20.71667 ;
+    sch:longitude -155.995 .
+
+bridge:44 a sch:Bridge ;
+    bridge:built_in 1940 ;
+    bridge:crosses_river river:Unmd_Strm_Kamiloloa ;
+    bridge:deck_condition "Fair" ;
+    bridge:deck_width 25.9 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 2.0 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Kam V-Unamed Streem(Kamiloloa) Bridge" ;
+    bridge:on_route route:Kam_V_Hwy ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 45.8 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 24.9 ;
+    bridge:traffic 23 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh83548/" ;
+    sch:latitude 21.07864 ;
+    sch:longitude -156.99434 .
+
+bridge:45 a sch:Bridge ;
+    bridge:crosses_river river:Kailua_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Kailua Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/kailua-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344251-M.jpg" ;
+    sch:latitude 20.88785 ;
+    sch:longitude -156.21344 .
+
+bridge:46 a sch:Bridge ;
+    bridge:built_by builder:Acrow_Corporation_of_America_of_Parsippany ;
+    bridge:built_in 1983 ;
+    bridge:crosses_river river:Kahakuloa_Strm ;
+    bridge:deck_condition "Very Good" ;
+    bridge:deck_width 13.5 ;
+    bridge:design_type design:truss ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 16.1 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Kahekili Highway-Kahakuloa Stream Bridge" ;
+    bridge:on_route route:Kahekili_Hwy ;
+    bridge:overall_condition "Good" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Good" ;
+    bridge:sufficiency 10.1 ;
+    bridge:superstructure_condition "Very Good" ;
+    bridge:total_length 65.0 ;
+    bridge:traffic 8 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh84590/" ;
+    sch:latitude 20.99562 ;
+    sch:longitude -156.54861 .
+
+bridge:47 a sch:Bridge ;
+    bridge:built_in 1927 ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 14.1 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 24.0 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:timber ;
+    bridge:name "Kahekili Highway Bridge" ;
+    bridge:on_route route:Kahekili_Highway,
+        route:Wailena_Gulch ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 11.9 ;
+    bridge:superstructure_condition "Good" ;
+    bridge:total_length 24.9 ;
+    bridge:traffic 8 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003400900584/" ;
+    sch:latitude 20.975 ;
+    sch:longitude -156.54222 .
+
+bridge:48 a sch:Bridge ;
+    bridge:built_in 1965 ;
+    bridge:crosses_river river:Honouliwai_Strm_3_Cell ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 12.5 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 8.9 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Honouli Wai Bridge" ;
+    bridge:on_route route:Kam_V_Hwy ;
+    bridge:overall_condition "Poor" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Poor" ;
+    bridge:sufficiency 38.0 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 56.1 ;
+    bridge:traffic 85 ;
+    bridge:url "https://bridgehunter.com/hi/maui/kam-v-hwy/" ;
+    sch:image "https://bridgehunter.com/photos/27/75/277523-M.jpg" ;
+    sch:latitude 21.11064 ;
+    sch:longitude -156.74538 .
+
+bridge:49 a sch:Bridge ;
+    bridge:crosses_river river:Honolewa_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Honolewa Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/honolewa-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344287-M.jpg" ;
+    sch:latitude 20.68345 ;
+    sch:longitude -156.03027 .
+
+bridge:5 a sch:Bridge ;
+    bridge:crosses_river river:Yuba_River ;
+    bridge:design_type design:beam ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Yuba_County ;
+    bridge:made_from material:steel ;
+    bridge:name "Yuba River Bridge" ;
+    bridge:on_route route:Lost_Steel_stringer_bridge,
+        route:SR_70 ;
+    bridge:rehabilitated false ;
+    bridge:status "Replaced by a new bridge" ;
+    bridge:url "https://bridgehunter.com/ca/yuba/yuba-river/" ;
+    sch:image "https://bridgehunter.com/photos/49/54/495482-M.jpg" ;
+    sch:latitude 39.13404 ;
+    sch:longitude -121.58925 .
+
+bridge:50 a sch:Bridge ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Honoapiilani Highway Tunnel" ;
+    bridge:on_route route:Honoapiilani_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/honoapiilani-highway-tunnel/" ;
+    sch:image "https://bridgehunter.com/photos/34/43/344326-M.jpg" ;
+    sch:latitude 20.78833 ;
+    sch:longitude -156.55673 .
+
+bridge:51 a sch:Bridge ;
+    bridge:built_in 2013 ;
+    bridge:crosses_river river:Kahoma_Stream ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Honoapiilani Highway Kahoma Stream Bridge" ;
+    bridge:on_route route:Honoapiilani_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:total_length 36.0 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh65361/" ;
+    sch:latitude 20.88395 ;
+    sch:longitude -156.682 .
+
+bridge:52 a sch:Bridge ;
+    bridge:crosses_river river:Hoalua_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Hoalua Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/hoalua-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344249-M.jpg" ;
+    sch:latitude 20.89619 ;
+    sch:longitude -156.21928 .
+
+bridge:53 a sch:Bridge ;
+    bridge:built_in 1926 ;
+    bridge:crosses_river river:Hanawi_Stream ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 20.3 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 36.1 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Hanawi Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 53.6 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 6.0 ;
+    bridge:traffic 172 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600502402/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344271-M.jpg" ;
+    sch:latitude 20.81333 ;
+    sch:longitude -156.11167 .
+
+bridge:54 a sch:Bridge ;
+    bridge:built_in 1912 ;
+    bridge:crosses_river river:Puohokamoa_Strm ;
+    bridge:deck_condition "Poor" ;
+    bridge:deck_width 15.1 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 24.9 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Hana Highway-Puohokamoa Stream Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Poor" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 15.5 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 56.1 ;
+    bridge:traffic 162 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh82428/" ;
+    sch:latitude 20.86719 ;
+    sch:longitude -156.17841 .
+
+bridge:55 a sch:Bridge ;
+    bridge:built_in 1914 ;
+    bridge:crosses_river river:Oilowai_Strm ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 16.4 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 2.0 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Hana Highway-Oilowai Strm Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 33.9 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 22.0 ;
+    bridge:traffic 18 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh85197/" ;
+    sch:latitude 20.79204 ;
+    sch:longitude -156.04606 .
+
+bridge:56 a sch:Bridge ;
+    bridge:built_in 1917 ;
+    bridge:crosses_river river:Lanikele_Strm ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 16.1 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 22.0 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Hana Highway-Lanikele Stream Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 44.6 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 50.9 ;
+    bridge:traffic 18 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh82556/" ;
+    sch:latitude 20.79896 ;
+    sch:longitude -156.06351 .
+
+bridge:57 a sch:Bridge ;
+    bridge:built_in 1911 ;
+    bridge:crosses_river river:Honomanu_Strm ;
+    bridge:deck_condition "Fair" ;
+    bridge:deck_width 12.5 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 23.0 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Hana Highway-Honomanu Stream Bridge" ;
+    bridge:on_route route:Hana_Hwy ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 45.5 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 47.9 ;
+    bridge:traffic 172 ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh82213/" ;
+    sch:latitude 20.85472 ;
+    sch:longitude -156.1694 .
+
+bridge:58 a sch:Bridge ;
+    bridge:built_in 1915 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Hana Highway Bridge #4" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh70311/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344281-M.jpg" ;
+    sch:latitude 20.68765 ;
+    sch:longitude -156.01893 .
+
+bridge:59 a sch:Bridge ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Hana Highway Bridge #3" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh70298/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344261-M.jpg" ;
+    sch:latitude 20.87221 ;
+    sch:longitude -156.18699 .
+
+bridge:6 a sch:Bridge ;
+    bridge:built_in 1948 ;
+    bridge:crosses_river river:Coyote_Creek ;
+    bridge:deck_condition "Fair" ;
+    bridge:deck_width 24.9 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 23.0 ;
+    bridge:locates_in county:Yuma_County ;
+    bridge:made_from material:timber ;
+    bridge:name "Coyote Creek Bridge" ;
+    bridge:on_route route:CO_59 ;
+    bridge:overall_condition "Poor" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 57.9 ;
+    bridge:superstructure_condition "Poor" ;
+    bridge:total_length 162.7 ;
+    bridge:traffic 34 ;
+    bridge:url "https://bridgehunter.com/co/yuma/coyote-creek/" ;
+    sch:latitude 40.39472 ;
+    sch:longitude -102.66556 .
+
+bridge:60 a sch:Bridge ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Hana Highway Bridge #2" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh70296/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344257-M.jpg" ;
+    sch:latitude 20.87965 ;
+    sch:longitude -156.19635 .
+
+bridge:61 a sch:Bridge ;
+    bridge:built_in 1902 ;
+    bridge:crosses_river river:Small_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:name "Hana Highway Bridge" ;
+    bridge:on_route route:HI_360,
+        route:Haña_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/hana-highway/" ;
+    sch:image "https://bridgehunter.com/photos/26/85/268506-M.jpg" ;
+    sch:latitude 20.79019 ;
+    sch:longitude -156.04176 .
+
+bridge:62 a sch:Bridge ;
+    bridge:built_in 1910 ;
+    bridge:crosses_river river:Hahalawe_Stream ;
+    bridge:deck_width 14.4 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 2.0 ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:stone ;
+    bridge:name "Hahalawe Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:sufficiency 16.1 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 24.9 ;
+    bridge:traffic 649 ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600904304/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166097-M.jpg" ;
+    sch:latitude 20.67667 ;
+    sch:longitude -156.04333 .
+
+bridge:63 a sch:Bridge ;
+    bridge:built_in 1983 ;
+    bridge:crosses_river river:Alelele_Stream ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:made_from material:concrete ;
+    bridge:name "Alelele Bridge" ;
+    bridge:on_route route:South_Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/alelele/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344289-M.jpg" ;
+    sch:latitude 20.64848 ;
+    sch:longitude -156.08488 .
+
+bridge:64 a sch:Bridge ;
+    bridge:crosses_river river:East_Wailuanui_Stream ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Maui_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "East Wailuanui Stream Bridge" ;
+    bridge:on_route route:Hana_Highway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh70303/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344265-M.jpg" ;
+    sch:latitude 20.83241 ;
+    sch:longitude -156.13849 .
+
+bridge:65 a sch:Bridge ;
+    bridge:built_in 1793 ;
+    bridge:crosses_river river:Nanticoke_River ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Woodland Ferry" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/de/sussex/woodland-ferry/" ;
+    sch:image "https://bridgehunter.com/photos/42/07/420719-M.jpg" ;
+    sch:latitude 38.59952 ;
+    sch:longitude -75.65649 .
+
+bridge:66 a sch:Bridge ;
+    bridge:built_in 1917 ;
+    bridge:crosses_river river:Broadkill_River ;
+    bridge:design_type design:beam ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Wagamon Pond Dam Bridge" ;
+    bridge:on_route route:Lost_Slab_bridge,
+        route:Mulberry_Street ;
+    bridge:rehabilitated false ;
+    bridge:status "Replaced by a new bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/wagamon-pond-dam/" ;
+    sch:image "https://bridgehunter.com/photos/31/10/311012-M.jpg" ;
+    sch:latitude 38.77726 ;
+    sch:longitude -75.31285 .
+
+bridge:67 a sch:Bridge ;
+    bridge:built_in 1964 ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 11.2 ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 60.7 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "uS 9 Lewis Ferry-Delaware Bay Bridge" ;
+    bridge:on_route route:Delaware_Bay,
+        route:US_9 ;
+    bridge:overall_condition "Poor" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 19.7 ;
+    bridge:superstructure_condition "Poor" ;
+    bridge:total_length 63.7 ;
+    bridge:traffic 1237 ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85341/" ;
+    sch:latitude 38.78222 ;
+    sch:longitude -75.1194 .
+
+bridge:68 a sch:Bridge ;
+    bridge:built_in 1964 ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 11.5 ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 60.7 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "US 9 Lewis Ferry 2-Delaware Bay Bridge" ;
+    bridge:on_route route:Delaware_Bay,
+        route:US_9 ;
+    bridge:overall_condition "Poor" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 37.0 ;
+    bridge:superstructure_condition "Poor" ;
+    bridge:total_length 63.3 ;
+    bridge:traffic 1237 ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85342/" ;
+    sch:latitude 38.78233 ;
+    sch:longitude -75.11978 .
+
+bridge:69 a sch:Bridge ;
+    bridge:built_in 1920 ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 32.5 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 60.7 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Tyndall Branch Bridge" ;
+    bridge:on_route route:Tyndall_Branch,
+        route:US_9 ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 91.0 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 27.9 ;
+    bridge:traffic 9684 ;
+    bridge:url "https://bridgehunter.com/de/sussex/3659028/" ;
+    sch:latitude 38.62333 ;
+    sch:longitude -75.47833 .
+
+bridge:7 a sch:Bridge ;
+    bridge:built_in 1857 ;
+    bridge:crosses_river river:Willimantic_River ;
+    bridge:deck_width 21.0 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 76.0 ;
+    bridge:locates_in county:Windham_County ;
+    bridge:made_from material:stone ;
+    bridge:name "Windham Road Bridge" ;
+    bridge:on_route route:Windham_Road ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to pedestrians only" ;
+    bridge:total_length 13.0 ;
+    bridge:url "https://bridgehunter.com/ct/windham/windham-road/" ;
+    sch:image "https://bridgehunter.com/photos/10/16/101630-M.jpg" ;
+    sch:latitude 41.70967 ;
+    sch:longitude -72.20641 .
+
+bridge:70 a sch:Bridge ;
+    bridge:built_in 1940 ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 29.5 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 4.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:made_from material:steel ;
+    bridge:name "Stein Highway Viaduct" ;
+    bridge:on_route route:Cedar_Avenue,
+        route:Eastbound_DE_20,
+        route:Norfolk_Southern_Railroad,
+        route:Stein_Highway ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 74.8 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 560.1 ;
+    bridge:traffic 9995 ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh78780/" ;
+    sch:image "https://bridgehunter.com/photos/43/91/439109-M.jpg" ;
+    sch:latitude 38.64638 ;
+    sch:longitude -75.61805 .
+
+bridge:71 a sch:Bridge ;
+    bridge:built_in 1920 ;
+    bridge:crosses_river river:Nanticoke_River ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 44.0 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 33.5 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Seashore Highway-Nanticoke River Bridge" ;
+    bridge:on_route route:Seashore_Hy_Sr18 ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 82.2 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 69.9 ;
+    bridge:traffic 11311 ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85343/" ;
+    sch:latitude 38.70826 ;
+    sch:longitude -75.55817 .
+
+bridge:72 a sch:Bridge ;
+    bridge:built_in 1922 ;
+    bridge:crosses_river river:Collins_Mill_Pond ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 39.4 ;
+    bridge:design_type design:culvert ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 12.1 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Seashore Highway-Collins Mill Pond Bridge" ;
+    bridge:on_route route:Seashore_Highway ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 93.2 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 25.3 ;
+    bridge:traffic 9728 ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85344/" ;
+    sch:latitude 38.70845 ;
+    sch:longitude -75.52131 .
+
+bridge:73 a sch:Bridge ;
+    bridge:built_by builder:Chicago_Bascule_Bridge_Co._of_Chicago,
+        builder:Imbach-Wozny-McCoy ;
+    bridge:built_in 1925 ;
+    bridge:crosses_river river:Nanticoke_River ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 24.0 ;
+    bridge:design_type design:beam,
+        design:truss ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 55.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Seaford Bridge" ;
+    bridge:on_route route:Front_Street ;
+    bridge:overall_condition "Poor" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 47.0 ;
+    bridge:superstructure_condition "Poor" ;
+    bridge:total_length 201.8 ;
+    bridge:traffic 12268 ;
+    bridge:url "https://bridgehunter.com/de/sussex/seaford/" ;
+    sch:image "https://bridgehunter.com/photos/10/16/101638-M.jpg" ;
+    sch:latitude 38.64028 ;
+    sch:longitude -75.60917 .
+
+bridge:74 a sch:Bridge ;
+    bridge:built_by <http://dsci558.org/builder#Hardesty_&_Hanover_of_New_York> ;
+    bridge:built_in 1983 ;
+    bridge:crosses_river river:Lewes_Rehoboth_Canal ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 24.0 ;
+    bridge:design_type design:truss ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 55.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Savannah Road Bridge" ;
+    bridge:on_route route:Savannah_Road ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 72.4 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 124.0 ;
+    bridge:traffic 6165 ;
+    bridge:url "https://bridgehunter.com/de/sussex/3154018/" ;
+    sch:image "https://bridgehunter.com/photos/28/39/283999-M.jpg" ;
+    sch:latitude 38.77556 ;
+    sch:longitude -75.1375 .
+
+bridge:75 a sch:Bridge ;
+    bridge:built_by <http://dsci558.org/builder#Keller_&_Harrington_of_Chicago> ;
+    bridge:built_in 1928 ;
+    bridge:crosses_river river:Broadkill_River ;
+    bridge:design_type design:beam,
+        design:suspension,
+        design:truss ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Route 14 Bridge" ;
+    bridge:on_route route:Lavinia_Road,
+        route:Route_14 ;
+    bridge:rehabilitated false ;
+    bridge:status "No longer exists" ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh61037/" ;
+    sch:image "https://bridgehunter.com/photos/28/40/284000-M.jpg" ;
+    sch:latitude 38.77718 ;
+    sch:longitude -75.31966 .
+
+bridge:76 a sch:Bridge ;
+    bridge:built_in 1978 ;
+    bridge:crosses_river river:Rehoboth_Canal ;
+    bridge:deck_condition "Fair" ;
+    bridge:deck_width 38.1 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 17.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Rehoboth-Dewey Bridge" ;
+    bridge:on_route route:Coastal_Highway,
+        route:DE_1 ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 75.0 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 407.5 ;
+    bridge:traffic 32695 ;
+    bridge:url "https://bridgehunter.com/de/sussex/rehoboth-dewey/" ;
+    sch:image "https://bridgehunter.com/photos/47/74/477448-M.jpg" ;
+    sch:latitude 38.70865 ;
+    sch:longitude -75.0931 .
+
+bridge:77 a sch:Bridge ;
+    bridge:built_by builder:Scherzer_Rolling_Lift_Bridge_Co._of_Chicago ;
+    bridge:crosses_river river:Lewes_Rehoboth_Canal ;
+    bridge:design_type design:beam ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Rehoboth Avenue Bridge (Old)" ;
+    bridge:on_route route:Lost_Deck_plate_girder_bascule_bridge,
+        route:Rehoboth_Avenue ;
+    bridge:rehabilitated false ;
+    bridge:status "Replaced by a new bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh90297/" ;
+    sch:image "https://bridgehunter.com/photos/47/89/478983-M.jpg" ;
+    sch:latitude 38.71432 ;
+    sch:longitude -75.09275 .
+
+bridge:78 a sch:Bridge ;
+    bridge:built_in 1986 ;
+    bridge:crosses_river river:Lewes_Rehoboth_Canal ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:design_type design:truss ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Rehoboth Avenue Bridge" ;
+    bridge:on_route route:Rehoboth_Avenue,
+        route:Rehoboth_Beach ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 90.8 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 169.0 ;
+    bridge:traffic 2545 ;
+    bridge:url "https://bridgehunter.com/de/sussex/3153015/" ;
+    sch:image "https://bridgehunter.com/photos/21/28/212875-M.jpg" ;
+    sch:latitude 38.71417 ;
+    sch:longitude -75.0925 .
+
+bridge:79 a sch:Bridge ;
+    bridge:built_in 1916 ;
+    bridge:crosses_river river:Broadkill_River ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 34.5 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 24.9 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:made_from material:steel ;
+    bridge:name "Red Bridge" ;
+    bridge:on_route route:Union_Street ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Good" ;
+    bridge:sufficiency 98.0 ;
+    bridge:superstructure_condition "Good" ;
+    bridge:total_length 28.9 ;
+    bridge:traffic 5469 ;
+    bridge:url "https://bridgehunter.com/de/sussex/broadkill-river/" ;
+    sch:image "https://bridgehunter.com/photos/31/10/311058-M.jpg" ;
+    sch:latitude 38.77858 ;
+    sch:longitude -75.31101 .
+
+bridge:8 a sch:Bridge ;
+    bridge:built_in 1932 ;
+    bridge:crosses_river river:Morris_Mill_Pond ;
+    bridge:deck_condition "Very Good" ;
+    bridge:deck_width 24.0 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 24.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Zoar Road Bridge" ;
+    bridge:on_route route:Zoar_Road ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 78.2 ;
+    bridge:superstructure_condition "Very Good" ;
+    bridge:total_length 25.9 ;
+    bridge:traffic 6021 ;
+    bridge:url "https://bridgehunter.com/de/sussex/zoar-road/" ;
+    sch:latitude 38.63858 ;
+    sch:longitude -75.31598 .
+
+bridge:80 a sch:Bridge ;
+    bridge:built_in 1915 ;
+    bridge:crosses_river river:Broad_Creek ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 14.1 ;
+    bridge:design_type design:suspension,
+        design:truss ;
+    bridge:is_open "FALSE" ;
+    bridge:length_of_largest_span 56.1 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Poplar Street Bridge" ;
+    bridge:on_route route:Poplar_Street ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated true ;
+    bridge:status "Intact but closed to all traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 46.2 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 111.9 ;
+    bridge:traffic 3625 ;
+    bridge:url "https://bridgehunter.com/de/sussex/3161028A/" ;
+    sch:image "https://bridgehunter.com/photos/13/26/132688-M.jpg" ;
+    sch:latitude 38.55889 ;
+    sch:longitude -75.57278 .
+
+bridge:81 a sch:Bridge ;
+    bridge:built_in 1917 ;
+    bridge:crosses_river river:Wagamon_Pond ;
+    bridge:design_type design:culvert ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:made_from material:concrete ;
+    bridge:name "Penstock Bridge" ;
+    bridge:on_route route:Mulberry_Street ;
+    bridge:rehabilitated false ;
+    bridge:url "https://bridgehunter.com/de/sussex/penstock/" ;
+    sch:image "https://bridgehunter.com/photos/31/10/311030-M.jpg" ;
+    sch:latitude 38.77627 ;
+    sch:longitude -75.3126 .
+
+bridge:82 a sch:Bridge ;
+    bridge:built_in 1933 ;
+    bridge:crosses_river river:Deep_Creek ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 28.5 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 36.1 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:made_from material:steel ;
+    bridge:name "Old Furnace Road Bridge" ;
+    bridge:on_route route:Old_Furnace_Road ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 81.6 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 4.0 ;
+    bridge:traffic 3379 ;
+    bridge:url "https://bridgehunter.com/de/sussex/old-furnace-road/" ;
+    sch:latitude 38.66597 ;
+    sch:longitude -75.51461 .
+
+bridge:83 a sch:Bridge ;
+    bridge:built_in 1929 ;
+    bridge:crosses_river river:Nanticoke_River ;
+    bridge:design_type design:beam,
+        design:suspension,
+        design:truss ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "NS - Nanticoke River Bridge" ;
+    bridge:on_route route:Norfolk_Southern_Railway ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/de/sussex/cr---nanticoke-river/" ;
+    sch:image "https://bridgehunter.com/photos/29/45/294501-M.jpg" ;
+    sch:latitude 38.63694 ;
+    sch:longitude -75.61379 .
+
+bridge:84 a sch:Bridge ;
+    bridge:built_by builder:James_A._Hirons,
+        builder:Joseph_Russo,
+        builder:William_B._Carswell_of_Wilmington ;
+    bridge:built_in 1903 ;
+    bridge:crosses_river river:Mispillion_River ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 35.1 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "FALSE" ;
+    bridge:length_of_largest_span 19.0 ;
+    bridge:locates_in county:Kent_County,
+        county:Sussex_County ;
+    bridge:made_from material:steel ;
+    bridge:name "Mispillion River Bridge" ;
+    bridge:on_route route:Church_Street,
+        route:Lost_Steel_stringer_bridge ;
+    bridge:overall_condition "Good" ;
+    bridge:rehabilitated false ;
+    bridge:status "Replaced by a new bridge" ;
+    bridge:substructure_condition "Good" ;
+    bridge:sufficiency 98.8 ;
+    bridge:superstructure_condition "Very Good" ;
+    bridge:total_length 42.0 ;
+    bridge:traffic 3715 ;
+    bridge:url "https://bridgehunter.com/de/kent/mispillion-river/" ;
+    sch:image "https://bridgehunter.com/photos/31/09/310945-M.jpg" ;
+    sch:latitude 38.91213 ;
+    sch:longitude -75.43076 .
+
+bridge:85 a sch:Bridge ;
+    bridge:built_by <http://dsci558.org/builder#Keller_&_Harrington_of_Chicago> ;
+    bridge:built_in 1929 ;
+    bridge:crosses_river river:Mispillion_River ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 24.9 ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 57.1 ;
+    bridge:locates_in county:Kent_County,
+        county:Sussex_County ;
+    bridge:name "Mispillion River Bridge" ;
+    bridge:on_route route:Rehoboth_Road ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 56.3 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 108.9 ;
+    bridge:traffic 9681 ;
+    bridge:url "https://bridgehunter.com/de/kent/bh45160/" ;
+    sch:image "https://bridgehunter.com/photos/16/41/164111-M.jpg" ;
+    sch:latitude 38.91734 ;
+    sch:longitude -75.41768 .
+
+bridge:86 a sch:Bridge ;
+    bridge:built_in 1920 ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 26.6 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 57.1 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Laurel Road Bridge" ;
+    bridge:on_route route:James_Branch,
+        route:Laurel_Road ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 65.6 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 47.9 ;
+    bridge:traffic 7202 ;
+    bridge:url "https://bridgehunter.com/de/sussex/3314024/" ;
+    sch:latitude 38.55464 ;
+    sch:longitude -75.53926 .
+
+bridge:87 a sch:Bridge ;
+    bridge:built_in 1952 ;
+    bridge:crosses_river river:Indian_River_Inlet ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Indian River Inlet Swing Bridge (1952)" ;
+    bridge:on_route route:DE_1,
+        route:Lost_Bridge ;
+    bridge:rehabilitated false ;
+    bridge:status "Replaced by a new bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh63336/" ;
+    sch:image "https://bridgehunter.com/photos/37/48/374857-M.jpg" ;
+    sch:latitude 38.60782 ;
+    sch:longitude -75.06369 .
+
+bridge:88 a sch:Bridge ;
+    bridge:built_in 1938 ;
+    bridge:crosses_river river:Indian_River_Inlet ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Indian River Inlet Swing Bridge (1938)" ;
+    bridge:on_route route:DE_1,
+        route:Lost_Bridge ;
+    bridge:rehabilitated false ;
+    bridge:status "Destroyed by collision with ice via tide" ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh63335/" ;
+    sch:image "https://bridgehunter.com/photos/31/64/316478-M.jpg" ;
+    sch:latitude 38.60782 ;
+    sch:longitude -75.06369 .
+
+bridge:89 a sch:Bridge ;
+    bridge:built_in 1934 ;
+    bridge:crosses_river river:Indian_River_Inlet ;
+    bridge:design_type design:beam ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:made_from material:timber ;
+    bridge:name "Indian River Inlet Bridge (1934)" ;
+    bridge:on_route route:Coastal_Highway,
+        route:Lost_Timber_stringer_bridge ;
+    bridge:rehabilitated true ;
+    bridge:status "Destroyed by severe weather" ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh74994/" ;
+    sch:image "https://bridgehunter.com/photos/37/48/374858-M.jpg" ;
+    sch:latitude 38.60847 ;
+    sch:longitude -75.06305 .
+
+bridge:9 a sch:Bridge ;
+    bridge:crosses_river river:Choctawhatchee_River ;
+    bridge:design_type design:truss ;
+    bridge:is_open "TRUE" ;
+    bridge:locates_in county:Holmes_County,
+        county:Washington_County ;
+    bridge:name "CSX - Westville-Caryville Drawbridge" ;
+    bridge:on_route route:CSX_Railroad ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:url "https://bridgehunter.com/fl/washington/bh48530/" ;
+    sch:image "https://bridgehunter.com/photos/21/83/218322-M.jpg" ;
+    sch:latitude 30.77627 ;
+    sch:longitude -85.82697 .
+
+bridge:90 a sch:Bridge ;
+    bridge:built_by builder:AECOM_of_Los_Angeles._California,
+        <http://dsci558.org/builder#George_&_Lynch_of_Dover>,
+        builder:Skanska_AB_of_Stockholm ;
+    bridge:built_in 2012 ;
+    bridge:crosses_river river:Indian_River,
+        river:Indian_River_Inlet ;
+    bridge:deck_width 107.7 ;
+    bridge:design_type design:cable-stayed ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 95.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:maintained_by maintainer:Delaware_Department_of_Transportation ;
+    bridge:name "Indian River Inlet Bridge" ;
+    bridge:on_route route:DE_SR_1,
+        route:Delaware_Route_1 ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:total_length 26.0 ;
+    bridge:url "http://www.wikidata.org/entity/Q6021476",
+        "https://bridgehunter.com/de/sussex/indian-river-inlet/",
+        "https://en.wikipedia.org/wiki/Indian_River_Inlet_Bridge" ;
+    sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/Indian%20River%20Inlet%20Bridge.JPG",
+        "https://bridgehunter.com/photos/43/65/436579-M.jpg" ;
+    sch:latitude 38.6081 ;
+    sch:longitude -75.0637 .
+
+bridge:91 a sch:Bridge ;
+    bridge:built_in 1941 ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 42.0 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 52.2 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "High Street Bridge" ;
+    bridge:on_route route:High_Street,
+        route:Norfolk_Southern ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 92.0 ;
+    bridge:superstructure_condition "Satisfactory" ;
+    bridge:total_length 101.7 ;
+    bridge:traffic 6767 ;
+    bridge:url "https://bridgehunter.com/de/sussex/high-street/" ;
+    sch:image "https://bridgehunter.com/photos/43/91/439130-M.jpg" ;
+    sch:latitude 38.63984 ;
+    sch:longitude -75.61498 .
+
+bridge:92 a sch:Bridge ;
+    bridge:built_in 1919 ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 20.3 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 56.1 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Elks Road Bridge" ;
+    bridge:on_route route:Elks_Road,
+        route:Gravelly_Branch ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 60.3 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 62.0 ;
+    bridge:traffic 6628 ;
+    bridge:url "https://bridgehunter.com/de/sussex/3237046/" ;
+    sch:image "https://bridgehunter.com/photos/48/98/489888-M.jpg" ;
+    sch:latitude 38.66556 ;
+    sch:longitude -75.565 .
+
+bridge:93 a sch:Bridge ;
+    bridge:built_in 1917 ;
+    bridge:crosses_river river:Diamond_Pond ;
+    bridge:deck_width 20.3 ;
+    bridge:design_type design:culvert ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 13.1 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Diamond Pond Bridge" ;
+    bridge:on_route route:Sand_Hill_Road ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:total_length 14.1 ;
+    bridge:url "https://bridgehunter.com/de/sussex/diamond-pond/" ;
+    sch:latitude 38.76875 ;
+    sch:longitude -75.31789 .
+
+bridge:94 a sch:Bridge ;
+    bridge:built_in 1965 ;
+    bridge:crosses_river river:Indian_River_Inlet ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 6.0 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "FALSE" ;
+    bridge:length_of_largest_span 25.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:made_from material:steel ;
+    bridge:name "DE1 Indian River Inlet Bridge" ;
+    bridge:on_route route:Coastal_Hgwy ;
+    bridge:overall_condition "Good" ;
+    bridge:rehabilitated true ;
+    bridge:status "Replaced by a new bridge" ;
+    bridge:substructure_condition "Good" ;
+    bridge:sufficiency 80.0 ;
+    bridge:superstructure_condition "Good" ;
+    bridge:total_length 880.6 ;
+    bridge:traffic 2413 ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh63337/" ;
+    sch:image "https://bridgehunter.com/photos/29/82/298218-M.jpg" ;
+    sch:latitude 38.60778 ;
+    sch:longitude -75.06306 .
+
+bridge:95 a sch:Bridge ;
+    bridge:built_by builder:American_Bridge_Co._of_New_York ;
+    bridge:built_in 1916 ;
+    bridge:crosses_river river:Intracoastal_Waterway ;
+    bridge:design_type design:beam,
+        design:suspension,
+        design:truss ;
+    bridge:is_open "FALSE" ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "DCLR - Lewes Creek Swing Bridge" ;
+    bridge:on_route route:Delaware_Coast_Line ;
+    bridge:rehabilitated false ;
+    bridge:status "Intact but closed to all traffic; to be removed" ;
+    bridge:url "https://bridgehunter.com/de/sussex/lewes-railroad-swing/" ;
+    sch:image "https://bridgehunter.com/photos/25/19/251902-M.jpg" ;
+    sch:latitude 38.77359 ;
+    sch:longitude -75.13388 .
+
+bridge:96 a sch:Bridge ;
+    bridge:built_in 1938 ;
+    bridge:crosses_river river:Silver_Lake ;
+    bridge:deck_condition "Fair" ;
+    bridge:deck_width 24.0 ;
+    bridge:design_type design:beam ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 2.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Coastal Highway Bridge" ;
+    bridge:on_route route:Coastal_Highway,
+        route:Rehoboth_Beach ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated true ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 64.5 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 259.9 ;
+    bridge:traffic 10093 ;
+    bridge:url "https://bridgehunter.com/de/sussex/3707050/" ;
+    sch:image "https://bridgehunter.com/photos/21/28/212871-M.jpg" ;
+    sch:latitude 38.70722 ;
+    sch:longitude -75.08056 .
+
+bridge:97 a sch:Bridge ;
+    bridge:built_in 1919 ;
+    bridge:crosses_river river:Clear_Brook ;
+    bridge:deck_condition "Fair" ;
+    bridge:deck_width 33.1 ;
+    bridge:design_type design:arch ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 24.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Clear Brook Bridge" ;
+    bridge:on_route route:RD_13 ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 91.8 ;
+    bridge:superstructure_condition "Good" ;
+    bridge:total_length 27.9 ;
+    bridge:traffic 4637 ;
+    bridge:url "https://bridgehunter.com/de/sussex/3202013/" ;
+    sch:latitude 38.67889 ;
+    sch:longitude -75.59306 .
+
+bridge:98 a sch:Bridge ;
+    bridge:built_by <http://dsci558.org/builder#Keller_&_Harrington_of_Chicago> ;
+    bridge:built_in 1923 ;
+    bridge:crosses_river river:Broad_Creek ;
+    bridge:deck_condition "Satisfactory" ;
+    bridge:deck_width 24.0 ;
+    bridge:design_type design:truss ;
+    bridge:is_open "FALSE" ;
+    bridge:length_of_largest_span 65.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Central Avenue Bridge" ;
+    bridge:on_route route:Central_Avenue ;
+    bridge:overall_condition "Poor" ;
+    bridge:rehabilitated true ;
+    bridge:status "Intact but closed to all traffic" ;
+    bridge:substructure_condition "Satisfactory" ;
+    bridge:sufficiency 27.8 ;
+    bridge:superstructure_condition "Poor" ;
+    bridge:total_length 89.9 ;
+    bridge:traffic 6292 ;
+    bridge:url "https://bridgehunter.com/de/sussex/3152013/" ;
+    sch:image "https://bridgehunter.com/photos/13/26/132689-M.jpg" ;
+    sch:latitude 38.55861 ;
+    sch:longitude -75.57167 .
+
+bridge:99 a sch:Bridge ;
+    bridge:built_in 1949 ;
+    bridge:crosses_river river:Cedar_Creek ;
+    bridge:deck_condition "Good" ;
+    bridge:deck_width 24.0 ;
+    bridge:design_type design:suspension,
+        design:truss ;
+    bridge:is_open "TRUE" ;
+    bridge:length_of_largest_span 65.0 ;
+    bridge:locates_in county:Sussex_County ;
+    bridge:name "Cedar Creek Bridge" ;
+    bridge:on_route route:DE_36,
+        route:Slaughter_Beach ;
+    bridge:overall_condition "Fair" ;
+    bridge:rehabilitated false ;
+    bridge:status "Open to traffic" ;
+    bridge:substructure_condition "Fair" ;
+    bridge:sufficiency 60.6 ;
+    bridge:superstructure_condition "Fair" ;
+    bridge:total_length 83.0 ;
+    bridge:traffic 2414 ;
+    bridge:url "https://bridgehunter.com/de/sussex/3164036/" ;
+    sch:image "https://bridgehunter.com/photos/28/39/283998-M.jpg" ;
+    sch:latitude 38.935 ;
+    sch:longitude -75.32389 .
+
+builder:AECOM_of_Los_Angeles._California a sch:Builder ;
+    builder:name "AECOM of Los Angeles. California" .
+
+builder:Acrow_Corporation_of_America_of_Parsippany a sch:Builder ;
+    builder:name "Acrow Corporation of America of Parsippany" .
+
+builder:American_Bridge_Co._of_New_York a sch:Builder ;
+    builder:name "American Bridge Co. of New York" .
+
+builder:Chicago_Bascule_Bridge_Co._of_Chicago a sch:Builder ;
+    builder:name "Chicago Bascule Bridge Co. of Chicago" .
+
+<http://dsci558.org/builder#George_&_Lynch_of_Dover> a sch:Builder ;
+    builder:name "George & Lynch of Dover" .
+
+builder:Georgia_State_Highway_Department a sch:Builder ;
+    builder:name "Georgia State Highway Department" .
+
+<http://dsci558.org/builder#Hardesty_&_Hanover_of_New_York> a sch:Builder ;
+    builder:name "Hardesty & Hanover of New York" .
+
+builder:Imbach-Wozny-McCoy a sch:Builder ;
+    builder:name "Imbach-Wozny-McCoy" .
+
+builder:James_A._Hirons a sch:Builder ;
+    builder:name "James A. Hirons" .
+
+builder:Joseph_Russo a sch:Builder ;
+    builder:name "Joseph Russo" .
+
+builder:Pensacola_Shipbuilding_Co._of_Pensacola a sch:Builder ;
+    builder:name "Pensacola Shipbuilding Co. of Pensacola" .
+
+builder:Scherzer_Rolling_Lift_Bridge_Co._of_Chicago a sch:Builder ;
+    builder:name "Scherzer Rolling Lift Bridge Co. of Chicago" .
+
+builder:Skanska_AB_of_Stockholm a sch:Builder ;
+    builder:name "Skanska AB of Stockholm" .
+
+builder:State_Highway_Department a sch:Builder ;
+    builder:name "State Highway Department" .
+
+builder:William_B._Carswell_of_Wilmington a sch:Builder ;
+    builder:name "William B. Carswell of Wilmington" .
+
+county:Imperial_County a sch:County ;
+    county:locates_in state:California ;
+    county:name "Imperial County" .
+
+design:cable-stayed a sch:Design ;
+    design:name "cable-stayed" .
+
+maintainer:Delaware_Department_of_Transportation a sch:Maintainer ;
+    maintainer:name "Delaware Department of Transportation" ;
+    maintainer:url "http://www.wikidata.org/entity/Q3297972" .
+
+river:Alelele_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Alelele Stream" .
+
+river:Cedar_Creek a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Cedar Creek" .
+
+river:Choctawhatchee_River a sch:River ;
+    river:locates_in county:Washington_County ;
+    river:name "Choctawhatchee River" .
+
+river:Clear_Brook a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Clear Brook" .
+
+river:Collins_Mill_Pond a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Collins Mill Pond" .
+
+river:Colorado_River a sch:River ;
+    river:locates_in county:Yuma_County ;
+    river:name "Colorado River" .
+
+river:Coyote_Creek a sch:River ;
+    river:locates_in county:Yuma_County ;
+    river:name "Coyote Creek" .
+
+river:Deep_Creek a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Deep Creek" .
+
+river:Diamond_Pond a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Diamond Pond" .
+
+river:East_Wailuanui_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "East Wailuanui Stream" .
+
+river:Hahalawe_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Hahalawe Stream" .
+
+river:Hanawi_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Hanawi Stream" .
+
+river:Hoalua_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Hoalua Stream" .
+
+river:Honolewa_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Honolewa Stream" .
+
+river:Honomanu_Strm a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Honomanu Strm" .
+
+river:Honouliwai_Strm_3_Cell a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Honouliwai Strm 3 Cell" .
+
+river:Iao_Strm a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Iao Strm" .
+
+river:Indian_River a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Indian River" .
+
+river:Intracoastal_Waterway a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Intracoastal Waterway" .
+
+river:Kahakuloa_Strm a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Kahakuloa Strm" .
+
+river:Kahoma_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Kahoma Stream" .
+
+river:Kailua_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Kailua Stream" .
+
+river:Kapia_Strm_Kahawaiokapia a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Kapia Strm Kahawaiokapia" .
+
+river:Kolea_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Kolea Stream" .
+
+river:Koukouai_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Koukouai Stream" .
+
+river:Kuhiwa_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Kuhiwa Stream" .
+
+river:Lanikele_Strm a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Lanikele Strm" .
+
+river:Makapipi_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Makapipi Stream" .
+
+river:Mokulehua_Strm a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Mokulehua Strm" .
+
+river:Morris_Mill_Pond a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Morris Mill Pond" .
+
+river:Nailiilihaele_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Nailiilihaele Stream" .
+
+river:Oilowai_Strm a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Oilowai Strm" .
+
+river:Oopuola_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Oopuola Stream" .
+
+river:Paihi_Strm_Struct a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Paihi Strm Struct" .
+
+river:Papahawahawa_Strm__28 a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Papahawahawa Strm  28" .
+
+river:Piney_Woods_Creek a sch:River ;
+    river:locates_in county:Worth_County ;
+    river:name "Piney Woods Creek" .
+
+river:Pipiwai_Strem a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Pipiwai Strem" .
+
+river:Punalau_Strm_Kolea a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Punalau Strm Kolea" .
+
+river:Puohokamoa_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Puohokamoa Stream" .
+
+river:Puohokamoa_Strm a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Puohokamoa Strm" .
+
+river:Rehoboth_Canal a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Rehoboth Canal" .
+
+river:Rock_Creek a sch:River ;
+    river:locates_in county:Winston_County ;
+    river:name "Rock Creek" .
+
+river:Silver_Lake a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Silver Lake" .
+
+river:Small_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Small Stream" .
+
+river:Smith_Lake a sch:River ;
+    river:locates_in county:Winston_County ;
+    river:name "Smith Lake" .
+
+river:Swift_Creek a sch:River ;
+    river:locates_in county:Worth_County ;
+    river:name "Swift Creek" .
+
+river:Tolovana_River a sch:River ;
+    river:locates_in county:Yukon-Koyukuk_Census_Area ;
+    river:name "Tolovana River" .
+
+river:Ty_Ty_Creek_Tributary a sch:River ;
+    river:locates_in county:Worth_County ;
+    river:name "Ty Ty Creek Tributary" .
+
+river:Ulaino_Strm a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Ulaino Strm" .
+
+river:Unmd_Strm_Kamiloloa a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Unmd Strm Kamiloloa" .
+
+river:Us90_Sr10_Choctaw_River a sch:River ;
+    river:locates_in county:Washington_County ;
+    river:name "Us90 Sr10 Choctaw River" .
+
+river:Wagamon_Pond a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Wagamon Pond" .
+
+river:Waiele_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Waiele Stream" .
+
+river:Waikani_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Waikani Stream" .
+
+river:Waiohonu_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Waiohonu Stream" .
+
+river:Waiohonu_Strm__29 a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Waiohonu Strm  29" .
+
+river:Wildcat_Creek a sch:River ;
+    river:locates_in county:Yell_County ;
+    river:name "Wildcat Creek" .
+
+river:Willimantic_River a sch:River ;
+    river:locates_in county:Windham_County ;
+    river:name "Willimantic River" .
+
+river:Yuba_River a sch:River ;
+    river:locates_in county:Yuba_County ;
+    river:name "Yuba River" .
+
+route:CO_59 a sch:Route ;
+    route:locates_in county:Yuma_County ;
+    route:name "CO 59" .
+
+route:CR_297 a sch:Route ;
+    route:locates_in county:Crisp_County ;
+    route:name "CR 297" .
+
+route:CSX_Railroad a sch:Route ;
+    route:locates_in county:Washington_County ;
+    route:name "CSX Railroad" .
+
+route:Cedar_Avenue a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Cedar Avenue" .
+
+route:Central_Avenue a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Central Avenue" .
+
+route:Church_Street a sch:Route ;
+    route:locates_in county:Kent_County ;
+    route:name "Church Street" .
+
+route:Co_Rt_77 a sch:Route ;
+    route:locates_in county:Winston_County ;
+    route:name "Co Rt 77" .
+
+route:Coastal_Hgwy a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Coastal Hgwy" .
+
+route:College_Street a sch:Route ;
+    route:locates_in county:Worth_County ;
+    route:name "College Street" .
+
+route:Cor_Z a sch:Route ;
+    route:locates_in county:Worth_County ;
+    route:name "Cor Z" .
+
+route:Cr_318 a sch:Route ;
+    route:locates_in county:Worth_County ;
+    route:name "Cr 318" .
+
+route:Csx_Railroad a sch:Route ;
+    route:locates_in county:Worth_County ;
+    route:name "Csx Railroad" .
+
+route:DE_36 a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "DE 36" .
+
+route:DE_SR_1 a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "DE SR 1" .
+
+route:Delaware_Coast_Line a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Delaware Coast Line" .
+
+route:Delaware_Route_1 a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Delaware Route 1" .
+
+route:Eastbound_DE_20 a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Eastbound DE 20" .
+
+route:Elks_Road a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Elks Road" .
+
+route:Elliott_Highway a sch:Route ;
+    route:locates_in county:Yukon-Koyukuk_Census_Area ;
+    route:name "Elliott Highway" .
+
+route:Fanns_Bridge_Road a sch:Route ;
+    route:locates_in county:Worth_County ;
+    route:name "Fanns Bridge Road" .
+
+route:Front_Street a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Front Street" .
+
+route:Gravelly_Branch a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Gravelly Branch" .
+
+route:HI_360 a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "HI 360" .
+
+route:HI_52 a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "HI 52" .
+
+route:Haña_Highway a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Haña Highway" .
+
+route:Helicon_Road a sch:Route ;
+    route:locates_in county:Winston_County ;
+    route:name "Helicon Road" .
+
+route:High_Street a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "High Street" .
+
+route:James_Branch a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "James Branch" .
+
+route:Kaahumanu_Avenue a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Kaahumanu Avenue" .
+
+route:Kahekili_Highway a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Kahekili Highway" .
+
+route:Kahekili_Hwy a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Kahekili Hwy" .
+
+route:Laurel_Road a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Laurel Road" .
+
+route:Lavinia_Road a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Lavinia Road" .
+
+route:Lost_Deck_plate_girder_bascule_bridge a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Lost Deck plate girder bascule bridge" .
+
+route:Lost_Slab_bridge a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Lost Slab bridge" .
+
+route:Lost_Timber_stringer_bridge a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Lost Timber stringer bridge" .
+
+route:Lost_Warren_deck a sch:Route ;
+    route:locates_in county:Holmes_County ;
+    route:name "Lost Warren deck" .
+
+route:Makawao_Avenue a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Makawao Avenue" .
+
+route:Naniloa_Drive a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Naniloa Drive" .
+
+route:Norfolk_Southern a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Norfolk Southern" .
+
+route:Norfolk_Southern_Railroad a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Norfolk Southern Railroad" .
+
+route:Norfolk_Southern_Railway a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Norfolk Southern Railway" .
+
+<http://dsci558.org/route#Ohe'o_Gulch> a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Ohe'o Gulch" .
+
+route:Old_Furnace_Road a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Old Furnace Road" .
+
+route:Old_GA_33 a sch:Route ;
+    route:locates_in county:Worth_County ;
+    route:name "Old GA 33" .
+
+route:Old_SR_50 a sch:Route ;
+    route:locates_in county:Worth_County ;
+    route:name "Old SR 50" .
+
+<http://dsci558.org/route#Pi'ilani_Highway> a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Pi'ilani Highway" .
+
+route:Poplar_Street a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Poplar Street" .
+
+route:RD_13 a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "RD 13" .
+
+route:Rehoboth_Road a sch:Route ;
+    route:locates_in county:Kent_County ;
+    route:name "Rehoboth Road" .
+
+route:Route_14 a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Route 14" .
+
+route:SR_70 a sch:Route ;
+    route:locates_in county:Yuba_County ;
+    route:name "SR 70" .
+
+route:Sand_Hill_Road a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Sand Hill Road" .
+
+route:Savannah_Road a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Savannah Road" .
+
+route:Seashore_Highway a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Seashore Highway" .
+
+route:Seashore_Hy_Sr18 a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Seashore Hy Sr18" .
+
+route:Sh_307 a sch:Route ;
+    route:locates_in county:Yell_County ;
+    route:name "Sh 307" .
+
+route:Slaughter_Beach a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Slaughter Beach" .
+
+route:South_Hana_Highway a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "South Hana Highway" .
+
+route:Sr_10 a sch:Route ;
+    route:locates_in county:Washington_County ;
+    route:name "Sr 10" .
+
+route:Sr_33 a sch:Route ;
+    route:locates_in county:Worth_County ;
+    route:name "Sr 33" .
+
+route:Stein_Highway a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Stein Highway" .
+
+route:Tyndall_Branch a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Tyndall Branch" .
+
+route:Union_Pacific_Railroad a sch:Route ;
+    route:locates_in county:Yuma_County ;
+    route:name "Union Pacific Railroad" .
+
+route:Union_Street a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Union Street" .
+
+route:Us_82 a sch:Route ;
+    route:locates_in county:Worth_County ;
+    route:name "Us 82" .
+
+route:Us_90 a sch:Route ;
+    route:locates_in county:Washington_County ;
+    route:name "Us 90" .
+
+route:Waiehu_Beach_Road a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Waiehu Beach Road" .
+
+route:Wailena_Gulch a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Wailena Gulch" .
+
+route:West_Waiuaiki_StreM a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "West Waiuaiki StreM" .
+
+route:Windham_Road a sch:Route ;
+    route:locates_in county:Windham_County ;
+    route:name "Windham Road" .
+
+route:Zoar_Road a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Zoar Road" .
+
+state:Alabama a sch:State ;
+    state:name "Alabama" .
+
+state:Alaska a sch:State ;
+    state:name "Alaska" .
+
+state:Arizona a sch:State ;
+    state:name "Arizona" .
+
+state:Arkansas a sch:State ;
+    state:name "Arkansas" .
+
+state:Colorado a sch:State ;
+    state:name "Colorado" .
+
+state:Connecticut a sch:State ;
+    state:name "Connecticut" .
+
+state:Hawaii a sch:State ;
+    state:name "Hawaii" .
+
+state:New_Jersey a sch:State ;
+    state:name "New Jersey" .
+
+county:Cape_May_County a sch:County ;
+    county:locates_in state:New_Jersey ;
+    county:name "Cape May County" .
+
+county:Crisp_County a sch:County ;
+    county:locates_in state:Georgia ;
+    county:name "Crisp County" .
+
+river:Broad_Creek a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Broad Creek" .
+
+river:Horse_Creek a sch:River ;
+    river:locates_in county:Worth_County ;
+    river:name "Horse Creek" .
+
+river:Kaupakalua_Stream a sch:River ;
+    river:locates_in county:Maui_County ;
+    river:name "Kaupakalua Stream" .
+
+river:Mispillion_River a sch:River ;
+    river:locates_in county:Kent_County ;
+    river:name "Mispillion River" .
+
+route:Haiku_Pauwela a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Haiku Pauwela" .
+
+route:Honoapiilani_Highway a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Honoapiilani Highway" .
+
+route:Kam_V_Hwy a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Kam V Hwy" .
+
+route:Lost_Bridge a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Lost Bridge" .
+
+route:Lost_Steel_stringer_bridge a sch:Route ;
+    route:locates_in county:Sussex_County,
+        county:Yuba_County ;
+    route:name "Lost Steel stringer bridge" .
+
+route:Mulberry_Street a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Mulberry Street" .
+
+route:Rehoboth_Avenue a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Rehoboth Avenue" .
+
+route:Rehoboth_Beach a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Rehoboth Beach" .
+
+state:California a sch:State ;
+    state:name "California" .
+
+state:Delaware a sch:State ;
+    state:name "Delaware" .
+
+state:Florida a sch:State ;
+    state:name "Florida" .
+
+state:Georgia a sch:State ;
+    state:name "Georgia" .
+
+<http://dsci558.org/builder#Keller_&_Harrington_of_Chicago> a sch:Builder ;
+    builder:name "Keller & Harrington of Chicago" .
+
+county:Holmes_County a sch:County ;
+    county:locates_in state:Florida ;
+    county:name "Holmes County" .
+
+county:Windham_County a sch:County ;
+    county:locates_in state:Connecticut ;
+    county:name "Windham County" .
+
+county:Yell_County a sch:County ;
+    county:locates_in state:Arkansas ;
+    county:name "Yell County" .
+
+county:Yukon-Koyukuk_Census_Area a sch:County ;
+    county:locates_in state:Alaska ;
+    county:name "Yukon-Koyukuk Census Area" .
+
+design:culvert a sch:Design ;
+    design:name "culvert" .
+
+material:stone a sch:Material ;
+    material:name "stone" .
+
+river:Broadkill_River a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Broadkill River" .
+
+river:Lewes_Rehoboth_Canal a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Lewes Rehoboth Canal" .
+
+route:Coastal_Highway a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Coastal Highway" .
+
+route:DE_1 a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "DE 1" .
+
+route:Delaware_Bay a sch:Route ;
+    route:locates_in county:Sussex_County ;
+    route:name "Delaware Bay" .
+
+county:Yuba_County a sch:County ;
+    county:locates_in state:California ;
+    county:name "Yuba County" .
+
+river:Nanticoke_River a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Nanticoke River" .
+
+route:US_9 a sch:Route ;
+    route:locates_in county:Cape_May_County,
+        county:Sussex_County ;
+    route:name "US 9" .
+
+county:Kent_County a sch:County ;
+    county:locates_in state:Delaware ;
+    county:name "Kent County" .
+
+county:Winston_County a sch:County ;
+    county:locates_in state:Alabama ;
+    county:name "Winston County" .
+
+material:timber a sch:Material ;
+    material:name "timber" .
+
+river:Indian_River_Inlet a sch:River ;
+    river:locates_in county:Sussex_County ;
+    river:name "Indian River Inlet" .
+
+county:Yuma_County a sch:County ;
+    county:locates_in state:Arizona,
+        state:Colorado ;
+    county:name "Yuma County" .
+
+design:suspension a sch:Design ;
+    design:name "suspension" .
+
+county:Washington_County a sch:County ;
+    county:locates_in state:Florida ;
+    county:name "Washington County" .
+
+material:steel a sch:Material ;
+    material:name "steel" .
+
+route:Hana_Hwy a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Hana Hwy" .
+
+design:truss a sch:Design ;
+    design:name "truss" .
+
+design:arch a sch:Design ;
+    design:name "arch" .
+
+county:Worth_County a sch:County ;
+    county:locates_in state:Georgia ;
+    county:name "Worth County" .
+
+route:Hana_Highway a sch:Route ;
+    route:locates_in county:Maui_County ;
+    route:name "Hana Highway" .
+
+material:concrete a sch:Material ;
+    material:name "concrete" .
+
+design:beam a sch:Design ;
+    design:name "beam" .
+
+county:Sussex_County a sch:County ;
+    county:locates_in state:Delaware ;
+    county:name "Sussex County" .
+
+county:Maui_County a sch:County ;
+    county:locates_in state:Hawaii ;
+    county:name "Maui County" .
+
