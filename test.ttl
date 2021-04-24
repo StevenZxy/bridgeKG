@@ -1,3592 +1,847 @@
 PREFIX bridge: <http://dsci558.org/usbridge#>
-PREFIX builder: <http://dsci558.org/builder#>
-PREFIX county: <http://dsci558.org/county#>
-PREFIX state: <http://dsci558.org/state#> 
-PREFIX design: <http://dsci558.org/design#>
-PREFIX maintainer: <http://dsci558.org/maintainer#>
-PREFIX material: <http://dsci558.org/material#>
 PREFIX place: <http://dsci558.org/place#>
-PREFIX river: <http://dsci558.org/river#>
-PREFIX route: <http://dsci558.org/route#>
 PREFIX sch: <http://schema.org/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
 
 bridge:1 a sch:Bridge ;
-    bridge:built_in 1961 ;
-    bridge:crosses_river river:Rock_Creek,
-        river:Smith_Lake ;
-    bridge:deck_condition "Fair" ;
-    bridge:deck_width 24.0 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Winston_County ;
-    bridge:in_state state:Alabama ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 180.1 ;
     bridge:name "Swayback Bridge" ;
-    bridge:on_route route:Co_Rt_77,
-        route:Helicon_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 63.3 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 865.2 ;
-    bridge:traffic 500 ;
-    bridge:url "https://bridgehunter.com/al/winston/swayback/" ;
-    sch:latitude 34.08795 ;
-    sch:longitude -87.16961 .
+    bridge:url "https://bridgehunter.com/al/winston/swayback/" .
 
 bridge:10 a sch:Bridge ;
-    bridge:built_by builder:Pensacola_Shipbuilding_Co._of_Pensacola ;
-    bridge:built_in 1927 ;
-    bridge:crosses_river river:Us90_Sr10_Choctaw_River ;
-    bridge:deck_width 25.9 ;
-    bridge:design_type design:suspension,
-        design:truss ;
-    bridge:in_county county:Holmes_County,
-        county:Washington_County ;
-    bridge:in_place place:Caryville ;
-    bridge:in_state state:Florida ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 108.9 ;
     bridge:name "Caryville Bridge" ;
-    bridge:on_route route:Lost_Warren_deck,
-        route:Sr_10,
-        route:Us_90 ;
-    bridge:rehabilitated true ;
-    bridge:status "Replaced by new bridge" ;
-    bridge:total_length "2,501.1"^^xsd:decimal ;
+    bridge:place place:Caryville ;
     bridge:url "https://bridgehunter.com/fl/washington/caryville/" ;
-    sch:image "https://bridgehunter.com/photos/14/63/146377-M.jpg" ;
-    sch:latitude 30.78333 ;
-    sch:longitude -85.81667 .
+    sch:image "https://bridgehunter.com/photos/14/63/146377-M.jpg" .
 
 bridge:100 a sch:Bridge ;
-    bridge:built_in 1964 ;
-    bridge:in_county county:Cape_May_County,
-        county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware,
-        state:New_Jersey ;
-    bridge:is_open "TRUE" ;
     bridge:name "Cape May-Lewes Ferry" ;
-    bridge:on_route route:Delaware_Bay,
-        route:US_9 ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/nj/cape-may/cape-may--lewes-ferry/" ;
-    sch:image "https://bridgehunter.com/photos/25/62/256225-M.jpg" ;
-    sch:latitude 38.96740 ;
-    sch:longitude -74.96262 .
+    sch:image "https://bridgehunter.com/photos/25/62/256225-M.jpg" .
 
 bridge:101 a sch:Bridge ;
-    bridge:built_in 1937 ;
-    bridge:crosses_river river:Willimantic_River ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 33.1 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Tolland_County,
-        county:Windham_County ;
-    bridge:in_place place:Willimantic ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 69.9 ;
-    bridge:made_from material:concrete,
-        material:steel ;
     bridge:name "Willimantic River Bridge" ;
-    bridge:on_route route:East_Coast_Greenway,
-        route:Route_66 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 79.5 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 206.0 ;
-    bridge:traffic "8,633"^^xsd:integer ;
+    bridge:place place:Willimantic ;
     bridge:url "https://bridgehunter.com/ct/tolland/willimantic-river/" ;
-    sch:image "https://bridgehunter.com/photos/35/72/357226-M.jpg" ;
-    sch:latitude 41.71715 ;
-    sch:longitude -72.24443 .
+    sch:image "https://bridgehunter.com/photos/35/72/357226-M.jpg" .
 
 bridge:102 a sch:Bridge ;
-    bridge:built_in 1869 ;
-    bridge:crosses_river river:Willimantic_River ;
-    bridge:deck_width 21.0 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 76.1 ;
-    bridge:made_from material:stone ;
     bridge:name "Willimantic River Bridge" ;
-    bridge:on_route route:CT_601,
-        route:Windham_Road ;
-    bridge:rehabilitated false ;
-    bridge:status "Unknown status" ;
-    bridge:total_length 129.9 ;
     bridge:url "https://bridgehunter.com/ct/windham/1850/" .
 
 bridge:103 a sch:Bridge ;
-    bridge:built_by builder:C.W._Higley,
-        builder:Owego_Bridge_Co._of_Owego ;
-    bridge:built_in 1906 ;
-    bridge:crosses_river river:Willimantic_River ;
-    bridge:deck_width 8.0 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Willimantic ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 156.0 ;
     bridge:name "Willimantic Footbridge" ;
-    bridge:on_route route:New_England_Central_Railroad,
-        route:Pedestrian_Path ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to pedestrians only" ;
-    bridge:total_length 635.0 ;
+    bridge:place place:Willimantic ;
     bridge:url "http://www.wikidata.org/entity/Q8021951",
         "https://bridgehunter.com/ct/windham/bh64286/" ;
     sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/Willimantic%20pedestrian%20bridge%2C%20middle.JPG",
-        "https://bridgehunter.com/photos/30/92/309232-M.jpg" ;
-    sch:latitude 41.71089 ;
-    sch:longitude -72.21295 .
+        "https://bridgehunter.com/photos/30/92/309232-M.jpg" .
 
 bridge:104 a sch:Bridge ;
-    bridge:built_in 1929 ;
-    bridge:crosses_river river:Knowlton_Brook ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 27.6 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Ashford ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 29.9 ;
-    bridge:made_from material:concrete ;
     bridge:name "US 44-Knowlton Brook Bridge" ;
-    bridge:on_route route:Us_Route_44,
-        route:West_Ashford ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 77.3 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 33.1 ;
-    bridge:traffic "4,600"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/ct/windham/bh82045/" ;
-    sch:latitude 41.85251 ;
-    sch:longitude -72.18954 .
+    bridge:place place:Ashford ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh82045/" .
 
 bridge:105 a sch:Bridge ;
-    bridge:built_in 1929 ;
-    bridge:crosses_river river:Bigelow_Brook ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 28.2 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Eastford ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 40.0 ;
-    bridge:made_from material:concrete ;
     bridge:name "US 44-Bigelow Brook Bridge" ;
-    bridge:on_route route:Us_Route_44 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 63.0 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 44.0 ;
-    bridge:traffic "7,600"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/ct/windham/bh82046/" ;
-    sch:latitude 41.87918 ;
-    sch:longitude -72.09980 .
+    bridge:place place:Eastford ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh82046/" .
 
 bridge:106 a sch:Bridge ;
-    bridge:built_by builder:Corrugated_Metal_Co._of_East_Berlin ;
-    bridge:built_in 1877 ;
-    bridge:crosses_river river:Shetucket_River ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Windham ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
     bridge:name "The Red Bridge" ;
-    bridge:on_route route:Lost_Lenticular,
-        route:Plains_Road ;
-    bridge:rehabilitated false ;
-    bridge:status "No longer exists" ;
+    bridge:place place:Windham ;
     bridge:url "https://bridgehunter.com/ct/windham/the-red/" ;
-    sch:image "https://bridgehunter.com/photos/38/56/385682-M.jpg" ;
-    sch:latitude 41.70025 ;
-    sch:longitude -72.18183 .
+    sch:image "https://bridgehunter.com/photos/38/56/385682-M.jpg" .
 
 bridge:107 a sch:Bridge ;
-    bridge:built_in 2000 ;
-    bridge:deck_condition "Very Good" ;
-    bridge:deck_width 27.6 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 66.9 ;
-    bridge:made_from material:timber ;
     bridge:name "Shepard Hill Road Bridge" ;
-    bridge:on_route route:Shepard_Hill_Road,
-        route:Worc_Railroad ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Very Good" ;
-    bridge:sufficiency 96.4 ;
-    bridge:superstructure_condition "Very Good" ;
-    bridge:total_length 77.1 ;
-    bridge:traffic 584 ;
-    bridge:url "https://bridgehunter.com/ct/windham/4018/" ;
-    sch:latitude 41.78221 ;
-    sch:longitude -71.88614 .
+    bridge:url "https://bridgehunter.com/ct/windham/4018/" .
 
 bridge:108 a sch:Bridge ;
-    bridge:built_in 1939 ;
-    bridge:crosses_river river:Beaver_Brook ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 31.5 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Scotland ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 24.0 ;
-    bridge:made_from material:concrete ;
     bridge:name "RT 14-Beaver Brook Bridge" ;
-    bridge:on_route route:Route_14 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 89.0 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 28.9 ;
-    bridge:traffic "3,800"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/ct/windham/bh82047/" ;
-    sch:latitude 41.69762 ;
-    sch:longitude -72.11236 .
+    bridge:place place:Scotland ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh82047/" .
 
 bridge:109 a sch:Bridge ;
-    bridge:built_by builder:Berlin_Iron_Bridge_Co._of_East_Berlin ;
-    bridge:built_in 1886 ;
-    bridge:crosses_river river:Moosup_River,
-        river:River_Street ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 14.1 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Moosup ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 101.1 ;
     bridge:name "River Street Bridge" ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated true ;
-    bridge:status "no longer exists." ;
-    bridge:substructure_condition "Very Good" ;
-    bridge:sufficiency 78.5 ;
-    bridge:superstructure_condition "Very Good" ;
-    bridge:total_length 105.0 ;
-    bridge:traffic "2,929"^^xsd:integer ;
+    bridge:place place:Moosup ;
     bridge:url "https://bridgehunter.com/ct/windham/river-street/" ;
-    sch:image "https://bridgehunter.com/photos/12/85/128516-M.jpg" ;
-    sch:latitude 41.71475 ;
-    sch:longitude -71.87931 .
+    sch:image "https://bridgehunter.com/photos/12/85/128516-M.jpg" .
 
 bridge:11 a sch:Bridge ;
-    bridge:built_in 1926 ;
-    bridge:crosses_river river:Swift_Creek ;
-    bridge:deck_width 13.5 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Crisp_County,
-        county:Worth_County ;
-    bridge:in_place place:Warwick ;
-    bridge:in_state state:Georgia ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 69.9 ;
     bridge:name "Swift Creek Bridge" ;
-    bridge:on_route route:CR_297,
-        route:Fanns_Bridge_Road ;
-    bridge:rehabilitated true ;
-    bridge:status "Replaced by a new bridge" ;
-    bridge:total_length 129.9 ;
+    bridge:place place:Warwick ;
     bridge:url "https://bridgehunter.com/ga/worth/32150670/" ;
-    sch:image "https://bridgehunter.com/photos/18/15/181523-M.jpg" ;
-    sch:latitude 31.83873 ;
-    sch:longitude -83.88380 .
+    sch:image "https://bridgehunter.com/photos/18/15/181523-M.jpg" .
 
 bridge:110 a sch:Bridge ;
-    bridge:built_in 1931 ;
-    bridge:crosses_river river:Quinebaug_River ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 29.9 ;
-    bridge:design_type design:beam,
-        design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Thompson ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 80.1 ;
     bridge:name "Quinebaug River Bridge (Replacement)" ;
-    bridge:on_route route:Route_197 ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 75.7 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 85.0 ;
-    bridge:traffic "2,800"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/ct/windham/quinebaug-river/" ;
-    sch:latitude 42.02193 ;
-    sch:longitude -71.95405 .
+    bridge:place place:Thompson ;
+    bridge:url "https://bridgehunter.com/ct/windham/quinebaug-river/" .
 
 bridge:111 a sch:Bridge ;
-    bridge:built_by builder:King_Bridge_Co._of_Cleveland ;
-    bridge:crosses_river river:Quinebaug_River ;
-    bridge:design_type design:arch,
-        design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Thompson ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
     bridge:name "Quinebaug River Bridge (Old)" ;
-    bridge:on_route route:Rt_197 ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
+    bridge:place place:Thompson ;
     bridge:url "https://bridgehunter.com/ct/windham/bh84677/" ;
-    sch:image "https://bridgehunter.com/photos/44/47/444725-M.jpg" ;
-    sch:latitude 42.02185 ;
-    sch:longitude -71.95421 .
+    sch:image "https://bridgehunter.com/photos/44/47/444725-M.jpg" .
 
 bridge:112 a sch:Bridge ;
-    bridge:built_by builder:Berlin_Iron_Bridge_Co._of_East_Berlin ;
-    bridge:crosses_river river:Quinebaug_River ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Danielson ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
     bridge:name "Quinebaug Bridge" ;
-    bridge:on_route route:Lost_Bridge,
-        route:Main_Street ;
-    bridge:rehabilitated true ;
-    bridge:status "Demolished" ;
+    bridge:place place:Danielson ;
     bridge:url "https://bridgehunter.com/ct/windham/quinnebaug/" ;
-    sch:image "https://bridgehunter.com/photos/49/34/493466-M.jpg" ;
-    sch:latitude 41.80156 ;
-    sch:longitude -71.88743 .
+    sch:image "https://bridgehunter.com/photos/49/34/493466-M.jpg" .
 
 bridge:113 a sch:Bridge ;
-    bridge:built_in 1904 ;
-    bridge:crosses_river river:Willimantic_River ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Willimantic ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 103.0 ;
     bridge:name "PW - Willimantic River Bridge" ;
-    bridge:on_route route:Worcester_Railroad ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:total_length 257.0 ;
-    bridge:url "https://bridgehunter.com/ct/windham/bh64925/" ;
-    sch:latitude 41.70999 ;
-    sch:longitude -72.21072 .
+    bridge:place place:Willimantic ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh64925/" .
 
 bridge:114 a sch:Bridge ;
-    bridge:built_in 1907 ;
-    bridge:crosses_river river:Shetucket_River ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Windham ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 58.0 ;
     bridge:name "PW - Shetucket River Bridge" ;
-    bridge:on_route <http://dsci558.org/route#P&W_Willimantic_Branch> ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:total_length 245.0 ;
-    bridge:url "https://bridgehunter.com/ct/windham/pw---shetucket-river/" ;
-    sch:latitude 41.69858 ;
-    sch:longitude -72.18276 .
+    bridge:place place:Windham ;
+    bridge:url "https://bridgehunter.com/ct/windham/pw---shetucket-river/" .
 
 bridge:115 a sch:Bridge ;
-    bridge:built_in 1911 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Windham ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 33.0 ;
     bridge:name "PW - Plains Road Overpass" ;
-    bridge:on_route <http://dsci558.org/route#P&W_Willimantic_Branch>,
-        route:Plains_Road ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:total_length 38.0 ;
-    bridge:url "https://bridgehunter.com/ct/windham/bh68142/" ;
-    sch:latitude 41.70244 ;
-    sch:longitude -72.18675 .
+    bridge:place place:Windham ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh68142/" .
 
 bridge:116 a sch:Bridge ;
-    bridge:crosses_river river:Mill_Brook ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Plainfield ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
     bridge:name "PW - Packers Pond Bridge" ;
-    bridge:on_route route:Worcester_Railroad ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:url "https://bridgehunter.com/ct/windham/pw---packers-pond/" ;
-    sch:latitude 41.66662 ;
-    sch:longitude -71.94749 .
+    bridge:place place:Plainfield ;
+    bridge:url "https://bridgehunter.com/ct/windham/pw---packers-pond/" .
 
 bridge:117 a sch:Bridge ;
-    bridge:built_in 1901 ;
-    bridge:crosses_river river:Merrick_Brook ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Scotland ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 55.0 ;
     bridge:name "PW - Merrick Brook Bridge" ;
-    bridge:on_route <http://dsci558.org/route#P&W_Willimantic_Branch> ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:total_length 60.0 ;
-    bridge:url "https://bridgehunter.com/ct/windham/pw---merrick-brook/" ;
-    sch:latitude 41.66108 ;
-    sch:longitude -72.10961 .
+    bridge:place place:Scotland ;
+    bridge:url "https://bridgehunter.com/ct/windham/pw---merrick-brook/" .
 
 bridge:118 a sch:Bridge ;
-    bridge:crosses_river river:Fivemile_River ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Killingly ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:stone ;
     bridge:name "PW - Fivemile River Bridge (Dayville)" ;
-    bridge:on_route route:Worcester_Railroad ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:url "https://bridgehunter.com/ct/windham/bh65427/" ;
-    sch:latitude 41.84839 ;
-    sch:longitude -71.88894 .
+    bridge:place place:Killingly ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh65427/" .
 
 bridge:119 a sch:Bridge ;
-    bridge:crosses_river river:Fivemile_River ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Danielson ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:stone ;
     bridge:name "PW - Fivemile River Bridge" ;
-    bridge:on_route route:Worcester_Railroad ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
+    bridge:place place:Danielson ;
     bridge:url "https://bridgehunter.com/ct/windham/bh65274/" ;
-    sch:image "https://bridgehunter.com/photos/31/23/312386-M.jpg" ;
-    sch:latitude 41.82463 ;
-    sch:longitude -71.88484 .
+    sch:image "https://bridgehunter.com/photos/31/23/312386-M.jpg" .
 
 bridge:12 a sch:Bridge ;
-    bridge:built_by builder:Georgia_State_Highway_Department ;
-    bridge:built_in 1922 ;
-    bridge:deck_width 18.0 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Worth_County ;
-    bridge:in_place place:Poulan ;
-    bridge:in_state state:Georgia ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 69.9 ;
     bridge:name "Old SR 50 Bridge" ;
-    bridge:on_route route:Old_SR_50 ;
-    bridge:rehabilitated false ;
-    bridge:status "Intact but closed to all traffic" ;
-    bridge:total_length 129.9 ;
+    bridge:place place:Poulan ;
     bridge:url "https://bridgehunter.com/ga/worth/bh72634/" ;
-    sch:image "https://bridgehunter.com/photos/35/69/356979-M.jpg" ;
-    sch:latitude 31.51225 ;
-    sch:longitude -83.77356 .
+    sch:image "https://bridgehunter.com/photos/35/69/356979-M.jpg" .
 
 bridge:120 a sch:Bridge ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Putnam ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:stone ;
     bridge:name "PW - Arch Street Overpass" ;
-    bridge:on_route route:Arch_Street,
-        route:Worcester_Railroad ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
+    bridge:place place:Putnam ;
     bridge:url "https://bridgehunter.com/ct/windham/bh65428/" ;
-    sch:image "https://bridgehunter.com/photos/38/04/380499-M.jpg" ;
-    sch:latitude 41.90969 ;
-    sch:longitude -71.90564 .
+    sch:image "https://bridgehunter.com/photos/38/04/380499-M.jpg" .
 
 bridge:121 a sch:Bridge ;
-    bridge:built_in 1925 ;
-    bridge:crosses_river river:Quinebaug_River ;
-    bridge:deck_width 30.5 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Putnam ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
     bridge:name "Putnam Memorial Bridge" ;
-    bridge:on_route route:US_44 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 71.5 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 67.9 ;
-    bridge:traffic "11,700"^^xsd:integer ;
+    bridge:place place:Putnam ;
     bridge:url "https://bridgehunter.com/ct/windham/992/" ;
-    sch:image "https://bridgehunter.com/photos/47/03/470365-M.jpg" ;
-    sch:latitude 41.91502 ;
-    sch:longitude -71.91089 .
+    sch:image "https://bridgehunter.com/photos/47/03/470365-M.jpg" .
 
 bridge:122 a sch:Bridge ;
-    bridge:built_by builder:Berlin_Iron_Bridge_Co._of_East_Berlin ;
-    bridge:crosses_river river:Quinebaug_River ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Putnam ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
     bridge:name "Providence Street Bridge" ;
-    bridge:on_route route:Lost_Lenticular,
-        route:Providence_Street ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
+    bridge:place place:Putnam ;
     bridge:url "https://bridgehunter.com/ct/windham/providence-street/" ;
-    sch:image "https://bridgehunter.com/photos/49/35/493503-M.jpg" ;
-    sch:latitude 41.92287 ;
-    sch:longitude -71.90735 .
+    sch:image "https://bridgehunter.com/photos/49/35/493503-M.jpg" .
 
 bridge:123 a sch:Bridge ;
-    bridge:built_in 1880 ;
-    bridge:crosses_river river:Willimantic_River ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Willimantic ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
     bridge:name "Pine Street Bridge" ;
-    bridge:on_route route:Pine_Street ;
-    bridge:rehabilitated false ;
-    bridge:status "Closed to all traffic" ;
+    bridge:place place:Willimantic ;
     bridge:url "https://bridgehunter.com/ct/windham/windham-mills/" ;
-    sch:image "https://bridgehunter.com/photos/35/52/355208-M.jpg" ;
-    sch:latitude 41.71153 ;
-    sch:longitude -72.20256 .
+    sch:image "https://bridgehunter.com/photos/35/52/355208-M.jpg" .
 
 bridge:124 a sch:Bridge ;
-    bridge:built_by builder:Berlin_Iron_Bridge_Co._of_East_Berlin ;
-    bridge:built_in 1890 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Chaplin ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
     bridge:name "Phoenixville Road-Natchaug River Bridge (Old)" ;
-    bridge:on_route route:Lost_Lenticular_pony ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
+    bridge:place place:Chaplin ;
     bridge:url "https://bridgehunter.com/ct/windham/bh75296/" ;
-    sch:image "https://bridgehunter.com/photos/37/67/376733-M.jpg" ;
-    sch:latitude 41.77823 ;
-    sch:longitude -72.13138 .
+    sch:image "https://bridgehunter.com/photos/37/67/376733-M.jpg" .
 
 bridge:125 a sch:Bridge ;
-    bridge:built_in 1850 ;
-    bridge:crosses_river river:Whetstone_Brook ;
-    bridge:deck_width 16.7 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 9.8 ;
-    bridge:made_from material:stone ;
     bridge:name "Peep Toad Road Bridge" ;
-    bridge:on_route route:Peep_Toad_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 41.3 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 23.0 ;
-    bridge:traffic 104 ;
     bridge:url "https://bridgehunter.com/ct/windham/4700/" ;
-    sch:image "https://bridgehunter.com/photos/47/03/470362-M.jpg" ;
-    sch:latitude 41.83917 ;
-    sch:longitude -71.84139 .
+    sch:image "https://bridgehunter.com/photos/47/03/470362-M.jpg" .
 
 bridge:126 a sch:Bridge ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Chaplin ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
-    bridge:made_from material:timber ;
     bridge:name "Parker Road Bridge" ;
-    bridge:on_route route:Airline_North_State_Park_Trail,
-        route:Park_Trail,
-        route:Parker_Road ;
-    bridge:rehabilitated false ;
-    bridge:status "Derelict/abandoned" ;
-    bridge:url "https://bridgehunter.com/ct/windham/parker-road/" ;
-    sch:latitude 41.76603 ;
-    sch:longitude -72.09316 .
+    bridge:place place:Chaplin ;
+    bridge:url "https://bridgehunter.com/ct/windham/parker-road/" .
 
 bridge:127 a sch:Bridge ;
-    bridge:built_by builder:Issac_Baldwin,
-        builder:Nathaniel_Olin ;
-    bridge:built_in 1886 ;
-    bridge:crosses_river river:Mill_Brook ;
-    bridge:deck_condition "Very Good" ;
-    bridge:deck_width 13.1 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Plainfield ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:stone ;
     bridge:name "Packerville Bridge" ;
-    bridge:on_route route:Packerville_Road ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Very Good" ;
-    bridge:sufficiency 75.5 ;
-    bridge:superstructure_condition "Very Good" ;
-    bridge:total_length 25.9 ;
-    bridge:traffic 994 ;
+    bridge:place place:Plainfield ;
     bridge:url "http://www.wikidata.org/entity/Q7122986",
         "https://bridgehunter.com/ct/windham/4754/" ;
     sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/PlainfieldCT%20PackervilleBridge.jpg",
-        "https://bridgehunter.com/photos/36/09/360996-M.jpg" ;
-    sch:latitude 41.66714 ;
-    sch:longitude -71.94852 .
+        "https://bridgehunter.com/photos/36/09/360996-M.jpg" .
 
 bridge:128 a sch:Bridge ;
-    bridge:built_by <http://dsci558.org/builder#Lewis_F._Shoemaker_&_Co._of_Pottstown>,
-        builder:Schuylkill_Bridge_Works ;
-    bridge:built_in 1905 ;
-    bridge:crosses_river river:French_River ;
-    bridge:design_type design:beam,
-        design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
     bridge:name "P&W - French River Bridge" ;
-    bridge:on_route route:Worcester_Railroad ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/ct/windham/bh92755/" ;
-    sch:image "https://bridgehunter.com/photos/49/55/495569-M.jpg" ;
-    sch:latitude 42.01391 ;
-    sch:longitude -71.88577 .
+    sch:image "https://bridgehunter.com/photos/49/55/495569-M.jpg" .
 
 bridge:129 a sch:Bridge ;
-    bridge:built_in 1913 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Norwich ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 59.7 ;
     bridge:name "P & W Norwich Bridge" ;
-    bridge:on_route route:Us_Route_44 ;
-    bridge:rehabilitated false ;
-    bridge:status "Unknown status" ;
-    bridge:total_length 71.5 ;
-    bridge:url "https://bridgehunter.com/ct/windham/bh82044/" ;
-    sch:latitude 41.91560 ;
-    sch:longitude -71.90782 .
+    bridge:place place:Norwich ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh82044/" .
 
 bridge:13 a sch:Bridge ;
-    bridge:built_in 1925 ;
-    bridge:crosses_river river:Piney_Woods_Creek ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 20.0 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Worth_County ;
-    bridge:in_state state:Georgia ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 69.9 ;
-    bridge:made_from material:concrete ;
     bridge:name "Little Piney Woods Creek Bridge" ;
-    bridge:on_route route:Cr_318 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 30.0 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 25.9 ;
-    bridge:traffic 490 ;
-    bridge:url "https://bridgehunter.com/ga/worth/bh77215/" ;
-    sch:latitude 31.54823 ;
-    sch:longitude -83.90662 .
+    bridge:url "https://bridgehunter.com/ga/worth/bh77215/" .
 
 bridge:130 a sch:Bridge ;
-    bridge:crosses_river river:Moosup_River ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Plainfield ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
-    bridge:made_from material:steel ;
     bridge:name "Old School Street Extension Bridge" ;
-    bridge:on_route route:School_Street_Extension ;
-    bridge:rehabilitated false ;
-    bridge:status "Derelict/abandoned" ;
+    bridge:place place:Plainfield ;
     bridge:url "https://bridgehunter.com/ct/windham/bh82043/" ;
-    sch:image "https://bridgehunter.com/photos/47/03/470337-M.jpg" ;
-    sch:latitude 41.72061 ;
-    sch:longitude -71.91631 .
+    sch:image "https://bridgehunter.com/photos/47/03/470337-M.jpg" .
 
 bridge:131 a sch:Bridge ;
-    bridge:built_in 1955 ;
-    bridge:crosses_river river:Quinebaug_River,
-        river:River_Road ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Putnam ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
     bridge:name "NH - Quinebaug River Bridge" ;
-    bridge:on_route route:Kennedy_Drive,
-        route:Lost_Deck_plate_girder_bridge,
-        <http://dsci558.org/route#NYNH&H_Midland_Division> ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a pedestrian bridge" ;
-    bridge:total_length 330.0 ;
+    bridge:place place:Putnam ;
     bridge:url "https://bridgehunter.com/ct/windham/bh61882/" ;
-    sch:image "https://bridgehunter.com/photos/30/92/309239-M.jpg" ;
-    sch:latitude 41.90797 ;
-    sch:longitude -71.90802 .
+    sch:image "https://bridgehunter.com/photos/30/92/309239-M.jpg" .
 
 bridge:132 a sch:Bridge ;
-    bridge:built_in 1920 ;
-    bridge:crosses_river river:Moosup_River ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Moosup ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 79.0 ;
     bridge:name "NH - Moosup River Bridge" ;
-    bridge:on_route route:New_Haven_Railroad ;
-    bridge:rehabilitated false ;
-    bridge:status "Derelict/abandoned" ;
-    bridge:total_length 201.0 ;
-    bridge:url "https://bridgehunter.com/ct/windham/nh---moosup-river/" ;
-    sch:latitude 41.71072 ;
-    sch:longitude -71.88715 .
+    bridge:place place:Moosup ;
+    bridge:url "https://bridgehunter.com/ct/windham/nh---moosup-river/" .
 
 bridge:133 a sch:Bridge ;
-    bridge:built_in 1905 ;
-    bridge:crosses_river river:French_River ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
-    bridge:made_from material:wood ;
     bridge:name "NH - French River Bridge" ;
-    bridge:on_route route:Hartford_Railroad,
-        route:New_Haven,
-        route:New_York ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
     bridge:url "https://bridgehunter.com/ct/windham/nh-french-river/" ;
-    sch:image "https://bridgehunter.com/photos/49/55/495570-M.jpg" ;
-    sch:latitude 42.01386 ;
-    sch:longitude -71.88576 .
+    sch:image "https://bridgehunter.com/photos/49/55/495570-M.jpg" .
 
 bridge:134 a sch:Bridge ;
-    bridge:design_type design:beam,
-        design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Willimantic ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
     bridge:name "NECR - Windham Road Overpass" ;
-    bridge:on_route route:New_England_Central_Railroad,
-        route:Windham_Road ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
+    bridge:place place:Willimantic ;
     bridge:url "https://bridgehunter.com/ct/windham/railroad/" ;
-    sch:image "https://bridgehunter.com/photos/31/64/316472-M.jpg" ;
-    sch:latitude 41.70920 ;
-    sch:longitude -72.20630 .
+    sch:image "https://bridgehunter.com/photos/31/64/316472-M.jpg" .
 
 bridge:135 a sch:Bridge ;
-    bridge:built_in 1913 ;
-    bridge:crosses_river river:Quinebaug_River ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Putnam ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
     bridge:name "Long Bridge" ;
-    bridge:on_route route:Bridge_Street,
-        route:Lost_Closed ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
+    bridge:place place:Putnam ;
     bridge:url "https://bridgehunter.com/ct/windham/long/" ;
-    sch:image "https://bridgehunter.com/photos/49/35/493524-M.jpg" ;
-    sch:latitude 41.91832 ;
-    sch:longitude -71.91011 .
+    sch:image "https://bridgehunter.com/photos/49/35/493524-M.jpg" .
 
 bridge:136 a sch:Bridge ;
-    bridge:built_in 1928 ;
-    bridge:crosses_river river:Kitt_Brook ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 21.0 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 24.9 ;
-    bridge:made_from material:timber ;
     bridge:name "Kitt Brook Bridge" ;
-    bridge:on_route route:Tracy_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 66.8 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 27.9 ;
-    bridge:traffic 166 ;
-    bridge:url "https://bridgehunter.com/ct/windham/5413/" ;
-    sch:latitude 41.68972 ;
-    sch:longitude -71.98778 .
+    bridge:url "https://bridgehunter.com/ct/windham/5413/" .
 
 bridge:137 a sch:Bridge ;
-    bridge:built_in 1972 ;
-    bridge:crosses_river river:Hop_River_State_Park_Trail,
-        river:Willimantic_River ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Tolland_County,
-        county:Windham_County ;
-    bridge:in_place place:Columbia ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
     bridge:name "Hop River State Park Trail - Willimantic River Bridge" ;
-    bridge:on_route route:Park_Trail ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to pedestrians and bicycles" ;
+    bridge:place place:Columbia ;
     bridge:url "https://bridgehunter.com/ct/tolland/bh61884/" ;
-    sch:image "https://bridgehunter.com/photos/35/72/357228-M.jpg" ;
-    sch:latitude 41.71829 ;
-    sch:longitude -72.24460 .
+    sch:image "https://bridgehunter.com/photos/35/72/357228-M.jpg" .
 
 bridge:138 a sch:Bridge ;
-    bridge:crosses_river river:Natchaug_River ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:North_Windham ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
     bridge:name "Hall's Mill Bridge" ;
-    bridge:on_route route:Lost_Bridge,
-        route:Mansfield_Road ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
+    bridge:place place:North_Windham ;
     bridge:url "https://bridgehunter.com/ct/windham/bh91177/" ;
-    sch:image "https://bridgehunter.com/photos/48/54/485405-M.jpg" ;
-    sch:latitude 41.75275 ;
-    sch:longitude -72.15477 .
+    sch:image "https://bridgehunter.com/photos/48/54/485405-M.jpg" .
 
 bridge:139 a sch:Bridge ;
-    bridge:built_by builder:Berlin_Iron_Bridge_Co._of_East_Berlin ;
-    bridge:built_in 1886 ;
-    bridge:crosses_river river:Moosup_River ;
-    bridge:deck_width 14.1 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Moosup ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 120.1 ;
     bridge:name "Glen Falls Bridge" ;
-    bridge:on_route route:Brunswick_Avenue ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to pedestrians only" ;
-    bridge:total_length 124.0 ;
+    bridge:place place:Moosup ;
     bridge:url "http://www.wikidata.org/entity/Q5567741",
         "https://bridgehunter.com/ct/windham/4402/" ;
     sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/PlainfieldCT%20GlenFallsBridge2.jpg",
-        "https://bridgehunter.com/photos/35/51/355198-M.jpg" ;
-    sch:latitude 41.71703 ;
-    sch:longitude -71.86133 .
+        "https://bridgehunter.com/photos/35/51/355198-M.jpg" .
 
 bridge:14 a sch:Bridge ;
-    bridge:built_in 1956 ;
-    bridge:crosses_river river:Horse_Creek ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 27.9 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Worth_County ;
-    bridge:in_state state:Georgia ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 29.9 ;
-    bridge:made_from material:concrete ;
     bridge:name "Horse Creek Bridge -New 33" ;
-    bridge:on_route route:Sr_33 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 83.2 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 89.9 ;
-    bridge:traffic "1,430"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/ga/worth/bh77212/" ;
-    sch:latitude 31.43386 ;
-    sch:longitude -83.83486 .
+    bridge:url "https://bridgehunter.com/ga/worth/bh77212/" .
 
 bridge:140 a sch:Bridge ;
-    bridge:built_in 2000 ;
-    bridge:crosses_river river:Willimantic_River ;
-    bridge:deck_width 14.1 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Willimantic ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 120.1 ;
-    bridge:made_from material:steel ;
     bridge:name "Frog Bridge" ;
-    bridge:on_route route:South_Street ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:total_length 476.0 ;
+    bridge:place place:Willimantic ;
     bridge:url "https://bridgehunter.com/ct/windham/frog/" ;
-    sch:image "https://bridgehunter.com/photos/39/82/398226-M.jpg" ;
-    sch:latitude 41.70992 ;
-    sch:longitude -72.20964 .
+    sch:image "https://bridgehunter.com/photos/39/82/398226-M.jpg" .
 
 bridge:141 a sch:Bridge ;
-    bridge:built_in 1931 ;
-    bridge:crosses_river river:Mile_River ;
-    bridge:deck_width 29.9 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Putnam ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 120.1 ;
     bridge:name "Five Mile River Bridge" ;
-    bridge:on_route route:US_44 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 62.4 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 35.1 ;
-    bridge:traffic "5,400"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/ct/windham/994/" ;
-    sch:latitude 41.91873 ;
-    sch:longitude -71.82981 .
+    bridge:place place:Putnam ;
+    bridge:url "https://bridgehunter.com/ct/windham/994/" .
 
 bridge:142 a sch:Bridge ;
-    bridge:built_in 1860 ;
-    bridge:crosses_river river:Mile_River ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 18.4 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Killingly ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 120.1 ;
-    bridge:made_from material:stone ;
     bridge:name "Five Mile River Bridge" ;
-    bridge:on_route route:Attawaugan_Ballouville_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 65.2 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 36.1 ;
-    bridge:traffic "2,233"^^xsd:integer ;
+    bridge:place place:Killingly ;
     bridge:url "https://bridgehunter.com/ct/windham/4704/" ;
-    sch:image "https://bridgehunter.com/photos/43/90/439080-M.jpg" ;
-    sch:latitude 41.87295 ;
-    sch:longitude -71.86549 .
+    sch:image "https://bridgehunter.com/photos/43/90/439080-M.jpg" .
 
 bridge:143 a sch:Bridge ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Thompson ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "FALSE" ;
-    bridge:made_from material:timber ;
     bridge:name "East Thompson Wooden Bridge" ;
-    bridge:on_route route:Air_Line_State_Park_Trail,
-        route:Park_Trail ;
-    bridge:rehabilitated false ;
-    bridge:status "Derelict/abandoned" ;
+    bridge:place place:Thompson ;
     bridge:url "https://bridgehunter.com/ct/windham/east-thompson-wooden/" ;
-    sch:image "https://bridgehunter.com/photos/48/80/488009-M.jpg" ;
-    sch:latitude 42.00977 ;
-    sch:longitude -71.80509 .
+    sch:image "https://bridgehunter.com/photos/48/80/488009-M.jpg" .
 
 bridge:144 a sch:Bridge ;
-    bridge:built_in 1926 ;
-    bridge:crosses_river river:Natchaug_River ;
-    bridge:deck_width 27.9 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Chaplin ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
     bridge:name "Diana's Pool Bridge" ;
-    bridge:on_route route:CT_198 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 78.2 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 75.1 ;
-    bridge:traffic "4,100"^^xsd:integer ;
+    bridge:place place:Chaplin ;
     bridge:url "https://bridgehunter.com/ct/windham/1537/" ;
-    sch:image "https://bridgehunter.com/photos/47/03/470334-M.jpg" ;
-    sch:latitude 41.77836 ;
-    sch:longitude -72.13136 .
+    sch:image "https://bridgehunter.com/photos/47/03/470334-M.jpg" .
 
 bridge:145 a sch:Bridge ;
-    bridge:crosses_river river:Fivemile_River,
-        river:Quinebaug_River_Trail_East_Coast ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Killingly ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
     bridge:name "Danielson Footbridge" ;
-    bridge:on_route route:Coast_Greenway,
-        route:East_Coast ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to pedestrians only" ;
+    bridge:place place:Killingly ;
     bridge:url "https://bridgehunter.com/ct/windham/bh69017/" ;
-    sch:image "https://bridgehunter.com/photos/47/03/470330-M.jpg" ;
-    sch:latitude 41.80580 ;
-    sch:longitude -71.88580 .
+    sch:image "https://bridgehunter.com/photos/47/03/470330-M.jpg" .
 
 bridge:146 a sch:Bridge ;
-    bridge:built_in 1937 ;
-    bridge:deck_condition "Fair" ;
-    bridge:deck_width 29.9 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Willimantic ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 140.1 ;
     bridge:name "CT66 Overpass" ;
-    bridge:on_route route:CT_66,
-        route:Central_Vermont_Railroad ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 44.0 ;
-    bridge:superstructure_condition "Poor" ;
-    bridge:total_length 288.1 ;
-    bridge:traffic "7,900"^^xsd:integer ;
+    bridge:place place:Willimantic ;
     bridge:url "https://bridgehunter.com/ct/windham/488/" ;
-    sch:image "https://bridgehunter.com/photos/35/72/357231-M.jpg" ;
-    sch:latitude 41.71677 ;
-    sch:longitude -72.23904 .
+    sch:image "https://bridgehunter.com/photos/35/72/357231-M.jpg" .
 
 bridge:147 a sch:Bridge ;
-    bridge:built_by builder:American_Bridge_Co._of_New_York ;
-    bridge:crosses_river river:Moosup_River ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Moosup ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
     bridge:name "Coventry Greenway - Moosup River Bridge" ;
-    bridge:on_route route:Coventry_Greenway_Moosup_Valley_State,
-        route:State_Park,
-        route:State_Park_Trail,
-        route:Valley_State ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to pedestrians" ;
+    bridge:place place:Moosup ;
     bridge:url "https://bridgehunter.com/ct/windham/moosup-railroad/" ;
-    sch:image "https://bridgehunter.com/photos/28/60/286033-M.jpg" ;
-    sch:latitude 41.71355 ;
-    sch:longitude -71.87990 .
+    sch:image "https://bridgehunter.com/photos/28/60/286033-M.jpg" .
 
 bridge:148 a sch:Bridge ;
-    bridge:built_in 1940 ;
-    bridge:crosses_river river:Cady_Brook ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 21.7 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 22.0 ;
-    bridge:made_from material:timber ;
     bridge:name "Chase Road Bridge" ;
-    bridge:on_route route:Chase_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 83.5 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 24.0 ;
-    bridge:traffic 228 ;
-    bridge:url "https://bridgehunter.com/ct/windham/4765/" ;
-    sch:latitude 41.90528 ;
-    sch:longitude -71.81528 .
+    bridge:url "https://bridgehunter.com/ct/windham/4765/" .
 
 bridge:149 a sch:Bridge ;
-    bridge:built_in 1927 ;
-    bridge:crosses_river river:Blackwell_Brook ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 28.2 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Brooklyn ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 38.1 ;
-    bridge:made_from material:concrete ;
     bridge:name "Canturbury Road-Blackwell Brook Bridge" ;
-    bridge:on_route route:Route_169 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 86.1 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 44.0 ;
-    bridge:traffic "1,900"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/ct/windham/bh85232/" ;
-    sch:latitude 41.76507 ;
-    sch:longitude -71.95656 .
+    bridge:place place:Brooklyn ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh85232/" .
 
 bridge:15 a sch:Bridge ;
-    bridge:built_by builder:State_Highway_Department ;
-    bridge:built_in 1921 ;
-    bridge:crosses_river river:Horse_Creek ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 21.0 ;
-    bridge:in_county county:Worth_County ;
-    bridge:in_state state:Georgia ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 20.0 ;
     bridge:name "Horse Creek Bridge" ;
-    bridge:on_route route:Old_GA_33 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 71.7 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 120.0 ;
-    bridge:traffic 490 ;
     bridge:url "https://bridgehunter.com/ga/worth/horse-creek/" ;
-    sch:image "https://bridgehunter.com/photos/22/64/226466-M.jpg" ;
-    sch:latitude 31.43473 ;
-    sch:longitude -83.83620 .
+    sch:image "https://bridgehunter.com/photos/22/64/226466-M.jpg" .
 
 bridge:150 a sch:Bridge ;
-    bridge:built_in 1928 ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 27.9 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 38.1 ;
-    bridge:made_from material:stone ;
     bridge:name "Canal Bridge" ;
-    bridge:on_route route:CT_12 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 95.6 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 24.0 ;
-    bridge:traffic "4,300"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/ct/windham/677/" ;
-    sch:latitude 41.98530 ;
-    sch:longitude -71.89844 .
+    bridge:url "https://bridgehunter.com/ct/windham/677/" .
 
 bridge:151 a sch:Bridge ;
-    bridge:built_by builder:Fort_Pitt_Bridge_Works_of_Pittsburgh ;
-    bridge:built_in 1937 ;
-    bridge:crosses_river river:Quinebaug_River ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 27.9 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 226.1 ;
     bridge:name "Butts Bridge" ;
-    bridge:on_route route:Butts_Bridge_Road,
-        route:CT_668 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 73.7 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 231.0 ;
-    bridge:traffic "2,100"^^xsd:integer ;
     bridge:url "http://www.wikidata.org/entity/Q5003134",
         "https://bridgehunter.com/ct/windham/1649/" ;
     sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/Butts%20Bridge%20Over%20Quinebaug%20River%2C%20Canterbury%2C%20CT.JPG",
-        "https://bridgehunter.com/photos/30/91/309171-M.jpg" ;
-    sch:latitude 41.65141 ;
-    sch:longitude -71.97047 .
+        "https://bridgehunter.com/photos/30/91/309171-M.jpg" .
 
 bridge:152 a sch:Bridge ;
-    bridge:built_in 1868 ;
-    bridge:crosses_river river:Connecticut_River,
-        river:Willimantic_River ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 26.9 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Willimantic ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 226.1 ;
-    bridge:made_from material:stone ;
     bridge:name "Bridge Street Bridge" ;
-    bridge:on_route route:Bridge_Street,
-        route:CT_32 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 76.0 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 80.1 ;
-    bridge:traffic "11,000"^^xsd:integer ;
+    bridge:place place:Willimantic ;
     bridge:url "http://www.wikidata.org/entity/Q4966302",
         "https://bridgehunter.com/ct/windham/1852/" ;
     sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/20-Bridge-Street-Bridge%2C-Windsor-Locks.jpg",
-        "https://bridgehunter.com/photos/36/86/368636-M.jpg" ;
-    sch:latitude 41.71167 ;
-    sch:longitude -72.22000 .
+        "https://bridgehunter.com/photos/36/86/368636-M.jpg" .
 
 bridge:153 a sch:Bridge ;
-    bridge:built_in 1940 ;
-    bridge:crosses_river river:Quaddick_Lake ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 18.0 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Thompson ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 29.9 ;
-    bridge:made_from material:timber ;
     bridge:name "Brandy Hill Road Bridge" ;
-    bridge:on_route route:Brandy_Hill_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 65.2 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 32.2 ;
-    bridge:traffic 625 ;
-    bridge:url "https://bridgehunter.com/ct/windham/5412/" ;
-    sch:latitude 41.96441 ;
-    sch:longitude -71.82570 .
+    bridge:place place:Thompson ;
+    bridge:url "https://bridgehunter.com/ct/windham/5412/" .
 
 bridge:154 a sch:Bridge ;
-    bridge:built_by <http://dsci558.org/builder#Ken_&_Evan_Sigfridson> ;
-    bridge:built_in 2010 ;
-    bridge:crosses_river river:Blackwell_Brook ;
-    bridge:deck_width 14.0 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Brooklyn ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 29.9 ;
     bridge:name "Blackwell Brook Covered Bridge 07-08-17" ;
-    bridge:on_route route:Fitzgerald_Road ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to all traffic" ;
-    bridge:total_length 35.0 ;
+    bridge:place place:Brooklyn ;
     bridge:url "https://bridgehunter.com/ct/windham/bh59687/" ;
-    sch:image "https://bridgehunter.com/photos/47/03/470325-M.jpg" ;
-    sch:latitude 41.79808 ;
-    sch:longitude -71.98189 .
+    sch:image "https://bridgehunter.com/photos/47/03/470325-M.jpg" .
 
 bridge:155 a sch:Bridge ;
-    bridge:built_in 1910 ;
-    bridge:crosses_river river:Bigelow_Brook ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 13.1 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Ashford ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 21.0 ;
-    bridge:made_from material:timber ;
     bridge:name "Bigelow Brook Bridge" ;
-    bridge:on_route route:Boston_Hollow_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 63.0 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 24.9 ;
-    bridge:traffic 53 ;
-    bridge:url "https://bridgehunter.com/ct/windham/4442/" ;
-    sch:latitude 41.94355 ;
-    sch:longitude -72.14831 .
+    bridge:place place:Ashford ;
+    bridge:url "https://bridgehunter.com/ct/windham/4442/" .
 
 bridge:156 a sch:Bridge ;
-    bridge:built_in 1840 ;
-    bridge:crosses_river river:Dam_Tavern_Brook ;
-    bridge:deck_width 13.1 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Putnam ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 21.0 ;
-    bridge:made_from material:stone ;
     bridge:name "Bates Avenue Bridge" ;
-    bridge:on_route route:Bates_Avenue ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:total_length 16.0 ;
+    bridge:place place:Putnam ;
     bridge:url "https://bridgehunter.com/ct/windham/bates-avenue/" ;
-    sch:image "https://bridgehunter.com/photos/47/03/470371-M.jpg" ;
-    sch:latitude 41.92379 ;
-    sch:longitude -71.89855 .
+    sch:image "https://bridgehunter.com/photos/47/03/470371-M.jpg" .
 
 bridge:157 a sch:Bridge ;
-    bridge:built_in 1940 ;
-    bridge:crosses_river river:Quaddick_Lake ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 16.1 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Thompson ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 21.0 ;
-    bridge:made_from material:timber ;
     bridge:name "Baker Road Bridge" ;
-    bridge:on_route route:Baker_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 78.0 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 24.0 ;
-    bridge:traffic 231 ;
+    bridge:place place:Thompson ;
     bridge:url "https://bridgehunter.com/ct/windham/5638/" ;
-    sch:image "https://bridgehunter.com/photos/39/82/398223-M.jpg" ;
-    sch:latitude 41.96891 ;
-    sch:longitude -71.81685 .
+    sch:image "https://bridgehunter.com/photos/39/82/398223-M.jpg" .
 
 bridge:158 a sch:Bridge ;
-    bridge:built_by builder:Berlin_Iron_Bridge_Co._of_East_Berlin ;
-    bridge:built_in 1965 ;
-    bridge:crosses_river river:Willimantic_River ;
-    bridge:deck_width 16.1 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Tolland_County,
-        county:Windham_County ;
-    bridge:in_place place:Willimantic ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 80.0 ;
     bridge:name "Air Line State Park Trail - Willimantic River Bridge" ;
-    bridge:on_route route:Airline_South_State_Park_Trail,
-        route:Park_Trail ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to trail traffic" ;
-    bridge:total_length 160.0 ;
+    bridge:place place:Willimantic ;
     bridge:url "https://bridgehunter.com/ct/windham/bh61978/" ;
-    sch:image "https://bridgehunter.com/photos/31/49/314966-M.jpg" ;
-    sch:latitude 41.71343 ;
-    sch:longitude -72.23804 .
+    sch:image "https://bridgehunter.com/photos/31/49/314966-M.jpg" .
 
 bridge:16 a sch:Bridge ;
-    bridge:built_in 1952 ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 27.9 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Worth_County ;
-    bridge:in_state state:Georgia ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 46.9 ;
-    bridge:made_from material:concrete ;
     bridge:name "Csx Railroad (Removed) Bridge" ;
-    bridge:on_route route:Cor_Z,
-        route:Csx_Railroad,
-        route:Us_82 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 69.1 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 141.1 ;
-    bridge:traffic "9,040"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/ga/worth/bh77217/" ;
-    sch:latitude 31.51268 ;
-    sch:longitude -83.76771 .
+    bridge:url "https://bridgehunter.com/ga/worth/bh77217/" .
 
 bridge:17 a sch:Bridge ;
-    bridge:built_in 1928 ;
-    bridge:crosses_river river:Ty_Ty_Creek_Tributary ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 17.7 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Worth_County ;
-    bridge:in_place place:Sumner ;
-    bridge:in_state state:Georgia ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 19.7 ;
-    bridge:made_from material:concrete ;
     bridge:name "College Street Bridge" ;
-    bridge:on_route route:College_Street ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 69.2 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 39.7 ;
-    bridge:traffic 490 ;
+    bridge:place place:Sumner ;
     bridge:url "https://bridgehunter.com/ga/worth/college-street/" ;
-    sch:image "https://bridgehunter.com/photos/22/64/226469-M.jpg" ;
-    sch:latitude 31.50909 ;
-    sch:longitude -83.73051 .
+    sch:image "https://bridgehunter.com/photos/22/64/226469-M.jpg" .
 
 bridge:18 a sch:Bridge ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "West Wailuaiki Stream Bridge" ;
-    bridge:on_route route:Hana_Highway,
-        route:West_Waiuaiki_StreM ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/bh70308/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344269-M.jpg" ;
-    sch:latitude 20.82164 ;
-    sch:longitude -156.13806 .
+    sch:image "https://bridgehunter.com/photos/34/42/344269-M.jpg" .
 
 bridge:19 a sch:Bridge ;
-    bridge:built_in 1915 ;
-    bridge:crosses_river river:Waiohonu_Stream ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Waiohonu Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/waiohonu-stream/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344277-M.jpg" ;
-    sch:latitude 20.70606 ;
-    sch:longitude -155.99574 .
+    sch:image "https://bridgehunter.com/photos/34/42/344277-M.jpg" .
 
 bridge:2 a sch:Bridge ;
-    bridge:crosses_river river:Tolovana_River ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Yukon-Koyukuk_Census_Area ;
-    bridge:in_place place:Livengood ;
-    bridge:in_state state:Alaska ;
-    bridge:is_open "FALSE" ;
     bridge:name "Tolovana River Bridge" ;
-    bridge:on_route route:Elliott_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge in 1969" ;
+    bridge:place place:Livengood ;
     bridge:url "https://bridgehunter.com/ak/yukon-koyukuk/tolovana-river/" ;
-    sch:image "https://bridgehunter.com/photos/45/72/457252-M.jpg" ;
-    sch:latitude 65.47117 ;
-    sch:longitude -148.26896 .
+    sch:image "https://bridgehunter.com/photos/45/72/457252-M.jpg" .
 
 bridge:20 a sch:Bridge ;
-    bridge:built_in 1915 ;
-    bridge:crosses_river <http://dsci558.org/river#Waiohonu_Strm_#_29> ;
-    bridge:deck_condition "Very Good" ;
-    bridge:deck_width 15.4 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 20.0 ;
-    bridge:made_from material:concrete ;
     bridge:name "Waiohonu Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
-    bridge:substructure_condition "Very Good" ;
-    bridge:sufficiency 72.1 ;
-    bridge:superstructure_condition "Very Good" ;
-    bridge:total_length 97.1 ;
-    bridge:traffic 775 ;
     bridge:url "https://bridgehunter.com/hi/maui/waiohonu/" ;
-    sch:image "https://bridgehunter.com/photos/16/60/166079-M.jpg" ;
-    sch:latitude 20.70833 ;
-    sch:longitude -155.99833 .
+    sch:image "https://bridgehunter.com/photos/16/60/166079-M.jpg" .
 
 bridge:21 a sch:Bridge ;
-    bridge:built_in 1926 ;
-    bridge:crosses_river river:Waikani_Stream ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 17.1 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 83.0 ;
-    bridge:made_from material:concrete ;
     bridge:name "Waikani Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 38.1 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 107.9 ;
-    bridge:traffic "1,515"^^xsd:integer ;
     bridge:url "https://bridgehunter.com/hi/maui/9003600501942/" ;
-    sch:image "https://bridgehunter.com/photos/16/60/166095-M.jpg" ;
-    sch:latitude 20.83500 ;
-    sch:longitude -156.14167 .
+    sch:image "https://bridgehunter.com/photos/16/60/166095-M.jpg" .
 
 bridge:22 a sch:Bridge ;
-    bridge:built_in 1953 ;
-    bridge:crosses_river river:Iao_Strm ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 27.9 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_place place:Kahului ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 67.9 ;
-    bridge:made_from material:concrete ;
     bridge:name "Waiehu Beach Road-Iao Stream Bridge" ;
-    bridge:on_route route:Waiehu_Beach_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 77.8 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 182.1 ;
-    bridge:traffic "9,600"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh82215/" ;
-    sch:latitude 20.90676 ;
-    sch:longitude -156.48854 .
+    bridge:place place:Kahului ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh82215/" .
 
 bridge:23 a sch:Bridge ;
-    bridge:built_in 1910 ;
-    bridge:crosses_river river:Waiele_Stream ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 12.5 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 20.0 ;
-    bridge:made_from material:stone ;
     bridge:name "Waiele Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 11.8 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 24.9 ;
-    bridge:traffic 450 ;
     bridge:url "https://bridgehunter.com/hi/maui/9003600904358/" ;
-    sch:image "https://bridgehunter.com/photos/48/69/486972-M.jpg" ;
-    sch:latitude 20.67528 ;
-    sch:longitude -156.03583 .
+    sch:image "https://bridgehunter.com/photos/48/69/486972-M.jpg" .
 
 bridge:24 a sch:Bridge ;
-    bridge:built_in 1914 ;
-    bridge:crosses_river river:Ulaino_Strm ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 16.4 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_place place:Hana ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 18.0 ;
-    bridge:made_from material:concrete ;
     bridge:name "Ulaino Strm Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 22.9 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 39.0 ;
-    bridge:traffic "1,800"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/ulaino-strm/" ;
-    sch:latitude 20.79779 ;
-    sch:longitude -156.06066 .
+    bridge:place place:Hana ;
+    bridge:url "https://bridgehunter.com/hi/maui/ulaino-strm/" .
 
 bridge:25 a sch:Bridge ;
-    bridge:crosses_river river:Puohokamoa_Stream ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Puohokamoa Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/puohokamoa-stream/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344263-M.jpg" ;
-    sch:latitude 20.86651 ;
-    sch:longitude -156.17783 .
+    sch:image "https://bridgehunter.com/photos/34/42/344263-M.jpg" .
 
 bridge:26 a sch:Bridge ;
-    bridge:built_in 1911 ;
-    bridge:crosses_river river:Punalau_Strm_Kolea ;
-    bridge:deck_condition "Poor" ;
-    bridge:deck_width 12.8 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 29.9 ;
-    bridge:made_from material:concrete ;
     bridge:name "Punalau Strm(Kolea) Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 55.0 ;
-    bridge:superstructure_condition "Poor" ;
-    bridge:total_length 34.1 ;
-    bridge:traffic "1,720"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh77042/" ;
-    sch:latitude 20.86230 ;
-    sch:longitude -156.16991 .
+    bridge:url "https://bridgehunter.com/hi/maui/bh77042/" .
 
 bridge:27 a sch:Bridge ;
-    bridge:crosses_river river:Pipiwai_Strem ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
     bridge:name "Pipiwai Trail Footbridge" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to pedestrians only" ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh80392/" ;
-    sch:latitude 20.67019 ;
-    sch:longitude -156.05363 .
+    bridge:url "https://bridgehunter.com/hi/maui/bh80392/" .
 
 bridge:28 a sch:Bridge ;
-    bridge:built_in 1916 ;
-    bridge:deck_width 14.4 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 57.7 ;
     bridge:name "Pi'ilani Highway Bridge" ;
-    bridge:on_route <http://dsci558.org/route#Ohe'o_Gulch>,
-        <http://dsci558.org/route#Pi'ilani_Highway> ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:total_length 63.0 ;
-    bridge:url "https://bridgehunter.com/hi/maui/9NPS311100011/" ;
-    sch:latitude 20.66472 ;
-    sch:longitude -156.04306 .
+    bridge:url "https://bridgehunter.com/hi/maui/9NPS311100011/" .
 
 bridge:29 a sch:Bridge ;
-    bridge:built_in 1915 ;
-    bridge:crosses_river <http://dsci558.org/river#Papahawahawa_Strm_#_28> ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 14.4 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 27.9 ;
-    bridge:made_from material:concrete ;
     bridge:name "Papahawahawa Strm #28 Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Very Good" ;
-    bridge:sufficiency 64.7 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 41.0 ;
-    bridge:traffic 775 ;
     bridge:url "https://bridgehunter.com/hi/maui/bh45345/" ;
-    sch:image "https://bridgehunter.com/photos/16/60/166056-M.jpg" ;
-    sch:latitude 20.68700 ;
-    sch:longitude -156.01129 .
+    sch:image "https://bridgehunter.com/photos/16/60/166056-M.jpg" .
 
 bridge:3 a sch:Bridge ;
-    bridge:built_in 1923 ;
-    bridge:crosses_river river:Colorado_River ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Imperial_County,
-        county:Yuma_County ;
-    bridge:in_place place:Yuma ;
-    bridge:in_state state:Arizona,
-        state:California ;
-    bridge:is_open "TRUE" ;
     bridge:name "UP - Yuma Bridge" ;
-    bridge:on_route route:Union_Pacific_Railroad ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to railroad" ;
-    bridge:total_length 400.0 ;
+    bridge:place place:Yuma ;
     bridge:url "https://bridgehunter.com/az/yuma/bh38032/" ;
-    sch:image "https://bridgehunter.com/photos/12/72/127221-M.jpg" ;
-    sch:latitude 32.72868 ;
-    sch:longitude -114.61529 .
+    sch:image "https://bridgehunter.com/photos/12/72/127221-M.jpg" .
 
 bridge:30 a sch:Bridge ;
-    bridge:built_in 1911 ;
-    bridge:crosses_river river:Paihi_Strm_Struct ;
-    bridge:deck_condition "Very Good" ;
-    bridge:deck_width 13.8 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 36.1 ;
     bridge:name "Paihi Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Very Good" ;
-    bridge:sufficiency 60.1 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 42.0 ;
-    bridge:traffic 775 ;
     bridge:url "https://bridgehunter.com/hi/maui/paihi/" ;
-    sch:image "https://bridgehunter.com/photos/16/60/166060-M.jpg" ;
-    sch:latitude 20.68667 ;
-    sch:longitude -156.02833 .
+    sch:image "https://bridgehunter.com/photos/16/60/166060-M.jpg" .
 
 bridge:31 a sch:Bridge ;
-    bridge:crosses_river river:Oopuola_Stream ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Oopuola Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/oopuola-stream/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344255-M.jpg" ;
-    sch:latitude 20.87796 ;
-    sch:longitude -156.20011 .
+    sch:image "https://bridgehunter.com/photos/34/42/344255-M.jpg" .
 
 bridge:32 a sch:Bridge ;
-    bridge:built_in 1936 ;
-    bridge:deck_condition "Fair" ;
-    bridge:deck_width 20.0 ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_place place:Wailuku ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 50.9 ;
-    bridge:made_from material:concrete ;
     bridge:name "Naniloa Drive Overpass" ;
-    bridge:on_route route:HI_52,
-        route:Kaahumanu_Avenue,
-        route:Naniloa_Drive ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 67.0 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 63.0 ;
-    bridge:traffic "24,700"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh67945/" ;
-    sch:latitude 20.88891 ;
-    sch:longitude -156.49598 .
+    bridge:place place:Wailuku ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh67945/" .
 
 bridge:33 a sch:Bridge ;
-    bridge:crosses_river river:Nailiilihaele_Stream ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Nailiilihaele Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/nailiilihaele-stream/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344253-M.jpg" ;
-    sch:latitude 20.88683 ;
-    sch:longitude -156.21009 .
+    sch:image "https://bridgehunter.com/photos/34/42/344253-M.jpg" .
 
 bridge:34 a sch:Bridge ;
-    bridge:built_in 1908 ;
-    bridge:crosses_river river:Mokulehua_Strm ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 13.8 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_place place:Hana ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 14.1 ;
     bridge:name "Mokulehua Stream Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 14.1 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 47.9 ;
-    bridge:traffic "1,800"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/mokulehua-stream/" ;
-    sch:latitude 20.79631 ;
-    sch:longitude -156.05681 .
+    bridge:place place:Hana ;
+    bridge:url "https://bridgehunter.com/hi/maui/mokulehua-stream/" .
 
 bridge:35 a sch:Bridge ;
-    bridge:crosses_river river:Makapipi_Stream ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Makapipi Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/makapipi-stream/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344273-M.jpg" ;
-    sch:latitude 20.80725 ;
-    sch:longitude -156.09617 .
+    sch:image "https://bridgehunter.com/photos/34/42/344273-M.jpg" .
 
 bridge:36 a sch:Bridge ;
-    bridge:built_in 1945 ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 27.9 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 57.1 ;
     bridge:name "Makawao Avenue Bridge" ;
-    bridge:on_route route:Haiku_Pauwela,
-        route:Makawao_Avenue ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 42.0 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 58.7 ;
-    bridge:traffic "3,540"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/9003650700299/" ;
-    sch:latitude 20.86361 ;
-    sch:longitude -156.30611 .
+    bridge:url "https://bridgehunter.com/hi/maui/9003650700299/" .
 
 bridge:37 a sch:Bridge ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "FALSE" ;
     bridge:name "Lao Valley Park Footbridge" ;
-    bridge:rehabilitated false ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh80405/" ;
-    sch:latitude 20.88063 ;
-    sch:longitude -156.54643 .
+    bridge:url "https://bridgehunter.com/hi/maui/bh80405/" .
 
 bridge:38 a sch:Bridge ;
-    bridge:built_in 1926 ;
-    bridge:crosses_river river:Kuhiwa_Stream ;
-    bridge:deck_width 16.4 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 36.1 ;
     bridge:name "Kuhiwa Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 42.4 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 60.0 ;
-    bridge:traffic "1,720"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/9003600502523/" ;
-    sch:latitude 20.80583 ;
-    sch:longitude -156.09417 .
+    bridge:url "https://bridgehunter.com/hi/maui/9003600502523/" .
 
 bridge:39 a sch:Bridge ;
-    bridge:built_in 1911 ;
-    bridge:crosses_river river:Koukouai_Stream ;
-    bridge:deck_condition "Poor" ;
-    bridge:deck_width 15.1 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 32.2 ;
     bridge:name "Koukouai Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 2.0 ;
-    bridge:superstructure_condition "Serious" ;
-    bridge:total_length 54.5 ;
-    bridge:traffic 450 ;
     bridge:url "https://bridgehunter.com/hi/maui/9003600904058/" ;
-    sch:image "https://bridgehunter.com/photos/16/61/166100-M.jpg" ;
-    sch:latitude 20.65500 ;
-    sch:longitude -156.06333 .
+    sch:image "https://bridgehunter.com/photos/16/61/166100-M.jpg" .
 
 bridge:4 a sch:Bridge ;
-    bridge:built_in 1979 ;
-    bridge:crosses_river river:Wildcat_Creek ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 27.9 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Yell_County ;
-    bridge:in_state state:Arkansas ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 40.0 ;
-    bridge:made_from material:steel ;
     bridge:name "Wildcat Creek Bridge" ;
-    bridge:on_route route:Sh_307 ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 88.8 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 122.1 ;
-    bridge:traffic 50 ;
     bridge:url "https://bridgehunter.com/ar/yell/bh60528/" ;
-    sch:image "https://bridgehunter.com/photos/28/09/280926-M.jpg" ;
-    sch:latitude 34.89641 ;
-    sch:longitude -93.51008 .
+    sch:image "https://bridgehunter.com/photos/28/09/280926-M.jpg" .
 
 bridge:40 a sch:Bridge ;
-    bridge:crosses_river river:Kolea_Stream ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Kolea Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/kolea-stream/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344259-M.jpg" ;
-    sch:latitude 20.87547 ;
-    sch:longitude -156.18912 .
+    sch:image "https://bridgehunter.com/photos/34/42/344259-M.jpg" .
 
 bridge:41 a sch:Bridge ;
-    bridge:built_in 1911 ;
-    bridge:crosses_river river:Kaupakalua_Stream ;
-    bridge:deck_condition "Fair" ;
-    bridge:deck_width 16.4 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 16.1 ;
-    bridge:made_from material:timber ;
     bridge:name "Kaupakalua Stream Bridge" ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 37.6 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 39.0 ;
-    bridge:traffic 510 ;
-    bridge:url "https://bridgehunter.com/hi/maui/9335001100001/" ;
-    sch:latitude 20.91000 ;
-    sch:longitude -156.29583 .
+    bridge:url "https://bridgehunter.com/hi/maui/9335001100001/" .
 
 bridge:42 a sch:Bridge ;
-    bridge:built_in 1941 ;
-    bridge:crosses_river river:Kaupakalua_Stream ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 25.9 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 57.1 ;
-    bridge:made_from material:timber ;
     bridge:name "Kaupakalua Stream Bridge" ;
-    bridge:on_route route:Haiku_Pauwela,
-        route:Hana_Highway ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 77.8 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 230.0 ;
-    bridge:traffic "6,265"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/9000360301364/" ;
-    sch:latitude 20.91833 ;
-    sch:longitude -156.29694 .
+    bridge:url "https://bridgehunter.com/hi/maui/9000360301364/" .
 
 bridge:43 a sch:Bridge ;
-    bridge:built_in 1915 ;
-    bridge:crosses_river river:Kapia_Strm_Kahawaiokapia ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 14.4 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 17.1 ;
     bridge:name "Kapi' A Stream Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 3.0 ;
-    bridge:superstructure_condition "Poor" ;
-    bridge:total_length 59.1 ;
-    bridge:traffic 775 ;
     bridge:url "https://bridgehunter.com/hi/maui/bh45347/" ;
-    sch:image "https://bridgehunter.com/photos/16/60/166066-M.jpg" ;
-    sch:latitude 20.71667 ;
-    sch:longitude -155.99500 .
+    sch:image "https://bridgehunter.com/photos/16/60/166066-M.jpg" .
 
 bridge:44 a sch:Bridge ;
-    bridge:built_in 1940 ;
-    bridge:crosses_river river:Unmd_Strm_Kamiloloa ;
-    bridge:deck_condition "Fair" ;
-    bridge:deck_width 25.9 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_place place:Kualapuu ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 20.0 ;
     bridge:name "Kam V-Unamed Streem(Kamiloloa) Bridge" ;
-    bridge:on_route route:Kam_V_Hwy ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 45.8 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 24.9 ;
-    bridge:traffic "2,300"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh83548/" ;
-    sch:latitude 21.07864 ;
-    sch:longitude -156.99434 .
+    bridge:place place:Kualapuu ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh83548/" .
 
 bridge:45 a sch:Bridge ;
-    bridge:crosses_river river:Kailua_Stream ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Kailua Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/kailua-stream/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344251-M.jpg" ;
-    sch:latitude 20.88785 ;
-    sch:longitude -156.21344 .
+    sch:image "https://bridgehunter.com/photos/34/42/344251-M.jpg" .
 
 bridge:46 a sch:Bridge ;
-    bridge:built_by builder:Acrow_Corporation_of_America_of_Parsippany ;
-    bridge:built_in 1983 ;
-    bridge:crosses_river river:Kahakuloa_Strm ;
-    bridge:deck_condition "Very Good" ;
-    bridge:deck_width 13.5 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_place place:Waihee-Waiehu ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 16.1 ;
     bridge:name "Kahekili Highway-Kahakuloa Stream Bridge" ;
-    bridge:on_route route:Kahekili_Hwy ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 10.1 ;
-    bridge:superstructure_condition "Very Good" ;
-    bridge:total_length 65.0 ;
-    bridge:traffic 800 ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh84590/" ;
-    sch:latitude 20.99562 ;
-    sch:longitude -156.54861 .
+    bridge:place place:Waihee-Waiehu ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh84590/" .
 
 bridge:47 a sch:Bridge ;
-    bridge:built_in 1927 ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 14.1 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 24.0 ;
-    bridge:made_from material:timber ;
     bridge:name "Kahekili Highway Bridge" ;
-    bridge:on_route route:Kahekili_Highway,
-        route:Wailena_Gulch ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 11.9 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 24.9 ;
-    bridge:traffic 800 ;
-    bridge:url "https://bridgehunter.com/hi/maui/9003400900584/" ;
-    sch:latitude 20.97500 ;
-    sch:longitude -156.54222 .
+    bridge:url "https://bridgehunter.com/hi/maui/9003400900584/" .
 
 bridge:48 a sch:Bridge ;
-    bridge:built_in 1965 ;
-    bridge:crosses_river river:Honouliwai_Strm_3_Cell ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 12.5 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 8.9 ;
     bridge:name "Honouli Wai Bridge" ;
-    bridge:on_route route:Kam_V_Hwy ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Poor" ;
-    bridge:sufficiency 38.0 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 56.1 ;
-    bridge:traffic 850 ;
     bridge:url "https://bridgehunter.com/hi/maui/kam-v-hwy/" ;
-    sch:image "https://bridgehunter.com/photos/27/75/277523-M.jpg" ;
-    sch:latitude 21.11064 ;
-    sch:longitude -156.74538 .
+    sch:image "https://bridgehunter.com/photos/27/75/277523-M.jpg" .
 
 bridge:49 a sch:Bridge ;
-    bridge:crosses_river river:Honolewa_Stream ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Honolewa Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/honolewa-stream/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344287-M.jpg" ;
-    sch:latitude 20.68345 ;
-    sch:longitude -156.03027 .
+    sch:image "https://bridgehunter.com/photos/34/42/344287-M.jpg" .
 
 bridge:5 a sch:Bridge ;
-    bridge:crosses_river river:Yuba_River ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Yuba_County ;
-    bridge:in_place place:Marysville ;
-    bridge:in_state state:California ;
-    bridge:is_open "FALSE" ;
-    bridge:made_from material:steel ;
     bridge:name "Yuba River Bridge" ;
-    bridge:on_route route:Lost_Steel_stringer_bridge,
-        route:SR_70 ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
+    bridge:place place:Marysville ;
     bridge:url "https://bridgehunter.com/ca/yuba/yuba-river/" ;
-    sch:image "https://bridgehunter.com/photos/49/54/495482-M.jpg" ;
-    sch:latitude 39.13404 ;
-    sch:longitude -121.58925 .
+    sch:image "https://bridgehunter.com/photos/49/54/495482-M.jpg" .
 
 bridge:50 a sch:Bridge ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
     bridge:name "Honoapiilani Highway Tunnel" ;
-    bridge:on_route route:Honoapiilani_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/honoapiilani-highway-tunnel/" ;
-    sch:image "https://bridgehunter.com/photos/34/43/344326-M.jpg" ;
-    sch:latitude 20.78833 ;
-    sch:longitude -156.55673 .
+    sch:image "https://bridgehunter.com/photos/34/43/344326-M.jpg" .
 
 bridge:51 a sch:Bridge ;
-    bridge:built_in 2013 ;
-    bridge:crosses_river river:Kahoma_Stream ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_place place:Lahaina ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
     bridge:name "Honoapiilani Highway Kahoma Stream Bridge" ;
-    bridge:on_route route:Honoapiilani_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:total_length 360.0 ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh65361/" ;
-    sch:latitude 20.88395 ;
-    sch:longitude -156.68200 .
+    bridge:place place:Lahaina ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh65361/" .
 
 bridge:52 a sch:Bridge ;
-    bridge:crosses_river river:Hoalua_Stream ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Hoalua Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/hoalua-stream/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344249-M.jpg" ;
-    sch:latitude 20.89619 ;
-    sch:longitude -156.21928 .
+    sch:image "https://bridgehunter.com/photos/34/42/344249-M.jpg" .
 
 bridge:53 a sch:Bridge ;
-    bridge:built_in 1926 ;
-    bridge:crosses_river river:Hanawi_Stream ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 20.3 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 36.1 ;
     bridge:name "Hanawi Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 53.6 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 60.0 ;
-    bridge:traffic "1,720"^^xsd:integer ;
     bridge:url "https://bridgehunter.com/hi/maui/9003600502402/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344271-M.jpg" ;
-    sch:latitude 20.81333 ;
-    sch:longitude -156.11167 .
+    sch:image "https://bridgehunter.com/photos/34/42/344271-M.jpg" .
 
 bridge:54 a sch:Bridge ;
-    bridge:built_in 1912 ;
-    bridge:crosses_river river:Puohokamoa_Strm ;
-    bridge:deck_condition "Poor" ;
-    bridge:deck_width 15.1 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 24.9 ;
-    bridge:made_from material:concrete ;
     bridge:name "Hana Highway-Puohokamoa Stream Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 15.5 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 56.1 ;
-    bridge:traffic "1,620"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh82428/" ;
-    sch:latitude 20.86719 ;
-    sch:longitude -156.17841 .
+    bridge:url "https://bridgehunter.com/hi/maui/bh82428/" .
 
 bridge:55 a sch:Bridge ;
-    bridge:built_in 1914 ;
-    bridge:crosses_river river:Oilowai_Strm ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 16.4 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_place place:Hana ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 20.0 ;
-    bridge:made_from material:concrete ;
     bridge:name "Hana Highway-Oilowai Strm Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 33.9 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 22.0 ;
-    bridge:traffic "1,800"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh85197/" ;
-    sch:latitude 20.79204 ;
-    sch:longitude -156.04606 .
+    bridge:place place:Hana ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh85197/" .
 
 bridge:56 a sch:Bridge ;
-    bridge:built_in 1917 ;
-    bridge:crosses_river river:Lanikele_Strm ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 16.1 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_place place:Hana ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 22.0 ;
-    bridge:made_from material:concrete ;
     bridge:name "Hana Highway-Lanikele Stream Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 44.6 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 50.9 ;
-    bridge:traffic "1,800"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh82556/" ;
-    sch:latitude 20.79896 ;
-    sch:longitude -156.06351 .
+    bridge:place place:Hana ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh82556/" .
 
 bridge:57 a sch:Bridge ;
-    bridge:built_in 1911 ;
-    bridge:crosses_river river:Honomanu_Strm ;
-    bridge:deck_condition "Fair" ;
-    bridge:deck_width 12.5 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 23.0 ;
-    bridge:made_from material:concrete ;
     bridge:name "Hana Highway-Honomanu Stream Bridge" ;
-    bridge:on_route route:Hana_Hwy ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 45.5 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 47.9 ;
-    bridge:traffic "1,720"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/hi/maui/bh82213/" ;
-    sch:latitude 20.85472 ;
-    sch:longitude -156.16940 .
+    bridge:url "https://bridgehunter.com/hi/maui/bh82213/" .
 
 bridge:58 a sch:Bridge ;
-    bridge:built_in 1915 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Hana Highway Bridge #4" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/bh70311/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344281-M.jpg" ;
-    sch:latitude 20.68765 ;
-    sch:longitude -156.01893 .
+    sch:image "https://bridgehunter.com/photos/34/42/344281-M.jpg" .
 
 bridge:59 a sch:Bridge ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Hana Highway Bridge #3" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/bh70298/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344261-M.jpg" ;
-    sch:latitude 20.87221 ;
-    sch:longitude -156.18699 .
+    sch:image "https://bridgehunter.com/photos/34/42/344261-M.jpg" .
 
 bridge:6 a sch:Bridge ;
-    bridge:built_in 1948 ;
-    bridge:crosses_river river:Coyote_Creek ;
-    bridge:deck_condition "Fair" ;
-    bridge:deck_width 24.9 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Yuma_County ;
-    bridge:in_state state:Colorado ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 23.0 ;
-    bridge:made_from material:timber ;
     bridge:name "Coyote Creek Bridge" ;
-    bridge:on_route route:CO_59 ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 57.9 ;
-    bridge:superstructure_condition "Poor" ;
-    bridge:total_length 162.7 ;
-    bridge:traffic 340 ;
-    bridge:url "https://bridgehunter.com/co/yuma/coyote-creek/" ;
-    sch:latitude 40.39472 ;
-    sch:longitude -102.66556 .
+    bridge:url "https://bridgehunter.com/co/yuma/coyote-creek/" .
 
 bridge:60 a sch:Bridge ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Hana Highway Bridge #2" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/bh70296/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344257-M.jpg" ;
-    sch:latitude 20.87965 ;
-    sch:longitude -156.19635 .
+    sch:image "https://bridgehunter.com/photos/34/42/344257-M.jpg" .
 
 bridge:61 a sch:Bridge ;
-    bridge:built_in 1902 ;
-    bridge:crosses_river river:Small_Stream ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
     bridge:name "Hana Highway Bridge" ;
-    bridge:on_route route:HI_360,
-        route:Haña_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/hana-highway/" ;
-    sch:image "https://bridgehunter.com/photos/26/85/268506-M.jpg" ;
-    sch:latitude 20.79019 ;
-    sch:longitude -156.04176 .
+    sch:image "https://bridgehunter.com/photos/26/85/268506-M.jpg" .
 
 bridge:62 a sch:Bridge ;
-    bridge:built_in 1910 ;
-    bridge:crosses_river river:Hahalawe_Stream ;
-    bridge:deck_width 14.4 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 20.0 ;
-    bridge:made_from material:stone ;
     bridge:name "Hahalawe Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:sufficiency 16.1 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 24.9 ;
-    bridge:traffic 649 ;
     bridge:url "https://bridgehunter.com/hi/maui/9003600904304/" ;
-    sch:image "https://bridgehunter.com/photos/16/60/166097-M.jpg" ;
-    sch:latitude 20.67667 ;
-    sch:longitude -156.04333 .
+    sch:image "https://bridgehunter.com/photos/16/60/166097-M.jpg" .
 
 bridge:63 a sch:Bridge ;
-    bridge:built_in 1983 ;
-    bridge:crosses_river river:Alelele_Stream ;
-    bridge:design_type design:beam ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Alelele Bridge" ;
-    bridge:on_route route:South_Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/alelele/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344289-M.jpg" ;
-    sch:latitude 20.64848 ;
-    sch:longitude -156.08488 .
+    sch:image "https://bridgehunter.com/photos/34/42/344289-M.jpg" .
 
 bridge:64 a sch:Bridge ;
-    bridge:crosses_river river:East_Wailuanui_Stream ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Maui_County ;
-    bridge:in_state state:Hawaii ;
-    bridge:is_open "TRUE" ;
-    bridge:made_from material:concrete ;
     bridge:name "East Wailuanui Stream Bridge" ;
-    bridge:on_route route:Hana_Highway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
     bridge:url "https://bridgehunter.com/hi/maui/bh70303/" ;
-    sch:image "https://bridgehunter.com/photos/34/42/344265-M.jpg" ;
-    sch:latitude 20.83241 ;
-    sch:longitude -156.13849 .
+    sch:image "https://bridgehunter.com/photos/34/42/344265-M.jpg" .
 
 bridge:65 a sch:Bridge ;
-    bridge:built_in 1793 ;
-    bridge:crosses_river river:Nanticoke_River ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
     bridge:name "Woodland Ferry" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/woodland-ferry/" ;
-    sch:image "https://bridgehunter.com/photos/42/07/420719-M.jpg" ;
-    sch:latitude 38.59952 ;
-    sch:longitude -75.65649 .
+    sch:image "https://bridgehunter.com/photos/42/07/420719-M.jpg" .
 
 bridge:66 a sch:Bridge ;
-    bridge:built_in 1917 ;
-    bridge:crosses_river river:Broadkill_River ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
     bridge:name "Wagamon Pond Dam Bridge" ;
-    bridge:on_route route:Lost_Slab_bridge,
-        route:Mulberry_Street ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/wagamon-pond-dam/" ;
-    sch:image "https://bridgehunter.com/photos/31/10/311012-M.jpg" ;
-    sch:latitude 38.77726 ;
-    sch:longitude -75.31285 .
+    sch:image "https://bridgehunter.com/photos/31/10/311012-M.jpg" .
 
 bridge:67 a sch:Bridge ;
-    bridge:built_in 1964 ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 11.2 ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Lewes ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 60.7 ;
     bridge:name "uS 9 Lewis Ferry-Delaware Bay Bridge" ;
-    bridge:on_route route:Delaware_Bay,
-        route:US_9 ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 19.7 ;
-    bridge:superstructure_condition "Poor" ;
-    bridge:total_length 63.7 ;
-    bridge:traffic "1,237"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/de/sussex/bh85341/" ;
-    sch:latitude 38.78222 ;
-    sch:longitude -75.11940 .
+    bridge:place place:Lewes ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85341/" .
 
 bridge:68 a sch:Bridge ;
-    bridge:built_in 1964 ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 11.5 ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 60.7 ;
     bridge:name "US 9 Lewis Ferry 2-Delaware Bay Bridge" ;
-    bridge:on_route route:Delaware_Bay,
-        route:US_9 ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 37.0 ;
-    bridge:superstructure_condition "Poor" ;
-    bridge:total_length 63.3 ;
-    bridge:traffic "1,237"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/de/sussex/bh85342/" ;
-    sch:latitude 38.78233 ;
-    sch:longitude -75.11978 .
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85342/" .
 
 bridge:69 a sch:Bridge ;
-    bridge:built_in 1920 ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 32.5 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 60.7 ;
     bridge:name "Tyndall Branch Bridge" ;
-    bridge:on_route route:Tyndall_Branch,
-        route:US_9 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 91.0 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 27.9 ;
-    bridge:traffic "9,684"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/de/sussex/3659028/" ;
-    sch:latitude 38.62333 ;
-    sch:longitude -75.47833 .
+    bridge:url "https://bridgehunter.com/de/sussex/3659028/" .
 
 bridge:7 a sch:Bridge ;
-    bridge:built_in 1857 ;
-    bridge:crosses_river river:Willimantic_River ;
-    bridge:deck_width 21.0 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Windham_County ;
-    bridge:in_place place:Willimantic ;
-    bridge:in_state state:Connecticut ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 76.0 ;
-    bridge:made_from material:stone ;
     bridge:name "Windham Road Bridge" ;
-    bridge:on_route route:Windham_Road ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to pedestrians only" ;
-    bridge:total_length 130.0 ;
+    bridge:place place:Willimantic ;
     bridge:url "https://bridgehunter.com/ct/windham/windham-road/" ;
-    sch:image "https://bridgehunter.com/photos/10/16/101630-M.jpg" ;
-    sch:latitude 41.70967 ;
-    sch:longitude -72.20641 .
+    sch:image "https://bridgehunter.com/photos/10/16/101630-M.jpg" .
 
 bridge:70 a sch:Bridge ;
-    bridge:built_in 1940 ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 29.5 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 40.0 ;
-    bridge:made_from material:steel ;
     bridge:name "Stein Highway Viaduct" ;
-    bridge:on_route route:Cedar_Avenue,
-        route:Eastbound_DE_20,
-        route:Norfolk_Southern_Railroad,
-        route:Stein_Highway ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 74.8 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 560.1 ;
-    bridge:traffic "9,995"^^xsd:integer ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/bh78780/" ;
-    sch:image "https://bridgehunter.com/photos/43/91/439109-M.jpg" ;
-    sch:latitude 38.64638 ;
-    sch:longitude -75.61805 .
+    sch:image "https://bridgehunter.com/photos/43/91/439109-M.jpg" .
 
 bridge:71 a sch:Bridge ;
-    bridge:built_in 1920 ;
-    bridge:crosses_river river:Nanticoke_River ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 44.0 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 33.5 ;
-    bridge:made_from material:concrete ;
     bridge:name "Seashore Highway-Nanticoke River Bridge" ;
-    bridge:on_route route:Seashore_Hy_Sr18 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 82.2 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 69.9 ;
-    bridge:traffic "11,311"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/de/sussex/bh85343/" ;
-    sch:latitude 38.70826 ;
-    sch:longitude -75.55817 .
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85343/" .
 
 bridge:72 a sch:Bridge ;
-    bridge:built_in 1922 ;
-    bridge:crosses_river river:Collins_Mill_Pond ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 39.4 ;
-    bridge:design_type design:culvert ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 12.1 ;
     bridge:name "Seashore Highway-Collins Mill Pond Bridge" ;
-    bridge:on_route route:Seashore_Highway ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 93.2 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 25.3 ;
-    bridge:traffic "9,728"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/de/sussex/bh85344/" ;
-    sch:latitude 38.70845 ;
-    sch:longitude -75.52131 .
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85344/" .
 
 bridge:73 a sch:Bridge ;
-    bridge:built_by builder:Chicago_Bascule_Bridge_Co._of_Chicago,
-        builder:Imbach-Wozny-McCoy ;
-    bridge:built_in 1925 ;
-    bridge:crosses_river river:Nanticoke_River ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 24.0 ;
-    bridge:design_type design:beam,
-        design:truss ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 55.0 ;
     bridge:name "Seaford Bridge" ;
-    bridge:on_route route:Front_Street ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 47.0 ;
-    bridge:superstructure_condition "Poor" ;
-    bridge:total_length 201.8 ;
-    bridge:traffic "12,268"^^xsd:integer ;
     bridge:url "https://bridgehunter.com/de/sussex/seaford/" ;
-    sch:image "https://bridgehunter.com/photos/10/16/101638-M.jpg" ;
-    sch:latitude 38.64028 ;
-    sch:longitude -75.60917 .
+    sch:image "https://bridgehunter.com/photos/10/16/101638-M.jpg" .
 
 bridge:74 a sch:Bridge ;
-    bridge:built_by <http://dsci558.org/builder#Hardesty_&_Hanover_of_New_York> ;
-    bridge:built_in 1983 ;
-    bridge:crosses_river river:Lewes_Rehoboth_Canal ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 24.0 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 55.0 ;
     bridge:name "Savannah Road Bridge" ;
-    bridge:on_route route:Savannah_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 72.4 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 124.0 ;
-    bridge:traffic "6,165"^^xsd:integer ;
     bridge:url "https://bridgehunter.com/de/sussex/3154018/" ;
-    sch:image "https://bridgehunter.com/photos/28/39/283999-M.jpg" ;
-    sch:latitude 38.77556 ;
-    sch:longitude -75.13750 .
+    sch:image "https://bridgehunter.com/photos/28/39/283999-M.jpg" .
 
 bridge:75 a sch:Bridge ;
-    bridge:built_by <http://dsci558.org/builder#Keller_&_Harrington_of_Chicago> ;
-    bridge:built_in 1928 ;
-    bridge:crosses_river river:Broadkill_River ;
-    bridge:design_type design:beam,
-        design:suspension,
-        design:truss ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Milton ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
     bridge:name "Route 14 Bridge" ;
-    bridge:on_route route:Lavinia_Road,
-        route:Route_14 ;
-    bridge:rehabilitated false ;
-    bridge:status "No longer exists" ;
+    bridge:place place:Milton ;
     bridge:url "https://bridgehunter.com/de/sussex/bh61037/" ;
-    sch:image "https://bridgehunter.com/photos/28/40/284000-M.jpg" ;
-    sch:latitude 38.77718 ;
-    sch:longitude -75.31966 .
+    sch:image "https://bridgehunter.com/photos/28/40/284000-M.jpg" .
 
 bridge:76 a sch:Bridge ;
-    bridge:built_in 1978 ;
-    bridge:crosses_river river:Rehoboth_Canal ;
-    bridge:deck_condition "Fair" ;
-    bridge:deck_width 38.1 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 170.0 ;
-    bridge:made_from material:concrete ;
     bridge:name "Rehoboth-Dewey Bridge" ;
-    bridge:on_route route:Coastal_Highway,
-        route:DE_1 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 75.0 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 407.5 ;
-    bridge:traffic "32,695"^^xsd:integer ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/rehoboth-dewey/" ;
-    sch:image "https://bridgehunter.com/photos/47/74/477448-M.jpg" ;
-    sch:latitude 38.70865 ;
-    sch:longitude -75.09310 .
+    sch:image "https://bridgehunter.com/photos/47/74/477448-M.jpg" .
 
 bridge:77 a sch:Bridge ;
-    bridge:built_by builder:Scherzer_Rolling_Lift_Bridge_Co._of_Chicago ;
-    bridge:crosses_river river:Lewes_Rehoboth_Canal ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
     bridge:name "Rehoboth Avenue Bridge (Old)" ;
-    bridge:on_route route:Lost_Deck_plate_girder_bascule_bridge,
-        route:Rehoboth_Avenue ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/bh90297/" ;
-    sch:image "https://bridgehunter.com/photos/47/89/478983-M.jpg" ;
-    sch:latitude 38.71432 ;
-    sch:longitude -75.09275 .
+    sch:image "https://bridgehunter.com/photos/47/89/478983-M.jpg" .
 
 bridge:78 a sch:Bridge ;
-    bridge:built_in 1986 ;
-    bridge:crosses_river river:Lewes_Rehoboth_Canal ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
     bridge:name "Rehoboth Avenue Bridge" ;
-    bridge:on_route route:Rehoboth_Avenue,
-        route:Rehoboth_Beach ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 90.8 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 169.0 ;
-    bridge:traffic "25,450"^^xsd:integer ;
     bridge:url "https://bridgehunter.com/de/sussex/3153015/" ;
-    sch:image "https://bridgehunter.com/photos/21/28/212875-M.jpg" ;
-    sch:latitude 38.71417 ;
-    sch:longitude -75.09250 .
+    sch:image "https://bridgehunter.com/photos/21/28/212875-M.jpg" .
 
 bridge:79 a sch:Bridge ;
-    bridge:built_in 1916 ;
-    bridge:crosses_river river:Broadkill_River ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 34.5 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 24.9 ;
-    bridge:made_from material:steel ;
     bridge:name "Red Bridge" ;
-    bridge:on_route route:Union_Street ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 98.0 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 28.9 ;
-    bridge:traffic "5,469"^^xsd:integer ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/broadkill-river/" ;
-    sch:image "https://bridgehunter.com/photos/31/10/311058-M.jpg" ;
-    sch:latitude 38.77858 ;
-    sch:longitude -75.31101 .
+    sch:image "https://bridgehunter.com/photos/31/10/311058-M.jpg" .
 
 bridge:8 a sch:Bridge ;
-    bridge:built_in 1932 ;
-    bridge:crosses_river river:Morris_Mill_Pond ;
-    bridge:deck_condition "Very Good" ;
-    bridge:deck_width 24.0 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 24.0 ;
     bridge:name "Zoar Road Bridge" ;
-    bridge:on_route route:Zoar_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 78.2 ;
-    bridge:superstructure_condition "Very Good" ;
-    bridge:total_length 25.9 ;
-    bridge:traffic "6,021"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/de/sussex/zoar-road/" ;
-    sch:latitude 38.63858 ;
-    sch:longitude -75.31598 .
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/zoar-road/" .
 
 bridge:80 a sch:Bridge ;
-    bridge:built_in 1915 ;
-    bridge:crosses_river river:Broad_Creek ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 14.1 ;
-    bridge:design_type design:suspension,
-        design:truss ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 56.1 ;
     bridge:name "Poplar Street Bridge" ;
-    bridge:on_route route:Poplar_Street ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Intact but closed to all traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 46.2 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 111.9 ;
-    bridge:traffic "3,625"^^xsd:integer ;
     bridge:url "https://bridgehunter.com/de/sussex/3161028A/" ;
-    sch:image "https://bridgehunter.com/photos/13/26/132688-M.jpg" ;
-    sch:latitude 38.55889 ;
-    sch:longitude -75.57278 .
+    sch:image "https://bridgehunter.com/photos/13/26/132688-M.jpg" .
 
 bridge:81 a sch:Bridge ;
-    bridge:built_in 1917 ;
-    bridge:crosses_river river:Wagamon_Pond ;
-    bridge:design_type design:culvert ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
-    bridge:made_from material:concrete ;
     bridge:name "Penstock Bridge" ;
-    bridge:on_route route:Mulberry_Street ;
-    bridge:rehabilitated false ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/penstock/" ;
-    sch:image "https://bridgehunter.com/photos/31/10/311030-M.jpg" ;
-    sch:latitude 38.77627 ;
-    sch:longitude -75.31260 .
+    sch:image "https://bridgehunter.com/photos/31/10/311030-M.jpg" .
 
 bridge:82 a sch:Bridge ;
-    bridge:built_in 1933 ;
-    bridge:crosses_river river:Deep_Creek ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 28.5 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 36.1 ;
-    bridge:made_from material:steel ;
     bridge:name "Old Furnace Road Bridge" ;
-    bridge:on_route route:Old_Furnace_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 81.6 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 40.0 ;
-    bridge:traffic "3,379"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/de/sussex/old-furnace-road/" ;
-    sch:latitude 38.66597 ;
-    sch:longitude -75.51461 .
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/old-furnace-road/" .
 
 bridge:83 a sch:Bridge ;
-    bridge:built_in 1929 ;
-    bridge:crosses_river river:Nanticoke_River ;
-    bridge:design_type design:beam,
-        design:suspension,
-        design:truss ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Blades ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
     bridge:name "NS - Nanticoke River Bridge" ;
-    bridge:on_route route:Norfolk_Southern_Railway ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
+    bridge:place place:Blades ;
     bridge:url "https://bridgehunter.com/de/sussex/cr---nanticoke-river/" ;
-    sch:image "https://bridgehunter.com/photos/29/45/294501-M.jpg" ;
-    sch:latitude 38.63694 ;
-    sch:longitude -75.61379 .
+    sch:image "https://bridgehunter.com/photos/29/45/294501-M.jpg" .
 
 bridge:84 a sch:Bridge ;
-    bridge:built_by builder:James_A._Hirons,
-        builder:Joseph_Russo,
-        builder:William_B._Carswell_of_Wilmington ;
-    bridge:built_in 1903 ;
-    bridge:crosses_river river:Mispillion_River ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 35.1 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Kent_County,
-        county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 19.0 ;
-    bridge:made_from material:steel ;
     bridge:name "Mispillion River Bridge" ;
-    bridge:on_route route:Church_Street,
-        route:Lost_Steel_stringer_bridge ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 98.8 ;
-    bridge:superstructure_condition "Very Good" ;
-    bridge:total_length 42.0 ;
-    bridge:traffic "3,715"^^xsd:integer ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/kent/mispillion-river/" ;
-    sch:image "https://bridgehunter.com/photos/31/09/310945-M.jpg" ;
-    sch:latitude 38.91213 ;
-    sch:longitude -75.43076 .
+    sch:image "https://bridgehunter.com/photos/31/09/310945-M.jpg" .
 
 bridge:85 a sch:Bridge ;
-    bridge:built_by <http://dsci558.org/builder#Keller_&_Harrington_of_Chicago> ;
-    bridge:built_in 1929 ;
-    bridge:crosses_river river:Mispillion_River ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 24.9 ;
-    bridge:in_county county:Kent_County,
-        county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 57.1 ;
     bridge:name "Mispillion River Bridge" ;
-    bridge:on_route route:Rehoboth_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 56.3 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 108.9 ;
-    bridge:traffic "9,681"^^xsd:integer ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/kent/bh45160/" ;
-    sch:image "https://bridgehunter.com/photos/16/41/164111-M.jpg" ;
-    sch:latitude 38.91734 ;
-    sch:longitude -75.41768 .
+    sch:image "https://bridgehunter.com/photos/16/41/164111-M.jpg" .
 
 bridge:86 a sch:Bridge ;
-    bridge:built_in 1920 ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 26.6 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Dover ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 57.1 ;
     bridge:name "Laurel Road Bridge" ;
-    bridge:on_route route:James_Branch,
-        route:Laurel_Road ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 65.6 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 47.9 ;
-    bridge:traffic "7,202"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/de/sussex/3314024/" ;
-    sch:latitude 38.55464 ;
-    sch:longitude -75.53926 .
+    bridge:place place:Dover ;
+    bridge:url "https://bridgehunter.com/de/sussex/3314024/" .
 
 bridge:87 a sch:Bridge ;
-    bridge:built_in 1952 ;
-    bridge:crosses_river river:Indian_River_Inlet ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
     bridge:name "Indian River Inlet Swing Bridge (1952)" ;
-    bridge:on_route route:DE_1,
-        route:Lost_Bridge ;
-    bridge:rehabilitated false ;
-    bridge:status "Replaced by a new bridge" ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/bh63336/" ;
-    sch:image "https://bridgehunter.com/photos/37/48/374857-M.jpg" ;
-    sch:latitude 38.60782 ;
-    sch:longitude -75.06369 .
+    sch:image "https://bridgehunter.com/photos/37/48/374857-M.jpg" .
 
 bridge:88 a sch:Bridge ;
-    bridge:built_in 1938 ;
-    bridge:crosses_river river:Indian_River_Inlet ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
     bridge:name "Indian River Inlet Swing Bridge (1938)" ;
-    bridge:on_route route:DE_1,
-        route:Lost_Bridge ;
-    bridge:rehabilitated false ;
-    bridge:status "Destroyed by collision with ice via tide" ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/bh63335/" ;
-    sch:image "https://bridgehunter.com/photos/31/64/316478-M.jpg" ;
-    sch:latitude 38.60782 ;
-    sch:longitude -75.06369 .
+    sch:image "https://bridgehunter.com/photos/31/64/316478-M.jpg" .
 
 bridge:89 a sch:Bridge ;
-    bridge:built_in 1934 ;
-    bridge:crosses_river river:Indian_River_Inlet ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
-    bridge:made_from material:timber ;
     bridge:name "Indian River Inlet Bridge (1934)" ;
-    bridge:on_route route:Coastal_Highway,
-        route:Lost_Timber_stringer_bridge ;
-    bridge:rehabilitated true ;
-    bridge:status "Destroyed by severe weather" ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/bh74994/" ;
-    sch:image "https://bridgehunter.com/photos/37/48/374858-M.jpg" ;
-    sch:latitude 38.60847 ;
-    sch:longitude -75.06305 .
+    sch:image "https://bridgehunter.com/photos/37/48/374858-M.jpg" .
 
 bridge:9 a sch:Bridge ;
-    bridge:crosses_river river:Choctawhatchee_River ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Holmes_County,
-        county:Washington_County ;
-    bridge:in_place place:Caryville ;
-    bridge:in_state state:Florida ;
-    bridge:is_open "TRUE" ;
     bridge:name "CSX - Westville-Caryville Drawbridge" ;
-    bridge:on_route route:CSX_Railroad ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
+    bridge:place place:Caryville ;
     bridge:url "https://bridgehunter.com/fl/washington/bh48530/" ;
-    sch:image "https://bridgehunter.com/photos/21/83/218322-M.jpg" ;
-    sch:latitude 30.77627 ;
-    sch:longitude -85.82697 .
+    sch:image "https://bridgehunter.com/photos/21/83/218322-M.jpg" .
 
 bridge:90 a sch:Bridge ;
-    bridge:built_by builder:AECOM_of_Los_Angeles._California,
-        <http://dsci558.org/builder#George_&_Lynch_of_Dover>,
-        builder:Skanska_AB_of_Stockholm ;
-    bridge:built_in 2012 ;
-    bridge:crosses_river river:Indian_River,
-        river:Indian_River_Inlet ;
-    bridge:deck_width 107.7 ;
-    bridge:design_type design:cable-stayed ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 950.0 ;
-    bridge:maintained_by maintainer:Delaware_Department_of_Transportation ;
     bridge:name "Indian River Inlet Bridge" ;
-    bridge:on_route route:DE_SR_1,
-        route:Delaware_Route_1 ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:total_length "2,600"^^xsd:decimal ;
+    bridge:place place:Sussex_County ;
     bridge:url "http://www.wikidata.org/entity/Q6021476",
         "https://bridgehunter.com/de/sussex/indian-river-inlet/",
         "https://en.wikipedia.org/wiki/Indian_River_Inlet_Bridge" ;
     sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/Indian%20River%20Inlet%20Bridge.JPG",
-        "https://bridgehunter.com/photos/43/65/436579-M.jpg" ;
-    sch:latitude 38.60810 ;
-    sch:longitude -75.06370 .
+        "https://bridgehunter.com/photos/43/65/436579-M.jpg" .
 
 bridge:91 a sch:Bridge ;
-    bridge:built_in 1941 ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 42.0 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 52.2 ;
     bridge:name "High Street Bridge" ;
-    bridge:on_route route:High_Street,
-        route:Norfolk_Southern ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 92.0 ;
-    bridge:superstructure_condition "Satisfactory" ;
-    bridge:total_length 101.7 ;
-    bridge:traffic "6,767"^^xsd:integer ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/high-street/" ;
-    sch:image "https://bridgehunter.com/photos/43/91/439130-M.jpg" ;
-    sch:latitude 38.63984 ;
-    sch:longitude -75.61498 .
+    sch:image "https://bridgehunter.com/photos/43/91/439130-M.jpg" .
 
 bridge:92 a sch:Bridge ;
-    bridge:built_in 1919 ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 20.3 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 56.1 ;
     bridge:name "Elks Road Bridge" ;
-    bridge:on_route route:Elks_Road,
-        route:Gravelly_Branch ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 60.3 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 62.0 ;
-    bridge:traffic "6,628"^^xsd:integer ;
     bridge:url "https://bridgehunter.com/de/sussex/3237046/" ;
-    sch:image "https://bridgehunter.com/photos/48/98/489888-M.jpg" ;
-    sch:latitude 38.66556 ;
-    sch:longitude -75.56500 .
+    sch:image "https://bridgehunter.com/photos/48/98/489888-M.jpg" .
 
 bridge:93 a sch:Bridge ;
-    bridge:built_in 1917 ;
-    bridge:crosses_river river:Diamond_Pond ;
-    bridge:deck_width 20.3 ;
-    bridge:design_type design:culvert ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 13.1 ;
     bridge:name "Diamond Pond Bridge" ;
-    bridge:on_route route:Sand_Hill_Road ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:total_length 14.1 ;
-    bridge:url "https://bridgehunter.com/de/sussex/diamond-pond/" ;
-    sch:latitude 38.76875 ;
-    sch:longitude -75.31789 .
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/diamond-pond/" .
 
 bridge:94 a sch:Bridge ;
-    bridge:built_in 1965 ;
-    bridge:crosses_river river:Indian_River_Inlet ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 60.0 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 250.0 ;
-    bridge:made_from material:steel ;
     bridge:name "DE1 Indian River Inlet Bridge" ;
-    bridge:on_route route:Coastal_Hgwy ;
-    bridge:overall_condition "Good" ;
-    bridge:rehabilitated true ;
-    bridge:status "Replaced by a new bridge" ;
-    bridge:substructure_condition "Good" ;
-    bridge:sufficiency 80.0 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 880.6 ;
-    bridge:traffic "24,130"^^xsd:integer ;
+    bridge:place place:Sussex_County ;
     bridge:url "https://bridgehunter.com/de/sussex/bh63337/" ;
-    sch:image "https://bridgehunter.com/photos/29/82/298218-M.jpg" ;
-    sch:latitude 38.60778 ;
-    sch:longitude -75.06306 .
+    sch:image "https://bridgehunter.com/photos/29/82/298218-M.jpg" .
 
 bridge:95 a sch:Bridge ;
-    bridge:built_by builder:American_Bridge_Co._of_New_York ;
-    bridge:built_in 1916 ;
-    bridge:crosses_river river:Intracoastal_Waterway ;
-    bridge:design_type design:beam,
-        design:suspension,
-        design:truss ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_place place:Lewes ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
     bridge:name "DCLR - Lewes Creek Swing Bridge" ;
-    bridge:on_route route:Delaware_Coast_Line ;
-    bridge:rehabilitated false ;
-    bridge:status "Intact but closed to all traffic; to be removed" ;
+    bridge:place place:Lewes ;
     bridge:url "https://bridgehunter.com/de/sussex/lewes-railroad-swing/" ;
-    sch:image "https://bridgehunter.com/photos/25/19/251902-M.jpg" ;
-    sch:latitude 38.77359 ;
-    sch:longitude -75.13388 .
+    sch:image "https://bridgehunter.com/photos/25/19/251902-M.jpg" .
 
 bridge:96 a sch:Bridge ;
-    bridge:built_in 1938 ;
-    bridge:crosses_river river:Silver_Lake ;
-    bridge:deck_condition "Fair" ;
-    bridge:deck_width 24.0 ;
-    bridge:design_type design:beam ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 20.0 ;
     bridge:name "Coastal Highway Bridge" ;
-    bridge:on_route route:Coastal_Highway,
-        route:Rehoboth_Beach ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated true ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 64.5 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 259.9 ;
-    bridge:traffic "10,093"^^xsd:integer ;
     bridge:url "https://bridgehunter.com/de/sussex/3707050/" ;
-    sch:image "https://bridgehunter.com/photos/21/28/212871-M.jpg" ;
-    sch:latitude 38.70722 ;
-    sch:longitude -75.08056 .
+    sch:image "https://bridgehunter.com/photos/21/28/212871-M.jpg" .
 
 bridge:97 a sch:Bridge ;
-    bridge:built_in 1919 ;
-    bridge:crosses_river river:Clear_Brook ;
-    bridge:deck_condition "Fair" ;
-    bridge:deck_width 33.1 ;
-    bridge:design_type design:arch ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 24.0 ;
     bridge:name "Clear Brook Bridge" ;
-    bridge:on_route route:RD_13 ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 91.8 ;
-    bridge:superstructure_condition "Good" ;
-    bridge:total_length 27.9 ;
-    bridge:traffic "4,637"^^xsd:integer ;
-    bridge:url "https://bridgehunter.com/de/sussex/3202013/" ;
-    sch:latitude 38.67889 ;
-    sch:longitude -75.59306 .
+    bridge:url "https://bridgehunter.com/de/sussex/3202013/" .
 
 bridge:98 a sch:Bridge ;
-    bridge:built_by <http://dsci558.org/builder#Keller_&_Harrington_of_Chicago> ;
-    bridge:built_in 1923 ;
-    bridge:crosses_river river:Broad_Creek ;
-    bridge:deck_condition "Satisfactory" ;
-    bridge:deck_width 24.0 ;
-    bridge:design_type design:truss ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "FALSE" ;
-    bridge:length_of_largest_span 65.0 ;
     bridge:name "Central Avenue Bridge" ;
-    bridge:on_route route:Central_Avenue ;
-    bridge:overall_condition "Poor" ;
-    bridge:rehabilitated true ;
-    bridge:status "Intact but closed to all traffic" ;
-    bridge:substructure_condition "Satisfactory" ;
-    bridge:sufficiency 27.8 ;
-    bridge:superstructure_condition "Poor" ;
-    bridge:total_length 89.9 ;
-    bridge:traffic "6,292"^^xsd:integer ;
     bridge:url "https://bridgehunter.com/de/sussex/3152013/" ;
-    sch:image "https://bridgehunter.com/photos/13/26/132689-M.jpg" ;
-    sch:latitude 38.55861 ;
-    sch:longitude -75.57167 .
+    sch:image "https://bridgehunter.com/photos/13/26/132689-M.jpg" .
 
 bridge:99 a sch:Bridge ;
-    bridge:built_in 1949 ;
-    bridge:crosses_river river:Cedar_Creek ;
-    bridge:deck_condition "Good" ;
-    bridge:deck_width 24.0 ;
-    bridge:design_type design:suspension,
-        design:truss ;
-    bridge:in_county county:Sussex_County ;
-    bridge:in_state state:Delaware ;
-    bridge:is_open "TRUE" ;
-    bridge:length_of_largest_span 65.0 ;
     bridge:name "Cedar Creek Bridge" ;
-    bridge:on_route route:DE_36,
-        route:Slaughter_Beach ;
-    bridge:overall_condition "Fair" ;
-    bridge:rehabilitated false ;
-    bridge:status "Open to traffic" ;
-    bridge:substructure_condition "Fair" ;
-    bridge:sufficiency 60.6 ;
-    bridge:superstructure_condition "Fair" ;
-    bridge:total_length 83.0 ;
-    bridge:traffic "2,414"^^xsd:integer ;
     bridge:url "https://bridgehunter.com/de/sussex/3164036/" ;
-    sch:image "https://bridgehunter.com/photos/28/39/283998-M.jpg" ;
-    sch:latitude 38.93500 ;
-    sch:longitude -75.32389 .
-
-builder:AECOM_of_Los_Angeles._California a sch:Builder ;
-    builder:name "AECOM of Los Angeles. California" .
-
-builder:Acrow_Corporation_of_America_of_Parsippany a sch:Builder ;
-    builder:name "Acrow Corporation of America of Parsippany" .
-
-builder:C.W._Higley a sch:Builder ;
-    builder:name "C.W. Higley" .
-
-builder:Chicago_Bascule_Bridge_Co._of_Chicago a sch:Builder ;
-    builder:name "Chicago Bascule Bridge Co. of Chicago" .
-
-builder:Corrugated_Metal_Co._of_East_Berlin a sch:Builder ;
-    builder:name "Corrugated Metal Co. of East Berlin" .
-
-builder:Fort_Pitt_Bridge_Works_of_Pittsburgh a sch:Builder ;
-    builder:name "Fort Pitt Bridge Works of Pittsburgh" .
-
-<http://dsci558.org/builder#George_&_Lynch_of_Dover> a sch:Builder ;
-    builder:name "George & Lynch of Dover" .
-
-builder:Georgia_State_Highway_Department a sch:Builder ;
-    builder:name "Georgia State Highway Department" .
-
-<http://dsci558.org/builder#Hardesty_&_Hanover_of_New_York> a sch:Builder ;
-    builder:name "Hardesty & Hanover of New York" .
-
-builder:Imbach-Wozny-McCoy a sch:Builder ;
-    builder:name "Imbach-Wozny-McCoy" .
-
-builder:Issac_Baldwin a sch:Builder ;
-    builder:name "Issac Baldwin" .
-
-builder:James_A._Hirons a sch:Builder ;
-    builder:name "James A. Hirons" .
-
-builder:Joseph_Russo a sch:Builder ;
-    builder:name "Joseph Russo" .
-
-<http://dsci558.org/builder#Ken_&_Evan_Sigfridson> a sch:Builder ;
-    builder:name "Ken & Evan Sigfridson" .
-
-builder:King_Bridge_Co._of_Cleveland a sch:Builder ;
-    builder:name "King Bridge Co. of Cleveland" .
-
-<http://dsci558.org/builder#Lewis_F._Shoemaker_&_Co._of_Pottstown> a sch:Builder ;
-    builder:name "Lewis F. Shoemaker & Co. of Pottstown" .
-
-builder:Nathaniel_Olin a sch:Builder ;
-    builder:name "Nathaniel Olin" .
-
-builder:Owego_Bridge_Co._of_Owego a sch:Builder ;
-    builder:name "Owego Bridge Co. of Owego" .
-
-builder:Pensacola_Shipbuilding_Co._of_Pensacola a sch:Builder ;
-    builder:name "Pensacola Shipbuilding Co. of Pensacola" .
-
-builder:Scherzer_Rolling_Lift_Bridge_Co._of_Chicago a sch:Builder ;
-    builder:name "Scherzer Rolling Lift Bridge Co. of Chicago" .
-
-builder:Schuylkill_Bridge_Works a sch:Builder ;
-    builder:name "Schuylkill Bridge Works" .
-
-builder:Skanska_AB_of_Stockholm a sch:Builder ;
-    builder:name "Skanska AB of Stockholm" .
-
-builder:State_Highway_Department a sch:Builder ;
-    builder:name "State Highway Department" .
-
-builder:William_B._Carswell_of_Wilmington a sch:Builder ;
-    builder:name "William B. Carswell of Wilmington" .
-
-county:Cape_May_County a sch:County ;
-    county:name "Cape May County" .
-
-county:Crisp_County a sch:County ;
-    county:name "Crisp County" .
-
-county:Imperial_County a sch:County ;
-    county:name "Imperial County" .
-
-county:Winston_County a sch:County ;
-    county:name "Winston County" .
-
-county:Yell_County a sch:County ;
-    county:name "Yell County" .
-
-county:Yuba_County a sch:County ;
-    county:name "Yuba County" .
-
-county:Yukon-Koyukuk_Census_Area a sch:County ;
-    county:name "Yukon-Koyukuk Census Area" .
-
-design:cable-stayed a sch:Design ;
-    design:name "cable-stayed" .
-
-maintainer:Delaware_Department_of_Transportation a sch:Maintainer ;
-    maintainer:name "Delaware Department of Transportation" ;
-    maintainer:url "http://www.wikidata.org/entity/Q3297972" .
-
-material:wood a sch:Material ;
-    material:name "wood" .
+    sch:image "https://bridgehunter.com/photos/28/39/283998-M.jpg" .
 
 place:Blades a sch:Place ;
     place:name "Blades" .
@@ -3642,621 +897,6 @@ place:Warwick a sch:Place ;
 place:Yuma a sch:Place ;
     place:name "Yuma" .
 
-river:Alelele_Stream a sch:River ;
-    river:name "Alelele Stream" .
-
-river:Beaver_Brook a sch:River ;
-    river:name "Beaver Brook" .
-
-river:Cady_Brook a sch:River ;
-    river:name "Cady Brook" .
-
-river:Cedar_Creek a sch:River ;
-    river:name "Cedar Creek" .
-
-river:Choctawhatchee_River a sch:River ;
-    river:name "Choctawhatchee River" .
-
-river:Clear_Brook a sch:River ;
-    river:name "Clear Brook" .
-
-river:Collins_Mill_Pond a sch:River ;
-    river:name "Collins Mill Pond" .
-
-river:Colorado_River a sch:River ;
-    river:name "Colorado River" .
-
-river:Connecticut_River a sch:River ;
-    river:name "Connecticut River" .
-
-river:Coyote_Creek a sch:River ;
-    river:name "Coyote Creek" .
-
-river:Dam_Tavern_Brook a sch:River ;
-    river:name "Dam Tavern Brook" .
-
-river:Deep_Creek a sch:River ;
-    river:name "Deep Creek" .
-
-river:Diamond_Pond a sch:River ;
-    river:name "Diamond Pond" .
-
-river:East_Wailuanui_Stream a sch:River ;
-    river:name "East Wailuanui Stream" .
-
-river:Hahalawe_Stream a sch:River ;
-    river:name "Hahalawe Stream" .
-
-river:Hanawi_Stream a sch:River ;
-    river:name "Hanawi Stream" .
-
-river:Hoalua_Stream a sch:River ;
-    river:name "Hoalua Stream" .
-
-river:Honolewa_Stream a sch:River ;
-    river:name "Honolewa Stream" .
-
-river:Honomanu_Strm a sch:River ;
-    river:name "Honomanu Strm" .
-
-river:Honouliwai_Strm_3_Cell a sch:River ;
-    river:name "Honouliwai Strm 3 Cell" .
-
-river:Hop_River_State_Park_Trail a sch:River ;
-    river:name "Hop River State Park Trail" .
-
-river:Iao_Strm a sch:River ;
-    river:name "Iao Strm" .
-
-river:Indian_River a sch:River ;
-    river:name "Indian River" .
-
-river:Intracoastal_Waterway a sch:River ;
-    river:name "Intracoastal Waterway" .
-
-river:Kahakuloa_Strm a sch:River ;
-    river:name "Kahakuloa Strm" .
-
-river:Kahoma_Stream a sch:River ;
-    river:name "Kahoma Stream" .
-
-river:Kailua_Stream a sch:River ;
-    river:name "Kailua Stream" .
-
-river:Kapia_Strm_Kahawaiokapia a sch:River ;
-    river:name "Kapia Strm Kahawaiokapia" .
-
-river:Kitt_Brook a sch:River ;
-    river:name "Kitt Brook" .
-
-river:Knowlton_Brook a sch:River ;
-    river:name "Knowlton Brook" .
-
-river:Kolea_Stream a sch:River ;
-    river:name "Kolea Stream" .
-
-river:Koukouai_Stream a sch:River ;
-    river:name "Koukouai Stream" .
-
-river:Kuhiwa_Stream a sch:River ;
-    river:name "Kuhiwa Stream" .
-
-river:Lanikele_Strm a sch:River ;
-    river:name "Lanikele Strm" .
-
-river:Makapipi_Stream a sch:River ;
-    river:name "Makapipi Stream" .
-
-river:Merrick_Brook a sch:River ;
-    river:name "Merrick Brook" .
-
-river:Mokulehua_Strm a sch:River ;
-    river:name "Mokulehua Strm" .
-
-river:Morris_Mill_Pond a sch:River ;
-    river:name "Morris Mill Pond" .
-
-river:Nailiilihaele_Stream a sch:River ;
-    river:name "Nailiilihaele Stream" .
-
-river:Oilowai_Strm a sch:River ;
-    river:name "Oilowai Strm" .
-
-river:Oopuola_Stream a sch:River ;
-    river:name "Oopuola Stream" .
-
-river:Paihi_Strm_Struct a sch:River ;
-    river:name "Paihi Strm Struct" .
-
-<http://dsci558.org/river#Papahawahawa_Strm_#_28> a sch:River ;
-    river:name "Papahawahawa Strm # 28" .
-
-river:Piney_Woods_Creek a sch:River ;
-    river:name "Piney Woods Creek" .
-
-river:Pipiwai_Strem a sch:River ;
-    river:name "Pipiwai Strem" .
-
-river:Punalau_Strm_Kolea a sch:River ;
-    river:name "Punalau Strm Kolea" .
-
-river:Puohokamoa_Stream a sch:River ;
-    river:name "Puohokamoa Stream" .
-
-river:Puohokamoa_Strm a sch:River ;
-    river:name "Puohokamoa Strm" .
-
-river:Quinebaug_River_Trail_East_Coast a sch:River ;
-    river:name "Quinebaug River Trail East Coast" .
-
-river:Rehoboth_Canal a sch:River ;
-    river:name "Rehoboth Canal" .
-
-river:River_Road a sch:River ;
-    river:name "River Road" .
-
-river:River_Street a sch:River ;
-    river:name "River Street" .
-
-river:Rock_Creek a sch:River ;
-    river:name "Rock Creek" .
-
-river:Silver_Lake a sch:River ;
-    river:name "Silver Lake" .
-
-river:Small_Stream a sch:River ;
-    river:name "Small Stream" .
-
-river:Smith_Lake a sch:River ;
-    river:name "Smith Lake" .
-
-river:Swift_Creek a sch:River ;
-    river:name "Swift Creek" .
-
-river:Tolovana_River a sch:River ;
-    river:name "Tolovana River" .
-
-river:Ty_Ty_Creek_Tributary a sch:River ;
-    river:name "Ty Ty Creek Tributary" .
-
-river:Ulaino_Strm a sch:River ;
-    river:name "Ulaino Strm" .
-
-river:Unmd_Strm_Kamiloloa a sch:River ;
-    river:name "Unmd Strm Kamiloloa" .
-
-river:Us90_Sr10_Choctaw_River a sch:River ;
-    river:name "Us90 Sr10 Choctaw River" .
-
-river:Wagamon_Pond a sch:River ;
-    river:name "Wagamon Pond" .
-
-river:Waiele_Stream a sch:River ;
-    river:name "Waiele Stream" .
-
-river:Waikani_Stream a sch:River ;
-    river:name "Waikani Stream" .
-
-river:Waiohonu_Stream a sch:River ;
-    river:name "Waiohonu Stream" .
-
-<http://dsci558.org/river#Waiohonu_Strm_#_29> a sch:River ;
-    river:name "Waiohonu Strm # 29" .
-
-river:Whetstone_Brook a sch:River ;
-    river:name "Whetstone Brook" .
-
-river:Wildcat_Creek a sch:River ;
-    river:name "Wildcat Creek" .
-
-river:Yuba_River a sch:River ;
-    river:name "Yuba River" .
-
-route:Air_Line_State_Park_Trail a sch:Route ;
-    route:name "Air Line State Park Trail" .
-
-route:Airline_North_State_Park_Trail a sch:Route ;
-    route:name "Airline North State Park Trail" .
-
-route:Airline_South_State_Park_Trail a sch:Route ;
-    route:name "Airline South State Park Trail" .
-
-route:Arch_Street a sch:Route ;
-    route:name "Arch Street" .
-
-route:Attawaugan_Ballouville_Road a sch:Route ;
-    route:name "Attawaugan Ballouville Road" .
-
-route:Baker_Road a sch:Route ;
-    route:name "Baker Road" .
-
-route:Bates_Avenue a sch:Route ;
-    route:name "Bates Avenue" .
-
-route:Boston_Hollow_Road a sch:Route ;
-    route:name "Boston Hollow Road" .
-
-route:Brandy_Hill_Road a sch:Route ;
-    route:name "Brandy Hill Road" .
-
-route:Brunswick_Avenue a sch:Route ;
-    route:name "Brunswick Avenue" .
-
-route:Butts_Bridge_Road a sch:Route ;
-    route:name "Butts Bridge Road" .
-
-route:CO_59 a sch:Route ;
-    route:name "CO 59" .
-
-route:CR_297 a sch:Route ;
-    route:name "CR 297" .
-
-route:CSX_Railroad a sch:Route ;
-    route:name "CSX Railroad" .
-
-route:CT_12 a sch:Route ;
-    route:name "CT 12" .
-
-route:CT_198 a sch:Route ;
-    route:name "CT 198" .
-
-route:CT_32 a sch:Route ;
-    route:name "CT 32" .
-
-route:CT_601 a sch:Route ;
-    route:name "CT 601" .
-
-route:CT_66 a sch:Route ;
-    route:name "CT 66" .
-
-route:CT_668 a sch:Route ;
-    route:name "CT 668" .
-
-route:Cedar_Avenue a sch:Route ;
-    route:name "Cedar Avenue" .
-
-route:Central_Avenue a sch:Route ;
-    route:name "Central Avenue" .
-
-route:Central_Vermont_Railroad a sch:Route ;
-    route:name "Central Vermont Railroad" .
-
-route:Chase_Road a sch:Route ;
-    route:name "Chase Road" .
-
-route:Church_Street a sch:Route ;
-    route:name "Church Street" .
-
-route:Co_Rt_77 a sch:Route ;
-    route:name "Co Rt 77" .
-
-route:Coast_Greenway a sch:Route ;
-    route:name "Coast Greenway" .
-
-route:Coastal_Hgwy a sch:Route ;
-    route:name "Coastal Hgwy" .
-
-route:College_Street a sch:Route ;
-    route:name "College Street" .
-
-route:Cor_Z a sch:Route ;
-    route:name "Cor Z" .
-
-route:Coventry_Greenway_Moosup_Valley_State a sch:Route ;
-    route:name "Coventry Greenway Moosup Valley State" .
-
-route:Cr_318 a sch:Route ;
-    route:name "Cr 318" .
-
-route:Csx_Railroad a sch:Route ;
-    route:name "Csx Railroad" .
-
-route:DE_36 a sch:Route ;
-    route:name "DE 36" .
-
-route:DE_SR_1 a sch:Route ;
-    route:name "DE SR 1" .
-
-route:Delaware_Coast_Line a sch:Route ;
-    route:name "Delaware Coast Line" .
-
-route:Delaware_Route_1 a sch:Route ;
-    route:name "Delaware Route 1" .
-
-route:East_Coast a sch:Route ;
-    route:name "East Coast" .
-
-route:East_Coast_Greenway a sch:Route ;
-    route:name "East Coast Greenway" .
-
-route:Eastbound_DE_20 a sch:Route ;
-    route:name "Eastbound DE 20" .
-
-route:Elks_Road a sch:Route ;
-    route:name "Elks Road" .
-
-route:Elliott_Highway a sch:Route ;
-    route:name "Elliott Highway" .
-
-route:Fanns_Bridge_Road a sch:Route ;
-    route:name "Fanns Bridge Road" .
-
-route:Fitzgerald_Road a sch:Route ;
-    route:name "Fitzgerald Road" .
-
-route:Front_Street a sch:Route ;
-    route:name "Front Street" .
-
-route:Gravelly_Branch a sch:Route ;
-    route:name "Gravelly Branch" .
-
-route:HI_360 a sch:Route ;
-    route:name "HI 360" .
-
-route:HI_52 a sch:Route ;
-    route:name "HI 52" .
-
-route:Hartford_Railroad a sch:Route ;
-    route:name "Hartford Railroad" .
-
-route:Haña_Highway a sch:Route ;
-    route:name "Haña Highway" .
-
-route:Helicon_Road a sch:Route ;
-    route:name "Helicon Road" .
-
-route:High_Street a sch:Route ;
-    route:name "High Street" .
-
-route:James_Branch a sch:Route ;
-    route:name "James Branch" .
-
-route:Kaahumanu_Avenue a sch:Route ;
-    route:name "Kaahumanu Avenue" .
-
-route:Kahekili_Highway a sch:Route ;
-    route:name "Kahekili Highway" .
-
-route:Kahekili_Hwy a sch:Route ;
-    route:name "Kahekili Hwy" .
-
-route:Kennedy_Drive a sch:Route ;
-    route:name "Kennedy Drive" .
-
-route:Laurel_Road a sch:Route ;
-    route:name "Laurel Road" .
-
-route:Lavinia_Road a sch:Route ;
-    route:name "Lavinia Road" .
-
-route:Lost_Closed a sch:Route ;
-    route:name "Lost Closed" .
-
-route:Lost_Deck_plate_girder_bascule_bridge a sch:Route ;
-    route:name "Lost Deck plate girder bascule bridge" .
-
-route:Lost_Deck_plate_girder_bridge a sch:Route ;
-    route:name "Lost Deck plate girder bridge" .
-
-route:Lost_Lenticular_pony a sch:Route ;
-    route:name "Lost Lenticular pony" .
-
-route:Lost_Slab_bridge a sch:Route ;
-    route:name "Lost Slab bridge" .
-
-route:Lost_Timber_stringer_bridge a sch:Route ;
-    route:name "Lost Timber stringer bridge" .
-
-route:Lost_Warren_deck a sch:Route ;
-    route:name "Lost Warren deck" .
-
-route:Main_Street a sch:Route ;
-    route:name "Main Street" .
-
-route:Makawao_Avenue a sch:Route ;
-    route:name "Makawao Avenue" .
-
-route:Mansfield_Road a sch:Route ;
-    route:name "Mansfield Road" .
-
-<http://dsci558.org/route#NYNH&H_Midland_Division> a sch:Route ;
-    route:name "NYNH&H Midland Division" .
-
-route:Naniloa_Drive a sch:Route ;
-    route:name "Naniloa Drive" .
-
-route:New_Haven a sch:Route ;
-    route:name "New Haven" .
-
-route:New_Haven_Railroad a sch:Route ;
-    route:name "New Haven Railroad" .
-
-route:New_York a sch:Route ;
-    route:name "New York" .
-
-route:Norfolk_Southern a sch:Route ;
-    route:name "Norfolk Southern" .
-
-route:Norfolk_Southern_Railroad a sch:Route ;
-    route:name "Norfolk Southern Railroad" .
-
-route:Norfolk_Southern_Railway a sch:Route ;
-    route:name "Norfolk Southern Railway" .
-
-<http://dsci558.org/route#Ohe'o_Gulch> a sch:Route ;
-    route:name "Ohe'o Gulch" .
-
-route:Old_Furnace_Road a sch:Route ;
-    route:name "Old Furnace Road" .
-
-route:Old_GA_33 a sch:Route ;
-    route:name "Old GA 33" .
-
-route:Old_SR_50 a sch:Route ;
-    route:name "Old SR 50" .
-
-route:Packerville_Road a sch:Route ;
-    route:name "Packerville Road" .
-
-route:Parker_Road a sch:Route ;
-    route:name "Parker Road" .
-
-route:Pedestrian_Path a sch:Route ;
-    route:name "Pedestrian Path" .
-
-route:Peep_Toad_Road a sch:Route ;
-    route:name "Peep Toad Road" .
-
-<http://dsci558.org/route#Pi'ilani_Highway> a sch:Route ;
-    route:name "Pi'ilani Highway" .
-
-route:Pine_Street a sch:Route ;
-    route:name "Pine Street" .
-
-route:Poplar_Street a sch:Route ;
-    route:name "Poplar Street" .
-
-route:Providence_Street a sch:Route ;
-    route:name "Providence Street" .
-
-route:RD_13 a sch:Route ;
-    route:name "RD 13" .
-
-route:Rehoboth_Road a sch:Route ;
-    route:name "Rehoboth Road" .
-
-route:Route_169 a sch:Route ;
-    route:name "Route 169" .
-
-route:Route_197 a sch:Route ;
-    route:name "Route 197" .
-
-route:Route_66 a sch:Route ;
-    route:name "Route 66" .
-
-route:Rt_197 a sch:Route ;
-    route:name "Rt 197" .
-
-route:SR_70 a sch:Route ;
-    route:name "SR 70" .
-
-route:Sand_Hill_Road a sch:Route ;
-    route:name "Sand Hill Road" .
-
-route:Savannah_Road a sch:Route ;
-    route:name "Savannah Road" .
-
-route:School_Street_Extension a sch:Route ;
-    route:name "School Street Extension" .
-
-route:Seashore_Highway a sch:Route ;
-    route:name "Seashore Highway" .
-
-route:Seashore_Hy_Sr18 a sch:Route ;
-    route:name "Seashore Hy Sr18" .
-
-route:Sh_307 a sch:Route ;
-    route:name "Sh 307" .
-
-route:Shepard_Hill_Road a sch:Route ;
-    route:name "Shepard Hill Road" .
-
-route:Slaughter_Beach a sch:Route ;
-    route:name "Slaughter Beach" .
-
-route:South_Hana_Highway a sch:Route ;
-    route:name "South Hana Highway" .
-
-route:South_Street a sch:Route ;
-    route:name "South Street" .
-
-route:Sr_10 a sch:Route ;
-    route:name "Sr 10" .
-
-route:Sr_33 a sch:Route ;
-    route:name "Sr 33" .
-
-route:State_Park a sch:Route ;
-    route:name "State Park" .
-
-route:State_Park_Trail a sch:Route ;
-    route:name "State Park Trail" .
-
-route:Stein_Highway a sch:Route ;
-    route:name "Stein Highway" .
-
-route:Tracy_Road a sch:Route ;
-    route:name "Tracy Road" .
-
-route:Tyndall_Branch a sch:Route ;
-    route:name "Tyndall Branch" .
-
-route:Union_Pacific_Railroad a sch:Route ;
-    route:name "Union Pacific Railroad" .
-
-route:Union_Street a sch:Route ;
-    route:name "Union Street" .
-
-route:Us_82 a sch:Route ;
-    route:name "Us 82" .
-
-route:Us_90 a sch:Route ;
-    route:name "Us 90" .
-
-route:Valley_State a sch:Route ;
-    route:name "Valley State" .
-
-route:Waiehu_Beach_Road a sch:Route ;
-    route:name "Waiehu Beach Road" .
-
-route:Wailena_Gulch a sch:Route ;
-    route:name "Wailena Gulch" .
-
-route:West_Ashford a sch:Route ;
-    route:name "West Ashford" .
-
-route:West_Waiuaiki_StreM a sch:Route ;
-    route:name "West Waiuaiki StreM" .
-
-route:Worc_Railroad a sch:Route ;
-    route:name "Worc Railroad" .
-
-route:Zoar_Road a sch:Route ;
-    route:name "Zoar Road" .
-
-state:Alabama a sch:State ;
-    state:name "Alabama" .
-
-state:Alaska a sch:State ;
-    state:name "Alaska" .
-
-state:Arizona a sch:State ;
-    state:name "Arizona" .
-
-state:Arkansas a sch:State ;
-    state:name "Arkansas" .
-
-state:Colorado a sch:State ;
-    state:name "Colorado" .
-
-state:New_Jersey a sch:State ;
-    state:name "New Jersey" .
-
-builder:American_Bridge_Co._of_New_York a sch:Builder ;
-    builder:name "American Bridge Co. of New York" .
-
-county:Holmes_County a sch:County ;
-    county:name "Holmes County" .
-
-county:Kent_County a sch:County ;
-    county:name "Kent County" .
-
-county:Washington_County a sch:County ;
-    county:name "Washington County" .
-
-county:Yuma_County a sch:County ;
-    county:name "Yuma County" .
-
 place:Ashford a sch:Place ;
     place:name "Ashford" .
 
@@ -4275,96 +915,6 @@ place:Lewes a sch:Place ;
 place:Scotland a sch:Place ;
     place:name "Scotland" .
 
-river:Bigelow_Brook a sch:River ;
-    river:name "Bigelow Brook" .
-
-river:Blackwell_Brook a sch:River ;
-    river:name "Blackwell Brook" .
-
-river:Broad_Creek a sch:River ;
-    river:name "Broad Creek" .
-
-river:French_River a sch:River ;
-    river:name "French River" .
-
-river:Horse_Creek a sch:River ;
-    river:name "Horse Creek" .
-
-river:Kaupakalua_Stream a sch:River ;
-    river:name "Kaupakalua Stream" .
-
-river:Mile_River a sch:River ;
-    river:name "Mile River" .
-
-river:Mill_Brook a sch:River ;
-    river:name "Mill Brook" .
-
-river:Mispillion_River a sch:River ;
-    river:name "Mispillion River" .
-
-river:Natchaug_River a sch:River ;
-    river:name "Natchaug River" .
-
-river:Quaddick_Lake a sch:River ;
-    river:name "Quaddick Lake" .
-
-river:Shetucket_River a sch:River ;
-    river:name "Shetucket River" .
-
-route:Bridge_Street a sch:Route ;
-    route:name "Bridge Street" .
-
-route:Haiku_Pauwela a sch:Route ;
-    route:name "Haiku Pauwela" .
-
-route:Honoapiilani_Highway a sch:Route ;
-    route:name "Honoapiilani Highway" .
-
-route:Kam_V_Hwy a sch:Route ;
-    route:name "Kam V Hwy" .
-
-route:Lost_Lenticular a sch:Route ;
-    route:name "Lost Lenticular" .
-
-route:Lost_Steel_stringer_bridge a sch:Route ;
-    route:name "Lost Steel stringer bridge" .
-
-route:Mulberry_Street a sch:Route ;
-    route:name "Mulberry Street" .
-
-route:New_England_Central_Railroad a sch:Route ;
-    route:name "New England Central Railroad" .
-
-route:Plains_Road a sch:Route ;
-    route:name "Plains Road" .
-
-route:Rehoboth_Avenue a sch:Route ;
-    route:name "Rehoboth Avenue" .
-
-route:Rehoboth_Beach a sch:Route ;
-    route:name "Rehoboth Beach" .
-
-route:Route_14 a sch:Route ;
-    route:name "Route 14" .
-
-route:US_44 a sch:Route ;
-    route:name "US 44" .
-
-state:California a sch:State ;
-    state:name "California" .
-
-state:Florida a sch:State ;
-    state:name "Florida" .
-
-<http://dsci558.org/builder#Keller_&_Harrington_of_Chicago> a sch:Builder ;
-    builder:name "Keller & Harrington of Chicago" .
-
-county:Tolland_County a sch:County ;
-    county:name "Tolland County" .
-
-design:culvert a sch:Design ;
-    design:name "culvert" .
-
 place:Chaplin a sch:Place ;
     place:name "Chaplin" .
 
@@ -4377,132 +927,21 @@ place:Plainfield a sch:Place ;
 place:Windham a sch:Place ;
     place:name "Windham" .
 
-river:Broadkill_River a sch:River ;
-    river:name "Broadkill River" .
-
-river:Fivemile_River a sch:River ;
-    river:name "Fivemile River" .
-
-river:Lewes_Rehoboth_Canal a sch:River ;
-    river:name "Lewes Rehoboth Canal" .
-
-route:Coastal_Highway a sch:Route ;
-    route:name "Coastal Highway" .
-
-route:DE_1 a sch:Route ;
-    route:name "DE 1" .
-
-route:Delaware_Bay a sch:Route ;
-    route:name "Delaware Bay" .
-
-<http://dsci558.org/route#P&W_Willimantic_Branch> a sch:Route ;
-    route:name "P&W Willimantic Branch" .
-
-route:Us_Route_44 a sch:Route ;
-    route:name "Us Route 44" .
-
-route:Windham_Road a sch:Route ;
-    route:name "Windham Road" .
-
 place:Hana a sch:Place ;
     place:name "Hana" .
 
 place:Moosup a sch:Place ;
     place:name "Moosup" .
 
-river:Nanticoke_River a sch:River ;
-    river:name "Nanticoke River" .
-
-route:Lost_Bridge a sch:Route ;
-    route:name "Lost Bridge" .
-
-route:Park_Trail a sch:Route ;
-    route:name "Park Trail" .
-
-route:US_9 a sch:Route ;
-    route:name "US 9" .
-
 place:Thompson a sch:Place ;
     place:name "Thompson" .
-
-river:Indian_River_Inlet a sch:River ;
-    river:name "Indian River Inlet" .
-
-river:Moosup_River a sch:River ;
-    river:name "Moosup River" .
-
-builder:Berlin_Iron_Bridge_Co._of_East_Berlin a sch:Builder ;
-    builder:name "Berlin Iron Bridge Co. of East Berlin" .
-
-design:suspension a sch:Design ;
-    design:name "suspension" .
-
-route:Worcester_Railroad a sch:Route ;
-    route:name "Worcester Railroad" .
-
-county:Worth_County a sch:County ;
-    county:name "Worth County" .
 
 place:Putnam a sch:Place ;
     place:name "Putnam" .
 
-state:Georgia a sch:State ;
-    state:name "Georgia" .
-
-river:Quinebaug_River a sch:River ;
-    river:name "Quinebaug River" .
-
-material:steel a sch:Material ;
-    material:name "steel" .
-
 place:Willimantic a sch:Place ;
     place:name "Willimantic" .
 
-river:Willimantic_River a sch:River ;
-    river:name "Willimantic River" .
-
-route:Hana_Hwy a sch:Route ;
-    route:name "Hana Hwy" .
-
-material:stone a sch:Material ;
-    material:name "stone" .
-
-material:timber a sch:Material ;
-    material:name "timber" .
-
-route:Hana_Highway a sch:Route ;
-    route:name "Hana Highway" .
-
 place:Sussex_County a sch:Place ;
     place:name "Sussex County" .
-
-design:arch a sch:Design ;
-    design:name "arch" .
-
-design:truss a sch:Design ;
-    design:name "truss" .
-
-county:Sussex_County a sch:County ;
-    county:name "Sussex County" .
-
-state:Delaware a sch:State ;
-    state:name "Delaware" .
-
-material:concrete a sch:Material ;
-    material:name "concrete" .
-
-county:Maui_County a sch:County ;
-    county:name "Maui County" .
-
-state:Hawaii a sch:State ;
-    state:name "Hawaii" .
-
-county:Windham_County a sch:County ;
-    county:name "Windham County" .
-
-state:Connecticut a sch:State ;
-    state:name "Connecticut" .
-
-design:beam a sch:Design ;
-    design:name "beam" .
 
