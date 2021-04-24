@@ -1,0 +1,947 @@
+PREFIX bridge: <http://dsci558.org/usbridge#>
+PREFIX place: <http://dsci558.org/place#>
+PREFIX sch: <http://schema.org/>
+
+
+bridge:1 a sch:Bridge ;
+    bridge:name "Swayback Bridge" ;
+    bridge:url "https://bridgehunter.com/al/winston/swayback/" .
+
+bridge:10 a sch:Bridge ;
+    bridge:name "Caryville Bridge" ;
+    bridge:place place:Caryville ;
+    bridge:url "https://bridgehunter.com/fl/washington/caryville/" ;
+    sch:image "https://bridgehunter.com/photos/14/63/146377-M.jpg" .
+
+bridge:100 a sch:Bridge ;
+    bridge:name "Cape May-Lewes Ferry" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/nj/cape-may/cape-may--lewes-ferry/" ;
+    sch:image "https://bridgehunter.com/photos/25/62/256225-M.jpg" .
+
+bridge:101 a sch:Bridge ;
+    bridge:name "Willimantic River Bridge" ;
+    bridge:place place:Willimantic ;
+    bridge:url "https://bridgehunter.com/ct/tolland/willimantic-river/" ;
+    sch:image "https://bridgehunter.com/photos/35/72/357226-M.jpg" .
+
+bridge:102 a sch:Bridge ;
+    bridge:name "Willimantic River Bridge" ;
+    bridge:url "https://bridgehunter.com/ct/windham/1850/" .
+
+bridge:103 a sch:Bridge ;
+    bridge:name "Willimantic Footbridge" ;
+    bridge:place place:Willimantic ;
+    bridge:url "http://www.wikidata.org/entity/Q8021951",
+        "https://bridgehunter.com/ct/windham/bh64286/" ;
+    sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/Willimantic%20pedestrian%20bridge%2C%20middle.JPG",
+        "https://bridgehunter.com/photos/30/92/309232-M.jpg" .
+
+bridge:104 a sch:Bridge ;
+    bridge:name "US 44-Knowlton Brook Bridge" ;
+    bridge:place place:Ashford ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh82045/" .
+
+bridge:105 a sch:Bridge ;
+    bridge:name "US 44-Bigelow Brook Bridge" ;
+    bridge:place place:Eastford ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh82046/" .
+
+bridge:106 a sch:Bridge ;
+    bridge:name "The Red Bridge" ;
+    bridge:place place:Windham ;
+    bridge:url "https://bridgehunter.com/ct/windham/the-red/" ;
+    sch:image "https://bridgehunter.com/photos/38/56/385682-M.jpg" .
+
+bridge:107 a sch:Bridge ;
+    bridge:name "Shepard Hill Road Bridge" ;
+    bridge:url "https://bridgehunter.com/ct/windham/4018/" .
+
+bridge:108 a sch:Bridge ;
+    bridge:name "RT 14-Beaver Brook Bridge" ;
+    bridge:place place:Scotland ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh82047/" .
+
+bridge:109 a sch:Bridge ;
+    bridge:name "River Street Bridge" ;
+    bridge:place place:Moosup ;
+    bridge:url "https://bridgehunter.com/ct/windham/river-street/" ;
+    sch:image "https://bridgehunter.com/photos/12/85/128516-M.jpg" .
+
+bridge:11 a sch:Bridge ;
+    bridge:name "Swift Creek Bridge" ;
+    bridge:place place:Warwick ;
+    bridge:url "https://bridgehunter.com/ga/worth/32150670/" ;
+    sch:image "https://bridgehunter.com/photos/18/15/181523-M.jpg" .
+
+bridge:110 a sch:Bridge ;
+    bridge:name "Quinebaug River Bridge (Replacement)" ;
+    bridge:place place:Thompson ;
+    bridge:url "https://bridgehunter.com/ct/windham/quinebaug-river/" .
+
+bridge:111 a sch:Bridge ;
+    bridge:name "Quinebaug River Bridge (Old)" ;
+    bridge:place place:Thompson ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh84677/" ;
+    sch:image "https://bridgehunter.com/photos/44/47/444725-M.jpg" .
+
+bridge:112 a sch:Bridge ;
+    bridge:name "Quinebaug Bridge" ;
+    bridge:place place:Danielson ;
+    bridge:url "https://bridgehunter.com/ct/windham/quinnebaug/" ;
+    sch:image "https://bridgehunter.com/photos/49/34/493466-M.jpg" .
+
+bridge:113 a sch:Bridge ;
+    bridge:name "PW - Willimantic River Bridge" ;
+    bridge:place place:Willimantic ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh64925/" .
+
+bridge:114 a sch:Bridge ;
+    bridge:name "PW - Shetucket River Bridge" ;
+    bridge:place place:Windham ;
+    bridge:url "https://bridgehunter.com/ct/windham/pw---shetucket-river/" .
+
+bridge:115 a sch:Bridge ;
+    bridge:name "PW - Plains Road Overpass" ;
+    bridge:place place:Windham ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh68142/" .
+
+bridge:116 a sch:Bridge ;
+    bridge:name "PW - Packers Pond Bridge" ;
+    bridge:place place:Plainfield ;
+    bridge:url "https://bridgehunter.com/ct/windham/pw---packers-pond/" .
+
+bridge:117 a sch:Bridge ;
+    bridge:name "PW - Merrick Brook Bridge" ;
+    bridge:place place:Scotland ;
+    bridge:url "https://bridgehunter.com/ct/windham/pw---merrick-brook/" .
+
+bridge:118 a sch:Bridge ;
+    bridge:name "PW - Fivemile River Bridge (Dayville)" ;
+    bridge:place place:Killingly ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh65427/" .
+
+bridge:119 a sch:Bridge ;
+    bridge:name "PW - Fivemile River Bridge" ;
+    bridge:place place:Danielson ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh65274/" ;
+    sch:image "https://bridgehunter.com/photos/31/23/312386-M.jpg" .
+
+bridge:12 a sch:Bridge ;
+    bridge:name "Old SR 50 Bridge" ;
+    bridge:place place:Poulan ;
+    bridge:url "https://bridgehunter.com/ga/worth/bh72634/" ;
+    sch:image "https://bridgehunter.com/photos/35/69/356979-M.jpg" .
+
+bridge:120 a sch:Bridge ;
+    bridge:name "PW - Arch Street Overpass" ;
+    bridge:place place:Putnam ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh65428/" ;
+    sch:image "https://bridgehunter.com/photos/38/04/380499-M.jpg" .
+
+bridge:121 a sch:Bridge ;
+    bridge:name "Putnam Memorial Bridge" ;
+    bridge:place place:Putnam ;
+    bridge:url "https://bridgehunter.com/ct/windham/992/" ;
+    sch:image "https://bridgehunter.com/photos/47/03/470365-M.jpg" .
+
+bridge:122 a sch:Bridge ;
+    bridge:name "Providence Street Bridge" ;
+    bridge:place place:Putnam ;
+    bridge:url "https://bridgehunter.com/ct/windham/providence-street/" ;
+    sch:image "https://bridgehunter.com/photos/49/35/493503-M.jpg" .
+
+bridge:123 a sch:Bridge ;
+    bridge:name "Pine Street Bridge" ;
+    bridge:place place:Willimantic ;
+    bridge:url "https://bridgehunter.com/ct/windham/windham-mills/" ;
+    sch:image "https://bridgehunter.com/photos/35/52/355208-M.jpg" .
+
+bridge:124 a sch:Bridge ;
+    bridge:name "Phoenixville Road-Natchaug River Bridge (Old)" ;
+    bridge:place place:Chaplin ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh75296/" ;
+    sch:image "https://bridgehunter.com/photos/37/67/376733-M.jpg" .
+
+bridge:125 a sch:Bridge ;
+    bridge:name "Peep Toad Road Bridge" ;
+    bridge:url "https://bridgehunter.com/ct/windham/4700/" ;
+    sch:image "https://bridgehunter.com/photos/47/03/470362-M.jpg" .
+
+bridge:126 a sch:Bridge ;
+    bridge:name "Parker Road Bridge" ;
+    bridge:place place:Chaplin ;
+    bridge:url "https://bridgehunter.com/ct/windham/parker-road/" .
+
+bridge:127 a sch:Bridge ;
+    bridge:name "Packerville Bridge" ;
+    bridge:place place:Plainfield ;
+    bridge:url "http://www.wikidata.org/entity/Q7122986",
+        "https://bridgehunter.com/ct/windham/4754/" ;
+    sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/PlainfieldCT%20PackervilleBridge.jpg",
+        "https://bridgehunter.com/photos/36/09/360996-M.jpg" .
+
+bridge:128 a sch:Bridge ;
+    bridge:name "P&W - French River Bridge" ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh92755/" ;
+    sch:image "https://bridgehunter.com/photos/49/55/495569-M.jpg" .
+
+bridge:129 a sch:Bridge ;
+    bridge:name "P & W Norwich Bridge" ;
+    bridge:place place:Norwich ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh82044/" .
+
+bridge:13 a sch:Bridge ;
+    bridge:name "Little Piney Woods Creek Bridge" ;
+    bridge:url "https://bridgehunter.com/ga/worth/bh77215/" .
+
+bridge:130 a sch:Bridge ;
+    bridge:name "Old School Street Extension Bridge" ;
+    bridge:place place:Plainfield ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh82043/" ;
+    sch:image "https://bridgehunter.com/photos/47/03/470337-M.jpg" .
+
+bridge:131 a sch:Bridge ;
+    bridge:name "NH - Quinebaug River Bridge" ;
+    bridge:place place:Putnam ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh61882/" ;
+    sch:image "https://bridgehunter.com/photos/30/92/309239-M.jpg" .
+
+bridge:132 a sch:Bridge ;
+    bridge:name "NH - Moosup River Bridge" ;
+    bridge:place place:Moosup ;
+    bridge:url "https://bridgehunter.com/ct/windham/nh---moosup-river/" .
+
+bridge:133 a sch:Bridge ;
+    bridge:name "NH - French River Bridge" ;
+    bridge:url "https://bridgehunter.com/ct/windham/nh-french-river/" ;
+    sch:image "https://bridgehunter.com/photos/49/55/495570-M.jpg" .
+
+bridge:134 a sch:Bridge ;
+    bridge:name "NECR - Windham Road Overpass" ;
+    bridge:place place:Willimantic ;
+    bridge:url "https://bridgehunter.com/ct/windham/railroad/" ;
+    sch:image "https://bridgehunter.com/photos/31/64/316472-M.jpg" .
+
+bridge:135 a sch:Bridge ;
+    bridge:name "Long Bridge" ;
+    bridge:place place:Putnam ;
+    bridge:url "https://bridgehunter.com/ct/windham/long/" ;
+    sch:image "https://bridgehunter.com/photos/49/35/493524-M.jpg" .
+
+bridge:136 a sch:Bridge ;
+    bridge:name "Kitt Brook Bridge" ;
+    bridge:url "https://bridgehunter.com/ct/windham/5413/" .
+
+bridge:137 a sch:Bridge ;
+    bridge:name "Hop River State Park Trail - Willimantic River Bridge" ;
+    bridge:place place:Columbia ;
+    bridge:url "https://bridgehunter.com/ct/tolland/bh61884/" ;
+    sch:image "https://bridgehunter.com/photos/35/72/357228-M.jpg" .
+
+bridge:138 a sch:Bridge ;
+    bridge:name "Hall's Mill Bridge" ;
+    bridge:place place:North_Windham ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh91177/" ;
+    sch:image "https://bridgehunter.com/photos/48/54/485405-M.jpg" .
+
+bridge:139 a sch:Bridge ;
+    bridge:name "Glen Falls Bridge" ;
+    bridge:place place:Moosup ;
+    bridge:url "http://www.wikidata.org/entity/Q5567741",
+        "https://bridgehunter.com/ct/windham/4402/" ;
+    sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/PlainfieldCT%20GlenFallsBridge2.jpg",
+        "https://bridgehunter.com/photos/35/51/355198-M.jpg" .
+
+bridge:14 a sch:Bridge ;
+    bridge:name "Horse Creek Bridge -New 33" ;
+    bridge:url "https://bridgehunter.com/ga/worth/bh77212/" .
+
+bridge:140 a sch:Bridge ;
+    bridge:name "Frog Bridge" ;
+    bridge:place place:Willimantic ;
+    bridge:url "https://bridgehunter.com/ct/windham/frog/" ;
+    sch:image "https://bridgehunter.com/photos/39/82/398226-M.jpg" .
+
+bridge:141 a sch:Bridge ;
+    bridge:name "Five Mile River Bridge" ;
+    bridge:place place:Putnam ;
+    bridge:url "https://bridgehunter.com/ct/windham/994/" .
+
+bridge:142 a sch:Bridge ;
+    bridge:name "Five Mile River Bridge" ;
+    bridge:place place:Killingly ;
+    bridge:url "https://bridgehunter.com/ct/windham/4704/" ;
+    sch:image "https://bridgehunter.com/photos/43/90/439080-M.jpg" .
+
+bridge:143 a sch:Bridge ;
+    bridge:name "East Thompson Wooden Bridge" ;
+    bridge:place place:Thompson ;
+    bridge:url "https://bridgehunter.com/ct/windham/east-thompson-wooden/" ;
+    sch:image "https://bridgehunter.com/photos/48/80/488009-M.jpg" .
+
+bridge:144 a sch:Bridge ;
+    bridge:name "Diana's Pool Bridge" ;
+    bridge:place place:Chaplin ;
+    bridge:url "https://bridgehunter.com/ct/windham/1537/" ;
+    sch:image "https://bridgehunter.com/photos/47/03/470334-M.jpg" .
+
+bridge:145 a sch:Bridge ;
+    bridge:name "Danielson Footbridge" ;
+    bridge:place place:Killingly ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh69017/" ;
+    sch:image "https://bridgehunter.com/photos/47/03/470330-M.jpg" .
+
+bridge:146 a sch:Bridge ;
+    bridge:name "CT66 Overpass" ;
+    bridge:place place:Willimantic ;
+    bridge:url "https://bridgehunter.com/ct/windham/488/" ;
+    sch:image "https://bridgehunter.com/photos/35/72/357231-M.jpg" .
+
+bridge:147 a sch:Bridge ;
+    bridge:name "Coventry Greenway - Moosup River Bridge" ;
+    bridge:place place:Moosup ;
+    bridge:url "https://bridgehunter.com/ct/windham/moosup-railroad/" ;
+    sch:image "https://bridgehunter.com/photos/28/60/286033-M.jpg" .
+
+bridge:148 a sch:Bridge ;
+    bridge:name "Chase Road Bridge" ;
+    bridge:url "https://bridgehunter.com/ct/windham/4765/" .
+
+bridge:149 a sch:Bridge ;
+    bridge:name "Canturbury Road-Blackwell Brook Bridge" ;
+    bridge:place place:Brooklyn ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh85232/" .
+
+bridge:15 a sch:Bridge ;
+    bridge:name "Horse Creek Bridge" ;
+    bridge:url "https://bridgehunter.com/ga/worth/horse-creek/" ;
+    sch:image "https://bridgehunter.com/photos/22/64/226466-M.jpg" .
+
+bridge:150 a sch:Bridge ;
+    bridge:name "Canal Bridge" ;
+    bridge:url "https://bridgehunter.com/ct/windham/677/" .
+
+bridge:151 a sch:Bridge ;
+    bridge:name "Butts Bridge" ;
+    bridge:url "http://www.wikidata.org/entity/Q5003134",
+        "https://bridgehunter.com/ct/windham/1649/" ;
+    sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/Butts%20Bridge%20Over%20Quinebaug%20River%2C%20Canterbury%2C%20CT.JPG",
+        "https://bridgehunter.com/photos/30/91/309171-M.jpg" .
+
+bridge:152 a sch:Bridge ;
+    bridge:name "Bridge Street Bridge" ;
+    bridge:place place:Willimantic ;
+    bridge:url "http://www.wikidata.org/entity/Q4966302",
+        "https://bridgehunter.com/ct/windham/1852/" ;
+    sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/20-Bridge-Street-Bridge%2C-Windsor-Locks.jpg",
+        "https://bridgehunter.com/photos/36/86/368636-M.jpg" .
+
+bridge:153 a sch:Bridge ;
+    bridge:name "Brandy Hill Road Bridge" ;
+    bridge:place place:Thompson ;
+    bridge:url "https://bridgehunter.com/ct/windham/5412/" .
+
+bridge:154 a sch:Bridge ;
+    bridge:name "Blackwell Brook Covered Bridge 07-08-17" ;
+    bridge:place place:Brooklyn ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh59687/" ;
+    sch:image "https://bridgehunter.com/photos/47/03/470325-M.jpg" .
+
+bridge:155 a sch:Bridge ;
+    bridge:name "Bigelow Brook Bridge" ;
+    bridge:place place:Ashford ;
+    bridge:url "https://bridgehunter.com/ct/windham/4442/" .
+
+bridge:156 a sch:Bridge ;
+    bridge:name "Bates Avenue Bridge" ;
+    bridge:place place:Putnam ;
+    bridge:url "https://bridgehunter.com/ct/windham/bates-avenue/" ;
+    sch:image "https://bridgehunter.com/photos/47/03/470371-M.jpg" .
+
+bridge:157 a sch:Bridge ;
+    bridge:name "Baker Road Bridge" ;
+    bridge:place place:Thompson ;
+    bridge:url "https://bridgehunter.com/ct/windham/5638/" ;
+    sch:image "https://bridgehunter.com/photos/39/82/398223-M.jpg" .
+
+bridge:158 a sch:Bridge ;
+    bridge:name "Air Line State Park Trail - Willimantic River Bridge" ;
+    bridge:place place:Willimantic ;
+    bridge:url "https://bridgehunter.com/ct/windham/bh61978/" ;
+    sch:image "https://bridgehunter.com/photos/31/49/314966-M.jpg" .
+
+bridge:16 a sch:Bridge ;
+    bridge:name "Csx Railroad (Removed) Bridge" ;
+    bridge:url "https://bridgehunter.com/ga/worth/bh77217/" .
+
+bridge:17 a sch:Bridge ;
+    bridge:name "College Street Bridge" ;
+    bridge:place place:Sumner ;
+    bridge:url "https://bridgehunter.com/ga/worth/college-street/" ;
+    sch:image "https://bridgehunter.com/photos/22/64/226469-M.jpg" .
+
+bridge:18 a sch:Bridge ;
+    bridge:name "West Wailuaiki Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh70308/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344269-M.jpg" .
+
+bridge:19 a sch:Bridge ;
+    bridge:name "Waiohonu Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/waiohonu-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344277-M.jpg" .
+
+bridge:2 a sch:Bridge ;
+    bridge:name "Tolovana River Bridge" ;
+    bridge:place place:Livengood ;
+    bridge:url "https://bridgehunter.com/ak/yukon-koyukuk/tolovana-river/" ;
+    sch:image "https://bridgehunter.com/photos/45/72/457252-M.jpg" .
+
+bridge:20 a sch:Bridge ;
+    bridge:name "Waiohonu Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/waiohonu/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166079-M.jpg" .
+
+bridge:21 a sch:Bridge ;
+    bridge:name "Waikani Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600501942/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166095-M.jpg" .
+
+bridge:22 a sch:Bridge ;
+    bridge:name "Waiehu Beach Road-Iao Stream Bridge" ;
+    bridge:place place:Kahului ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh82215/" .
+
+bridge:23 a sch:Bridge ;
+    bridge:name "Waiele Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600904358/" ;
+    sch:image "https://bridgehunter.com/photos/48/69/486972-M.jpg" .
+
+bridge:24 a sch:Bridge ;
+    bridge:name "Ulaino Strm Bridge" ;
+    bridge:place place:Hana ;
+    bridge:url "https://bridgehunter.com/hi/maui/ulaino-strm/" .
+
+bridge:25 a sch:Bridge ;
+    bridge:name "Puohokamoa Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/puohokamoa-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344263-M.jpg" .
+
+bridge:26 a sch:Bridge ;
+    bridge:name "Punalau Strm(Kolea) Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh77042/" .
+
+bridge:27 a sch:Bridge ;
+    bridge:name "Pipiwai Trail Footbridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh80392/" .
+
+bridge:28 a sch:Bridge ;
+    bridge:name "Pi'ilani Highway Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9NPS311100011/" .
+
+bridge:29 a sch:Bridge ;
+    bridge:name "Papahawahawa Strm #28 Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh45345/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166056-M.jpg" .
+
+bridge:3 a sch:Bridge ;
+    bridge:name "UP - Yuma Bridge" ;
+    bridge:place place:Yuma ;
+    bridge:url "https://bridgehunter.com/az/yuma/bh38032/" ;
+    sch:image "https://bridgehunter.com/photos/12/72/127221-M.jpg" .
+
+bridge:30 a sch:Bridge ;
+    bridge:name "Paihi Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/paihi/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166060-M.jpg" .
+
+bridge:31 a sch:Bridge ;
+    bridge:name "Oopuola Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/oopuola-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344255-M.jpg" .
+
+bridge:32 a sch:Bridge ;
+    bridge:name "Naniloa Drive Overpass" ;
+    bridge:place place:Wailuku ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh67945/" .
+
+bridge:33 a sch:Bridge ;
+    bridge:name "Nailiilihaele Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/nailiilihaele-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344253-M.jpg" .
+
+bridge:34 a sch:Bridge ;
+    bridge:name "Mokulehua Stream Bridge" ;
+    bridge:place place:Hana ;
+    bridge:url "https://bridgehunter.com/hi/maui/mokulehua-stream/" .
+
+bridge:35 a sch:Bridge ;
+    bridge:name "Makapipi Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/makapipi-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344273-M.jpg" .
+
+bridge:36 a sch:Bridge ;
+    bridge:name "Makawao Avenue Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003650700299/" .
+
+bridge:37 a sch:Bridge ;
+    bridge:name "Lao Valley Park Footbridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh80405/" .
+
+bridge:38 a sch:Bridge ;
+    bridge:name "Kuhiwa Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600502523/" .
+
+bridge:39 a sch:Bridge ;
+    bridge:name "Koukouai Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600904058/" ;
+    sch:image "https://bridgehunter.com/photos/16/61/166100-M.jpg" .
+
+bridge:4 a sch:Bridge ;
+    bridge:name "Wildcat Creek Bridge" ;
+    bridge:url "https://bridgehunter.com/ar/yell/bh60528/" ;
+    sch:image "https://bridgehunter.com/photos/28/09/280926-M.jpg" .
+
+bridge:40 a sch:Bridge ;
+    bridge:name "Kolea Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/kolea-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344259-M.jpg" .
+
+bridge:41 a sch:Bridge ;
+    bridge:name "Kaupakalua Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9335001100001/" .
+
+bridge:42 a sch:Bridge ;
+    bridge:name "Kaupakalua Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9000360301364/" .
+
+bridge:43 a sch:Bridge ;
+    bridge:name "Kapi' A Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh45347/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166066-M.jpg" .
+
+bridge:44 a sch:Bridge ;
+    bridge:name "Kam V-Unamed Streem(Kamiloloa) Bridge" ;
+    bridge:place place:Kualapuu ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh83548/" .
+
+bridge:45 a sch:Bridge ;
+    bridge:name "Kailua Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/kailua-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344251-M.jpg" .
+
+bridge:46 a sch:Bridge ;
+    bridge:name "Kahekili Highway-Kahakuloa Stream Bridge" ;
+    bridge:place place:Waihee-Waiehu ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh84590/" .
+
+bridge:47 a sch:Bridge ;
+    bridge:name "Kahekili Highway Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003400900584/" .
+
+bridge:48 a sch:Bridge ;
+    bridge:name "Honouli Wai Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/kam-v-hwy/" ;
+    sch:image "https://bridgehunter.com/photos/27/75/277523-M.jpg" .
+
+bridge:49 a sch:Bridge ;
+    bridge:name "Honolewa Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/honolewa-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344287-M.jpg" .
+
+bridge:5 a sch:Bridge ;
+    bridge:name "Yuba River Bridge" ;
+    bridge:place place:Marysville ;
+    bridge:url "https://bridgehunter.com/ca/yuba/yuba-river/" ;
+    sch:image "https://bridgehunter.com/photos/49/54/495482-M.jpg" .
+
+bridge:50 a sch:Bridge ;
+    bridge:name "Honoapiilani Highway Tunnel" ;
+    bridge:url "https://bridgehunter.com/hi/maui/honoapiilani-highway-tunnel/" ;
+    sch:image "https://bridgehunter.com/photos/34/43/344326-M.jpg" .
+
+bridge:51 a sch:Bridge ;
+    bridge:name "Honoapiilani Highway Kahoma Stream Bridge" ;
+    bridge:place place:Lahaina ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh65361/" .
+
+bridge:52 a sch:Bridge ;
+    bridge:name "Hoalua Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/hoalua-stream/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344249-M.jpg" .
+
+bridge:53 a sch:Bridge ;
+    bridge:name "Hanawi Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600502402/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344271-M.jpg" .
+
+bridge:54 a sch:Bridge ;
+    bridge:name "Hana Highway-Puohokamoa Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh82428/" .
+
+bridge:55 a sch:Bridge ;
+    bridge:name "Hana Highway-Oilowai Strm Bridge" ;
+    bridge:place place:Hana ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh85197/" .
+
+bridge:56 a sch:Bridge ;
+    bridge:name "Hana Highway-Lanikele Stream Bridge" ;
+    bridge:place place:Hana ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh82556/" .
+
+bridge:57 a sch:Bridge ;
+    bridge:name "Hana Highway-Honomanu Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh82213/" .
+
+bridge:58 a sch:Bridge ;
+    bridge:name "Hana Highway Bridge #4" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh70311/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344281-M.jpg" .
+
+bridge:59 a sch:Bridge ;
+    bridge:name "Hana Highway Bridge #3" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh70298/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344261-M.jpg" .
+
+bridge:6 a sch:Bridge ;
+    bridge:name "Coyote Creek Bridge" ;
+    bridge:url "https://bridgehunter.com/co/yuma/coyote-creek/" .
+
+bridge:60 a sch:Bridge ;
+    bridge:name "Hana Highway Bridge #2" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh70296/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344257-M.jpg" .
+
+bridge:61 a sch:Bridge ;
+    bridge:name "Hana Highway Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/hana-highway/" ;
+    sch:image "https://bridgehunter.com/photos/26/85/268506-M.jpg" .
+
+bridge:62 a sch:Bridge ;
+    bridge:name "Hahalawe Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/9003600904304/" ;
+    sch:image "https://bridgehunter.com/photos/16/60/166097-M.jpg" .
+
+bridge:63 a sch:Bridge ;
+    bridge:name "Alelele Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/alelele/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344289-M.jpg" .
+
+bridge:64 a sch:Bridge ;
+    bridge:name "East Wailuanui Stream Bridge" ;
+    bridge:url "https://bridgehunter.com/hi/maui/bh70303/" ;
+    sch:image "https://bridgehunter.com/photos/34/42/344265-M.jpg" .
+
+bridge:65 a sch:Bridge ;
+    bridge:name "Woodland Ferry" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/woodland-ferry/" ;
+    sch:image "https://bridgehunter.com/photos/42/07/420719-M.jpg" .
+
+bridge:66 a sch:Bridge ;
+    bridge:name "Wagamon Pond Dam Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/wagamon-pond-dam/" ;
+    sch:image "https://bridgehunter.com/photos/31/10/311012-M.jpg" .
+
+bridge:67 a sch:Bridge ;
+    bridge:name "uS 9 Lewis Ferry-Delaware Bay Bridge" ;
+    bridge:place place:Lewes ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85341/" .
+
+bridge:68 a sch:Bridge ;
+    bridge:name "US 9 Lewis Ferry 2-Delaware Bay Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85342/" .
+
+bridge:69 a sch:Bridge ;
+    bridge:name "Tyndall Branch Bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/3659028/" .
+
+bridge:7 a sch:Bridge ;
+    bridge:name "Windham Road Bridge" ;
+    bridge:place place:Willimantic ;
+    bridge:url "https://bridgehunter.com/ct/windham/windham-road/" ;
+    sch:image "https://bridgehunter.com/photos/10/16/101630-M.jpg" .
+
+bridge:70 a sch:Bridge ;
+    bridge:name "Stein Highway Viaduct" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh78780/" ;
+    sch:image "https://bridgehunter.com/photos/43/91/439109-M.jpg" .
+
+bridge:71 a sch:Bridge ;
+    bridge:name "Seashore Highway-Nanticoke River Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85343/" .
+
+bridge:72 a sch:Bridge ;
+    bridge:name "Seashore Highway-Collins Mill Pond Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh85344/" .
+
+bridge:73 a sch:Bridge ;
+    bridge:name "Seaford Bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/seaford/" ;
+    sch:image "https://bridgehunter.com/photos/10/16/101638-M.jpg" .
+
+bridge:74 a sch:Bridge ;
+    bridge:name "Savannah Road Bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/3154018/" ;
+    sch:image "https://bridgehunter.com/photos/28/39/283999-M.jpg" .
+
+bridge:75 a sch:Bridge ;
+    bridge:name "Route 14 Bridge" ;
+    bridge:place place:Milton ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh61037/" ;
+    sch:image "https://bridgehunter.com/photos/28/40/284000-M.jpg" .
+
+bridge:76 a sch:Bridge ;
+    bridge:name "Rehoboth-Dewey Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/rehoboth-dewey/" ;
+    sch:image "https://bridgehunter.com/photos/47/74/477448-M.jpg" .
+
+bridge:77 a sch:Bridge ;
+    bridge:name "Rehoboth Avenue Bridge (Old)" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh90297/" ;
+    sch:image "https://bridgehunter.com/photos/47/89/478983-M.jpg" .
+
+bridge:78 a sch:Bridge ;
+    bridge:name "Rehoboth Avenue Bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/3153015/" ;
+    sch:image "https://bridgehunter.com/photos/21/28/212875-M.jpg" .
+
+bridge:79 a sch:Bridge ;
+    bridge:name "Red Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/broadkill-river/" ;
+    sch:image "https://bridgehunter.com/photos/31/10/311058-M.jpg" .
+
+bridge:8 a sch:Bridge ;
+    bridge:name "Zoar Road Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/zoar-road/" .
+
+bridge:80 a sch:Bridge ;
+    bridge:name "Poplar Street Bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/3161028A/" ;
+    sch:image "https://bridgehunter.com/photos/13/26/132688-M.jpg" .
+
+bridge:81 a sch:Bridge ;
+    bridge:name "Penstock Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/penstock/" ;
+    sch:image "https://bridgehunter.com/photos/31/10/311030-M.jpg" .
+
+bridge:82 a sch:Bridge ;
+    bridge:name "Old Furnace Road Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/old-furnace-road/" .
+
+bridge:83 a sch:Bridge ;
+    bridge:name "NS - Nanticoke River Bridge" ;
+    bridge:place place:Blades ;
+    bridge:url "https://bridgehunter.com/de/sussex/cr---nanticoke-river/" ;
+    sch:image "https://bridgehunter.com/photos/29/45/294501-M.jpg" .
+
+bridge:84 a sch:Bridge ;
+    bridge:name "Mispillion River Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/kent/mispillion-river/" ;
+    sch:image "https://bridgehunter.com/photos/31/09/310945-M.jpg" .
+
+bridge:85 a sch:Bridge ;
+    bridge:name "Mispillion River Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/kent/bh45160/" ;
+    sch:image "https://bridgehunter.com/photos/16/41/164111-M.jpg" .
+
+bridge:86 a sch:Bridge ;
+    bridge:name "Laurel Road Bridge" ;
+    bridge:place place:Dover ;
+    bridge:url "https://bridgehunter.com/de/sussex/3314024/" .
+
+bridge:87 a sch:Bridge ;
+    bridge:name "Indian River Inlet Swing Bridge (1952)" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh63336/" ;
+    sch:image "https://bridgehunter.com/photos/37/48/374857-M.jpg" .
+
+bridge:88 a sch:Bridge ;
+    bridge:name "Indian River Inlet Swing Bridge (1938)" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh63335/" ;
+    sch:image "https://bridgehunter.com/photos/31/64/316478-M.jpg" .
+
+bridge:89 a sch:Bridge ;
+    bridge:name "Indian River Inlet Bridge (1934)" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh74994/" ;
+    sch:image "https://bridgehunter.com/photos/37/48/374858-M.jpg" .
+
+bridge:9 a sch:Bridge ;
+    bridge:name "CSX - Westville-Caryville Drawbridge" ;
+    bridge:place place:Caryville ;
+    bridge:url "https://bridgehunter.com/fl/washington/bh48530/" ;
+    sch:image "https://bridgehunter.com/photos/21/83/218322-M.jpg" .
+
+bridge:90 a sch:Bridge ;
+    bridge:name "Indian River Inlet Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "http://www.wikidata.org/entity/Q6021476",
+        "https://bridgehunter.com/de/sussex/indian-river-inlet/",
+        "https://en.wikipedia.org/wiki/Indian_River_Inlet_Bridge" ;
+    sch:image "http://commons.wikimedia.org/wiki/Special:FilePath/Indian%20River%20Inlet%20Bridge.JPG",
+        "https://bridgehunter.com/photos/43/65/436579-M.jpg" .
+
+bridge:91 a sch:Bridge ;
+    bridge:name "High Street Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/high-street/" ;
+    sch:image "https://bridgehunter.com/photos/43/91/439130-M.jpg" .
+
+bridge:92 a sch:Bridge ;
+    bridge:name "Elks Road Bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/3237046/" ;
+    sch:image "https://bridgehunter.com/photos/48/98/489888-M.jpg" .
+
+bridge:93 a sch:Bridge ;
+    bridge:name "Diamond Pond Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/diamond-pond/" .
+
+bridge:94 a sch:Bridge ;
+    bridge:name "DE1 Indian River Inlet Bridge" ;
+    bridge:place place:Sussex_County ;
+    bridge:url "https://bridgehunter.com/de/sussex/bh63337/" ;
+    sch:image "https://bridgehunter.com/photos/29/82/298218-M.jpg" .
+
+bridge:95 a sch:Bridge ;
+    bridge:name "DCLR - Lewes Creek Swing Bridge" ;
+    bridge:place place:Lewes ;
+    bridge:url "https://bridgehunter.com/de/sussex/lewes-railroad-swing/" ;
+    sch:image "https://bridgehunter.com/photos/25/19/251902-M.jpg" .
+
+bridge:96 a sch:Bridge ;
+    bridge:name "Coastal Highway Bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/3707050/" ;
+    sch:image "https://bridgehunter.com/photos/21/28/212871-M.jpg" .
+
+bridge:97 a sch:Bridge ;
+    bridge:name "Clear Brook Bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/3202013/" .
+
+bridge:98 a sch:Bridge ;
+    bridge:name "Central Avenue Bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/3152013/" ;
+    sch:image "https://bridgehunter.com/photos/13/26/132689-M.jpg" .
+
+bridge:99 a sch:Bridge ;
+    bridge:name "Cedar Creek Bridge" ;
+    bridge:url "https://bridgehunter.com/de/sussex/3164036/" ;
+    sch:image "https://bridgehunter.com/photos/28/39/283998-M.jpg" .
+
+place:Blades a sch:Place ;
+    place:name "Blades" .
+
+place:Columbia a sch:Place ;
+    place:name "Columbia" .
+
+place:Dover a sch:Place ;
+    place:name "Dover" .
+
+place:Eastford a sch:Place ;
+    place:name "Eastford" .
+
+place:Kahului a sch:Place ;
+    place:name "Kahului" .
+
+place:Kualapuu a sch:Place ;
+    place:name "Kualapuu" .
+
+place:Lahaina a sch:Place ;
+    place:name "Lahaina" .
+
+place:Livengood a sch:Place ;
+    place:name "Livengood" .
+
+place:Marysville a sch:Place ;
+    place:name "Marysville" .
+
+place:Milton a sch:Place ;
+    place:name "Milton" .
+
+place:North_Windham a sch:Place ;
+    place:name "North Windham" .
+
+place:Norwich a sch:Place ;
+    place:name "Norwich" .
+
+place:Poulan a sch:Place ;
+    place:name "Poulan" .
+
+place:Sumner a sch:Place ;
+    place:name "Sumner" .
+
+place:Waihee-Waiehu a sch:Place ;
+    place:name "Waihee-Waiehu" .
+
+place:Wailuku a sch:Place ;
+    place:name "Wailuku" .
+
+place:Warwick a sch:Place ;
+    place:name "Warwick" .
+
+place:Yuma a sch:Place ;
+    place:name "Yuma" .
+
+place:Ashford a sch:Place ;
+    place:name "Ashford" .
+
+place:Brooklyn a sch:Place ;
+    place:name "Brooklyn" .
+
+place:Caryville a sch:Place ;
+    place:name "Caryville" .
+
+place:Danielson a sch:Place ;
+    place:name "Danielson" .
+
+place:Lewes a sch:Place ;
+    place:name "Lewes" .
+
+place:Scotland a sch:Place ;
+    place:name "Scotland" .
+
+place:Chaplin a sch:Place ;
+    place:name "Chaplin" .
+
+place:Killingly a sch:Place ;
+    place:name "Killingly" .
+
+place:Plainfield a sch:Place ;
+    place:name "Plainfield" .
+
+place:Windham a sch:Place ;
+    place:name "Windham" .
+
+place:Hana a sch:Place ;
+    place:name "Hana" .
+
+place:Moosup a sch:Place ;
+    place:name "Moosup" .
+
+place:Thompson a sch:Place ;
+    place:name "Thompson" .
+
+place:Putnam a sch:Place ;
+    place:name "Putnam" .
+
+place:Willimantic a sch:Place ;
+    place:name "Willimantic" .
+
+place:Sussex_County a sch:Place ;
+    place:name "Sussex County" .
+
